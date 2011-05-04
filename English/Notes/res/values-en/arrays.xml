@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="format_for_exported_note">
+        <item>-%s</item>
+        <item>--%s</item>
+        <item>--%s</item>
+        <item>--%s</item>
+    </string-array>
+    <string-array name="menu_share_ways">
+        <item>Messaging</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="notelist_db_to_dist">
+        <item>Save to SD card</item>
+        <item>Send by E-mail</item>
+    </string-array>
+    <string-array name="note_send_app">
+        <item>SMS</item>
+        <item>E-Mail</item>
+    </string-array>
+    <string-array name="notelist_array_default_folder">
+        <item>Friends / Work</item>
+        <item>To-do list</item>
+    </string-array>
+</resources>

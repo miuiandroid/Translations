@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_logo" android:key="miui_logo" />
+    <PreferenceCategory>
+        <Preference android:layout="@layout/preference_info" android:key="device_overview" />
+        <PreferenceScreen android:title="@string/more_info">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DeviceInfoSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

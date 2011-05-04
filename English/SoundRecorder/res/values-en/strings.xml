@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Sound Recorder</string>
+    <string name="recording">Recording</string>
+    <string name="recording_stopped">Recording stopped</string>
+    <string name="storage_is_full">Storage is full</string>
+    <string name="max_length_reached">Maximum length reached</string>
+    <string name="insert_sd_card">Please insert an SD card</string>
+    <string name="button_ok">OK</string>
+    <string name="timer_format">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="audio_db_album_name">Audio recordings</string>
+    <string name="audio_db_playlist_name">My recordings</string>
+    <string name="error_sdcard_access">Unable to access SD card</string>
+    <string name="error_app_internal">Internal application error</string>
+    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+    <string name="default_record_name">untitled record</string>
+    <string name="menu_view_record_list">View record list</string>
+    <string name="menu_setting">Settings</string>
+    <string name="delete_dialog_title">Do you want to delete current record?</string>
+    <string name="preferences_title">Settings</string>
+    <string name="pref_title_record_type">Record file type</string>
+    <string name="prefDialogTitle_recordType">Please select file type</string>
+    <string name="prefDefault_recordType">audio/amr</string>
+    <string name="pref_title_enable_high_quality">Enable high quality</string>
+    <string name="pref_summary_enable_high_quality">The audio file with high quality can be larger</string>
+    <string name="pref_title_enable_sound_effect">Enable sound effect</string>
+    <string name="pref_summary_enable_sound_effect">Playing sound effect when the state is changed</string>
+</resources>

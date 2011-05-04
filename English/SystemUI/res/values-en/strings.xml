@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="apps_clean_current_memory">Available memory %1$s</string>
+    <string name="apps_clean_result">%1$s released, current available memory is now: %2$s</string>
+    <string name="apps_clean_title">Kill apps</string>
+    <string name="app_label">Status Bar</string>
+    <string name="battery_low_percent_format">%d%% or less remaining.</string>
+    <string name="battery_low_subtitle">The battery is getting low:</string>
+    <string name="battery_low_title">Please connect charger</string>
+    <string name="battery_low_why">Battery use</string>
+    <string name="status_bar_button_apn">Data</string>
+    <string name="status_bar_button_bluetooth">BT</string>
+    <string name="status_bar_button_brightness">Backlight</string>
+    <string name="status_bar_button_cpu">CPU</string>
+    <string name="status_bar_button_flight_mode">Airplane</string>
+    <string name="status_bar_button_gps">GPS</string>
+    <string name="status_bar_button_lock">Lock</string>
+    <string name="status_bar_button_reboot">Reboot</string>
+    <string name="status_bar_button_ringer_mute">Silent</string>
+    <string name="status_bar_button_ringer_normal">Volume</string>
+    <string name="status_bar_button_ringer_vibrate">Vibrate</string>
+    <string name="status_bar_button_rotate">Rotation</string>
+    <string name="status_bar_button_shutdown">Power</string>
+    <string name="status_bar_button_sync">Sync</string>
+    <string name="status_bar_button_torch">Torch</string>
+    <string name="status_bar_button_vibrate">Vibrate</string>
+    <string name="status_bar_button_wifi">Wi-Fi</string>
+    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_date_format">MMM d,</string>
+    <string name="status_bar_date_format_lock">E, MMM d</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="status_bar_no_notifications_title">No notifications</string>
+    <string name="status_bar_ongoing_events_title">On-going</string>
+    <string name="status_bar_time_format_12">h:mma</string>
+    <string name="status_bar_time_format_24">HH:mm</string>
+    <string name="tab_apps_lable">Apps</string>
+    <string name="tab_notifications_lable">Notifications</string>
+    <string name="tab_toggles_lable">Toggles</string>
+</resources>
