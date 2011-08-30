@@ -14,10 +14,24 @@
         <item>MM-dd-yyyy</item>
         <item>dd-MM-yyyy</item>
     </string-array>
+    <string-array name="date_format_titles">
+        <item>Year-Month-Date</item>
+        <item>Month-Date-Year</item>
+        <item>Date-Month-Year</item>
+    </string-array>
     <string-array name="animations_entries">
         <item>Off</item>
         <item>Med</item>
         <item>Full</item>
+    </string-array>
+    <string-array name="access_control_privacy_mode_entries">
+        <item>Unprotected</item>
+        <item>Protected</item>
+    </string-array>
+    <string-array name="access_control_app_entries">
+        <item>Unprotected</item>
+        <item>Hide application icon</item>
+        <item>Password protected</item>
     </string-array>
     <string-array name="animations_summaries">
         <item>No window animations are shown</item>
@@ -54,7 +68,6 @@
         <item>\#add8e6</item>
     </string-array>
     <string-array name="led_freq_entries">
-        <item>Default (9 sec.)</item>
         <item>2 seconds</item>
         <item>3 seconds</item>
         <item>4 seconds</item>
@@ -62,9 +75,9 @@
         <item>6 seconds</item>
         <item>7 seconds</item>
         <item>8 seconds</item>
+        <item>9 seconds</item>
     </string-array>
     <string-array name="led_freq_values">
-        <item>9000</item>
         <item>2000</item>
         <item>3000</item>
         <item>4000</item>
@@ -72,6 +85,7 @@
         <item>6000</item>
         <item>7000</item>
         <item>8000</item>
+        <item>9000</item>
     </string-array>
     <string-array name="screen_timeout_entries">
         <item>30s</item>
@@ -145,6 +159,13 @@
     <string-array name="tts_engine_values">
         <item>com.svox.pico</item>
     </string-array>
+    <string-array name="wifi_wps_method">
+        <item>Push Button</item>
+        <item>Pin Number</item>
+    </string-array>
+    <string-array name="wifi_wps_ssid">
+        <item>Any ssid</item>
+    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Scanning…</item>
@@ -174,15 +195,33 @@
         <item>WEP</item>
         <item>WPA/WPA2 PSK</item>
         <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>Open</item>
         <item>WPA2 PSK</item>
     </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>WAPI PSK hexadecimal</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>1 Hour</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_values">
+        <item>twomin</item>
+        <item>fivemin</item>
+        <item>onehour</item>
+        <item>never</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Poor</item>
@@ -240,7 +279,17 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-   <string-array name="vpn_openvpn_protocol_entries">
+<string-array name="haptic_feedback_level_entries">
+        <item>Weak</item>
+        <item>Normal</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="vpn_openvpn_protocol_entries">
         <item>udp</item>
         <item>tcp</item>
     </string-array>
@@ -248,7 +297,7 @@
         <item>tun</item>
         <item>tap</item>
     </string-array>
-<string-array name="special_locale_codes">
+    <string-array name="special_locale_codes">
         <item>zh_CN</item>
         <item>zh_TW</item>
     </string-array>
@@ -267,6 +316,16 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="apn_protocol_values">
+        <item>IP</item>
+        <item>IPV6</item>
+        <item>IPV4V6</item>
     </string-array>
     <string-array name="app_install_location_entries">
         <item>Internal device storage</item>
@@ -301,18 +360,18 @@
         <item>2</item>
     </string-array>
     <string-array name="battery_low_level_entries">
+        <item>5%</item>
         <item>10%</item>
+        <item>15%</item>
         <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
+        <item>25%</item>
     </string-array>
     <string-array name="battery_low_level_values">
+        <item>5</item>
         <item>10</item>
+        <item>15</item>
         <item>20</item>
-        <item>30</item>
-        <item>40</item>
-        <item>50</item>
+        <item>25</item>
     </string-array>
     <string-array name="usage_screen_power_slices">
         <item>Open Screen power usage</item>
@@ -380,6 +439,28 @@
         <item>Cyan</item>
         <item>Magenta</item>
         <item>Orange</item>
+    </string-array>
+    <string-array name="led_color_values_for_mione">
+        <item>blue</item>
+        <item>red</item>
+        <item>green</item>
+        <item>\#FFFF0033</item>
+        <item>\#FF5500FF</item>
+        <item>\#FFAA00AA</item>
+        <item>\#FF00FF55</item>
+        <item>\#FF00AAAA</item>
+        <item>\#FF0033FF</item>
+    </string-array>
+    <string-array name="led_color_entries_for_mione">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Violet</item>
+        <item>Purple</item>
+        <item>Emerald</item>
+        <item>Cyan</item>
+        <item>Sapphire</item>
     </string-array>
     <string-array name="entries_light_filter_window">
         <item>10 s</item>
