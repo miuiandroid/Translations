@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="always_use_accessory">默认情况下用于该 USB 配件</string>
+  <string name="app_label">状态栏</string>
+  <string name="battery_low_percent_format">电量剩余 %d%% 或更少。</string>
+  <string name="battery_low_subtitle">电量所剩不多：</string>
+  <string name="battery_low_title">请连接充电器</string>
+  <string name="battery_low_why">电量使用情况</string>
+  <string name="label_view">查看</string>
+  <string name="status_bar_clear_all_button">清除通知</string>
+  <string name="status_bar_date_format">M月d日</string>
+  <string name="status_bar_date_format_lock">M月d日 E</string>
+  <string name="status_bar_latest_events_title">通知</string>
+  <string name="status_bar_no_notifications_title">无通知</string>
+  <string name="status_bar_ongoing_events_title">正在进行的</string>
+  <string name="status_bar_time_format_12">ah:mm</string>
+  <string name="title_usb_accessory">USB 配件</string>
+  <string name="usb_accessory_uri_prompt">未安装此 USB 配件适用的应用程序。要了解关于此配件的详情，请访问：%1$s</string>
+</resources>

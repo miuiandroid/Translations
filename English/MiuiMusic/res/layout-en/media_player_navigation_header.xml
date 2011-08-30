@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0dip" android:textColor="@color/tab_indicator_text" android:gravity="center" android:id="@id/local_navigation_title" android:background="@drawable/media_player_navigation_tab_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_music" android:singleLine="true" android:shadowColor="@color/black_90_transparent" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_weight="1.0" style="@style/TitleShadowStyle" /> />
-</merge>
