@@ -1,111 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <array name="recommended_male_contact_photos">
-        <item>@drawable/photo_male_01</item>
-        <item>@drawable/photo_male_02</item>
-        <item>@drawable/photo_male_03</item>
-        <item>@drawable/photo_male_04</item>
-        <item>@drawable/photo_male_05</item>
-        <item>@drawable/photo_male_06</item>
-        <item>@drawable/photo_male_07</item>
-        <item>@drawable/photo_male_08</item>
-        <item>@drawable/photo_male_09</item>
-        <item>@drawable/photo_male_10</item>
-        <item>@drawable/photo_male_11</item>
-        <item>@drawable/photo_male_12</item>
-        <item>@drawable/photo_male_13</item>
-        <item>@drawable/photo_male_14</item>
-        <item>@drawable/photo_male_15</item>
-        <item>@drawable/photo_male_16</item>
-        <item>@drawable/photo_male_17</item>
-        <item>@drawable/photo_male_18</item>
-        <item>@drawable/photo_male_19</item>
-        <item>@drawable/photo_male_20</item>
-        <item>@drawable/photo_male_21</item>
-        <item>@drawable/photo_male_22</item>
-        <item>@drawable/photo_male_23</item>
-        <item>@drawable/photo_male_24</item>
-        <item>@drawable/photo_male_25</item>
-        <item>@drawable/photo_male_26</item>
-        <item>@drawable/photo_male_27</item>
-        <item>@drawable/photo_male_28</item>
-        <item>@drawable/photo_male_29</item>
-        <item>@drawable/photo_male_30</item>
-        <item>@drawable/photo_male_31</item>
-        <item>@drawable/photo_male_32</item>
-        <item>@drawable/photo_male_33</item>
-        <item>@drawable/photo_male_34</item>
-        <item>@drawable/photo_male_35</item>
-        <item>@drawable/photo_male_36</item>
-        <item>@drawable/photo_male_37</item>
-        <item>@drawable/photo_male_38</item>
-        <item>@drawable/photo_male_39</item>
-        <item>@drawable/photo_male_40</item>
-        <item>@drawable/photo_male_41</item>
-        <item>@drawable/photo_male_42</item>
-        <item>@drawable/photo_male_43</item>
-        <item>@drawable/photo_male_44</item>
-    </array>
-    <array name="recommended_female_contact_photos">
-        <item>@drawable/photo_female_01</item>
-        <item>@drawable/photo_female_02</item>
-        <item>@drawable/photo_female_03</item>
-        <item>@drawable/photo_female_04</item>
-        <item>@drawable/photo_female_05</item>
-        <item>@drawable/photo_female_06</item>
-        <item>@drawable/photo_female_07</item>
-        <item>@drawable/photo_female_08</item>
-        <item>@drawable/photo_female_09</item>
-        <item>@drawable/photo_female_10</item>
-        <item>@drawable/photo_female_11</item>
-        <item>@drawable/photo_female_12</item>
-        <item>@drawable/photo_female_13</item>
-        <item>@drawable/photo_female_14</item>
-        <item>@drawable/photo_female_15</item>
-        <item>@drawable/photo_female_16</item>
-        <item>@drawable/photo_female_17</item>
-        <item>@drawable/photo_female_18</item>
-        <item>@drawable/photo_female_19</item>
-        <item>@drawable/photo_female_20</item>
-        <item>@drawable/photo_female_21</item>
-        <item>@drawable/photo_female_22</item>
-        <item>@drawable/photo_female_23</item>
-        <item>@drawable/photo_female_24</item>
-        <item>@drawable/photo_female_25</item>
-        <item>@drawable/photo_female_26</item>
-        <item>@drawable/photo_female_27</item>
-        <item>@drawable/photo_female_28</item>
-        <item>@drawable/photo_female_29</item>
-        <item>@drawable/photo_female_30</item>
-        <item>@drawable/photo_female_31</item>
-        <item>@drawable/photo_female_32</item>
-        <item>@drawable/photo_female_33</item>
-        <item>@drawable/photo_female_34</item>
-        <item>@drawable/photo_female_35</item>
-        <item>@drawable/photo_female_36</item>
-        <item>@drawable/photo_female_37</item>
-        <item>@drawable/photo_female_38</item>
-        <item>@drawable/photo_female_39</item>
-        <item>@drawable/photo_female_40</item>
-        <item>@drawable/photo_female_41</item>
-        <item>@drawable/photo_female_42</item>
-        <item>@drawable/photo_female_43</item>
-        <item>@drawable/photo_female_44</item>
-    </array>
     <string-array name="pick_photo_values">
         <item>Take photo</item>
-        <item>From album</item>
+        <item>From gallery</item>
         <item>Pick Avatar</item>
         <item>Restore Default</item>
     </string-array>
-    <string-array name="pick_incoming_call_photo_values"> 
-       <item>Take photo</item> 
-       <item>From album</item> 
-    </string-array> 
-    <string-array name="edit_incoming_call_photo_values"> 
-       <item>Take photo</item> 
-       <item>From album</item> 
-       <item>Edit picture size</item> 
-       <item>Delete</item>
+    <string-array name="pick_incoming_call_photo_values">
+        <item>Take photo</item>
+        <item>From gallery</item>
     </string-array>
+    <string-array name="edit_incoming_call_photo_values">
+        <item>Take photo</item>
+        <item>From gallery</item>
+        <item>Edit picture size</item>
+        <item>Delete</item>
+    </string-array>
+    <array name="callrecordview_menu_show_values">
+        <item>@string/callrecordview_menu_show_all</item>
+        <item>@string/callrecordview_menu_show_missed</item>
+        <item>@string/callrecordview_menu_show_called</item>
+        <item>@string/callrecordview_menu_show_accepted</item>
+        <item>@string/callrecordview_menu_show_stranger</item>
+    </array>
+    <string-array name="click_shortcut_entries">
+        <item>Call contact</item>
+        <item>View contact</item>
+        <item>Shortcut menu</item>
+    </string-array>
+    <string-array name="click_shortcut_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="dialer_item_click_guide_options">
+        <item>@string/dialer_item_click_guide_call</item>
+        <item>@string/dialer_item_click_guide_view_contacts</item>
+    </array>
 </resources>
