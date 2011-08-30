@@ -27,23 +27,39 @@
         <item>@string/sip_system_decide</item>
         <item>@string/sip_always_send_keepalive</item>
     </array>
-    <string-array name="dialer_click_entries">
-        <item>Call</item>
-        <item>Send SMS/MMS</item>
-        <item>View contact</item>
-        <item>Ignore click</item>
-    </string-array>
+    <array name="dialer_click_entries">
+        <item>@string/dialer_click_entries_call</item>
+        <item>@string/dialer_click_entries_view_contact</item>
+    </array>
     <string-array name="dialer_click_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <array name="voice_quality_ui_values">
+        <item>@string/voice_quality_ui_values_normal</item>
+        <item>@string/voice_quality_ui_values_clear</item>
+        <item>@string/voice_quality_ui_values_crisp</item>
+        <item>@string/voice_quality_ui_values_bright</item>
+    </array>
+    <array name="auto_answer_pref_entries">
+        <item>@string/auto_answer_pref_entries_no</item>
+        <item>@string/auto_answer_pref_entries_immediately</item>
+        <item>@string/auto_answer_pref_entries_delay_5s</item>
+    </array>
+    <string-array name="auto_answer_pref_entry_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+    </string-array>
+    <array name="prefered_network_type_pref_entries">
+        <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
+    <string-array name="prefered_network_type_pref_entry_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="voice_quality_ui_values">
-        <item>Normal</item>
-        <item>Clear</item>
-        <item>Crisp</item>
-        <item>Vivid</item>
     </string-array>
     <string-array name="clir_display_values">
         <item>Network default</item>
