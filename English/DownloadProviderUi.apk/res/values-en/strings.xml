@@ -4,8 +4,6 @@
   <string name="cancel_running_download">Cancel</string>
   <string name="confirm_delete_downloads_message">%d selected downloads will be removed</string>
   <string name="confirm_delete_the_download_item_message">Confirm download removal</string>
-  <string name="confirm_delete_the_running_tab_downloads">All active downloads will be removed!</string>
-  <string name="confirm_delete_the_success_tab_downloads">All downloaded files will be removed!</string>
   <string name="delete_download">Delete</string>
   <string name="delete_downloads_records">Delete download history</string>
   <string name="delete_the_downloaded_file">Delete downloaded files</string>

@@ -726,10 +726,10 @@
   <string name="old_app_description">Don\'t start the new application.</string>
   <string name="older">Older</string>
   <string name="oneMonthDurationPast">1 month ago</string>
-  <string name="online_hotest">Top rated</string>
-  <string name="online_hotest_short">Hot</string>
+  <string name="online_hotest">Hotest</string>
+  <string name="online_hotest_short">Hotest</string>
   <string name="online_latest">Latest</string>
-  <string name="online_latest_short">latest</string>
+  <string name="online_latest_short">Latest</string>
   <string name="online_no_network">Unable to connect to network</string>
   <string name="online_resource_apply">Apply</string>
   <string name="online_resource_download">Download</string>
@@ -1253,7 +1253,7 @@
   <string name="theme_online">Online %1$s</string>
   <string name="theme_sdcard_missed_dialog_message">SD card missing or not mounted</string>
   <string name="theme_sdcard_missed_dialog_title">Unable to access SD card</string>
-  <string name="theme_translate_paper_title">Wallpaper</string>
+  <string name="theme_translate_paper_title">Transparent</string>
   <string name="theme_unknow_author">Unknown</string>
   <string name="throttle_warning_notification_message">Touch to learn more about mobile data use</string>
   <string name="throttle_warning_notification_title">High mobile data use</string>

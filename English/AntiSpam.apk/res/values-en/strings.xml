@@ -51,6 +51,7 @@
   <string name="firewall_settings_tab_title">Firewall</string>
   <string name="fw_action_settings">Firewall settings</string>
   <string name="fw_add_keyword">Add keywords to monitor</string>
+  <string name="fw_add_keyword_existing">Keyword: %s already exists</string>
   <string name="fw_add_list_title">Enter phone number</string>
   <string name="fw_advanced_settings">Advanced settings</string>
   <string name="fw_all_day">Daily</string>
