@@ -171,9 +171,6 @@
     .line 33
     invoke-direct {p0}, Lcom/android/mms/ui/MmsTabActivity;->setupBookmarkTab()V
 
-    .line 34
-    invoke-direct {p0}, Lcom/android/mms/ui/MmsTabActivity;->setupRecommendationTab()V
-
     .line 36
     iget-object v0, p0, Lcom/android/mms/ui/MmsTabActivity;->mNewMessage:Landroid/widget/ImageTextButton;
 
