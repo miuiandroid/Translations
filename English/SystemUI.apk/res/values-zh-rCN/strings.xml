@@ -16,4 +16,8 @@
   <string name="status_bar_time_format_12">ah:mm</string>
   <string name="title_usb_accessory">USB 配件</string>
   <string name="usb_accessory_uri_prompt">未安装此 USB 配件适用的应用程序。要了解关于此配件的详情，请访问：%1$s</string>
+  <string name="user_guide_for_call">下拉通知栏，点击通话记录可以回到通话界面</string>
+  <string name="user_guide_for_notification">有新通知，你可以下拉通知栏查看详情</string>
+  <string name="user_guide_for_toggle">快捷开关栏可以左右滑动</string>
+  <string name="user_guide_for_toggle_list">点击此可以自定义快捷开关栏</string>
 </resources>

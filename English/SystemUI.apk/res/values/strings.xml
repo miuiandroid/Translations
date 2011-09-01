@@ -34,4 +34,8 @@
   <string name="usb_mode_mount_storage_summary">存储卡上的程序会无法运行</string>
   <string name="usb_mode_mount_storage_title">是否打开USB存储？</string>
   <string name="usb_mode_notification">USB数据存储</string>
+  <string name="user_guide_for_call">To back to the phone UI, you can drag down the status bar and click the calling notification</string>
+  <string name="user_guide_for_notification">A new notification received，you can drag down the status bar to check detail</string>
+  <string name="user_guide_for_toggle">The toggle list can be scrolled horizontally</string>
+  <string name="user_guide_for_toggle_list">Click this to customize the toggle list</string>
 </resources>
