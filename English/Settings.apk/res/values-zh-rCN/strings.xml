@@ -587,7 +587,7 @@
   <string name="error_title">注意</string>
   <string name="filter">过滤</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">USB 存储设备</string>
+  <string name="filter_apps_onsdcard">SD 卡中</string>
   <string name="filter_apps_running">正在运行</string>
   <string name="filter_apps_third_party">已下载</string>
   <string name="font_size_save">确定</string>
@@ -814,7 +814,7 @@
   <string name="move_app_failed_dlg_text">无法移动应用程序。%1$s</string>
   <string name="move_app_failed_dlg_title">移动应用程序</string>
   <string name="move_app_to_internal">移至手机内存</string>
-  <string name="move_app_to_sdcard">移至 USB 存储设备</string>
+  <string name="move_app_to_sdcard">移至 SD 卡</string>
   <string name="moving">正在移动</string>
   <string name="music_volume_summary">音乐、视频、游戏等的音量</string>
   <string name="music_volume_title">媒体音量</string>
@@ -986,7 +986,7 @@
   <string name="runningservices_settings_title">正在运行的服务</string>
   <string name="screen_rotation">旋转屏幕</string>
   <string name="screen_timeout">屏幕超时</string>
-  <string name="sd_card_storage">USB 存储设备</string>
+  <string name="sd_card_storage">SD 卡存储设备</string>
   <string name="sd_eject">卸载 SD 卡</string>
   <string name="sd_eject_summary">必须先卸载 SD 卡，才能将其安全移除</string>
   <string name="sd_ejecting_summary">正在卸载</string>

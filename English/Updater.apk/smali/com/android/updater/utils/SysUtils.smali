@@ -1131,7 +1131,7 @@
 
     .prologue
     .line 48
-    const-string v0, "http://miuiandroid.com/ota/update.php"
+    const-string v0, "http://update.miuirom.com/updates/update.json"
 
     return-object v0
 .end method
