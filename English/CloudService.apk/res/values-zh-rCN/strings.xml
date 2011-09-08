@@ -37,12 +37,15 @@
   <string name="service_disabled">服务已停止</string>
   <string name="service_name">小米帐户认证</string>
   <string name="service_unavailable">服务不可用</string>
+  <string name="settings_safetylegal_activity_unreachable">您的手机未连接到数据服务。要立即查看此信息，请通过连接到互联网的任意计算机访问 %s。</string>
   <string name="show_password">显示密码</string>
   <string name="succeed">成功</string>
   <string name="terms_not_agreed">必须同意小米条款</string>
   <string name="unknown">未知错误</string>
   <string name="user_agreement1">创建帐号表明您同意并遵守</string>
-  <string name="user_agreement2">服务条款</string>
+  <string name="user_agreement2">用户协议</string>
+  <string name="user_agreement3">和</string>
+  <string name="user_agreement4">隐私政策</string>
   <string name="username">用户名</string>
   <string name="vercode">验证码</string>
   <string name="vercode_hint_text">输入短信验证码</string>

@@ -51,6 +51,7 @@
   <string name="firewall_settings_tab_title">拦截规则</string>
   <string name="fw_action_settings">拦截后操作</string>
   <string name="fw_add_keyword">添加拦截关键词</string>
+  <string name="fw_add_keyword_existing">关键词: %s 已经存在</string>
   <string name="fw_add_list_title">输入电话号码</string>
   <string name="fw_advanced_settings">高级拦截</string>
   <string name="fw_all_day">全天拦截</string>
@@ -66,13 +67,15 @@
   <string name="fw_clear_whitelist">清空白名单</string>
   <string name="fw_edit_keyword">编辑拦截关键词</string>
   <string name="fw_end_time">结束时间</string>
+  <string name="fw_import_blacklist">正在添加黑名单</string>
   <string name="fw_import_ms">导入该联系人的所有短信</string>
+  <string name="fw_import_whitelist">正在添加白名单</string>
   <string name="fw_in_blacklist">号码: %s 已经存在黑名单中</string>
   <string name="fw_in_whitelist">号码: %s 已经存在白名单中</string>
   <string name="fw_keyword_filter">过滤垃圾短信</string>
   <string name="fw_keyword_filter_summary">根据关键词过滤陌生人短信</string>
   <string name="fw_keyword_list">智能拦截关键词</string>
-  <string name="fw_keyword_list_hint">陌生人发给您的短信中出现下列词语就会被拦截。您可自行添加编辑。</string>
+  <string name="fw_keyword_list_hint">陌生人发给您的短信中出现下列词语就会被拦截。您可一次添加多个，用逗号分开。</string>
   <string name="fw_menu_new_blacklist_title">添加号码到黑名单</string>
   <string name="fw_menu_new_manual">手工添加</string>
   <string name="fw_menu_new_whitelist_title">添加号码到白名单</string>

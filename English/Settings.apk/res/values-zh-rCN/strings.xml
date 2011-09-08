@@ -38,6 +38,9 @@
   <string name="animations_title">动画</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">身份验证类型</string>
+  <string name="apn_auto_switch_dialog_message">关闭后将仅使用您设置的默认接入点访问网络，可能造成部分数据获取失败。\n确定要关闭吗？</string>
+  <string name="apn_auto_switch_setting_summary">允许系统根据需要自动切换接入点。注：不包括彩信</string>
+  <string name="apn_auto_switch_setting_title">自动切换</string>
   <string name="apn_delete_confirm_dialog_message">确认要删除此接入点吗？</string>
   <string name="apn_delete_confirm_dialog_title">删除APN</string>
   <string name="apn_edit">修改接入点</string>
@@ -319,11 +322,15 @@
   <string name="call_settings_title">电话</string>
   <string name="camera_key_action_app_title">打开应用程序</string>
   <string name="camera_key_action_category_title">非拍照模式下，执行操作</string>
-  <string name="camera_key_action_home_title">返回桌面</string>
   <string name="camera_key_action_none_title">无</string>
   <string name="camera_key_action_setting_title">按下米键</string>
+  <string name="camera_key_action_shortcut_call">通话</string>
+  <string name="camera_key_action_shortcut_home">返回桌面</string>
+  <string name="camera_key_action_shortcut_screenshot">截屏</string>
+  <string name="camera_key_action_shortcut_search">搜索</string>
+  <string name="camera_key_action_shortcut_title">快捷操作</string>
   <string name="camera_key_action_title">米键</string>
-  <string name="camera_key_action_toggle_title">调用快捷开关</string>
+  <string name="camera_key_action_toggle_title">快捷开关</string>
   <string name="cancel">取消</string>
   <string name="carrier_settings_title">运营商</string>
   <string name="checkbox_notification_same_as_incoming_call">将来电音量用作通知音量</string>
@@ -569,9 +576,6 @@
   <string name="dtmf_tone_enable_summary_off">使用拨号键盘时播放按键音效</string>
   <string name="dtmf_tone_enable_summary_on">使用拨号键盘时播放按键音效</string>
   <string name="dtmf_tone_enable_title">按键操作音</string>
-  <string name="dual_microphone_enable_summary_off">关闭双麦克降噪功能</string>
-  <string name="dual_microphone_enable_summary_on">打开双麦克降噪功能</string>
-  <string name="dual_microphone_enable_title">双麦克降噪</string>
   <string name="electron_beam_animation_off">关屏动画</string>
   <string name="electron_beam_animation_on">开屏动画</string>
   <string name="enable_adb">USB 调试</string>
@@ -587,7 +591,7 @@
   <string name="error_title">注意</string>
   <string name="filter">过滤</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">USB 存储设备</string>
+  <string name="filter_apps_onsdcard">SD 卡中</string>
   <string name="filter_apps_running">正在运行</string>
   <string name="filter_apps_third_party">已下载</string>
   <string name="font_size_save">确定</string>
@@ -787,7 +791,7 @@
   <string name="media_format_final_desc">确定要将 SD 卡格式化、清除所有媒体吗？该操作将不能撤消！</string>
   <string name="media_format_gesture_explanation">您必须绘制解锁图案以确认将 SD 卡格式化。</string>
   <string name="media_format_gesture_prompt">绘制您的解锁图案</string>
-  <string name="media_format_title">格式化 SD 卡。</string>
+  <string name="media_format_title">格式化 SD 卡</string>
   <string name="media_volume_title">媒体</string>
   <string name="mem_usage_chart">内存使用记录</string>
   <string name="memory">RAM</string>
@@ -803,8 +807,8 @@
   <string name="menu_stats_total">总使用量</string>
   <string name="menu_stats_unplugged">上次拔下电源后</string>
   <string name="miui_copyright_title">版权保护投诉指引</string>
-  <string name="miui_license_title">MIUI服务免责声明</string>
-  <string name="miui_market_license_title">MIUI应用超市免责声明</string>
+  <string name="miui_privacy_policy_title">隐私政策</string>
+  <string name="miui_user_agreement_title">用户协议</string>
   <string name="mms_kept_in_memory">信息</string>
   <string name="mms_settings_title">短信</string>
   <string name="mms_vibrate_abbreviation">短信</string>
@@ -814,7 +818,7 @@
   <string name="move_app_failed_dlg_text">无法移动应用程序。%1$s</string>
   <string name="move_app_failed_dlg_title">移动应用程序</string>
   <string name="move_app_to_internal">移至手机内存</string>
-  <string name="move_app_to_sdcard">移至 USB 存储设备</string>
+  <string name="move_app_to_sdcard">移至 SD 卡</string>
   <string name="moving">正在移动</string>
   <string name="music_volume_summary">音乐、视频、游戏等的音量</string>
   <string name="music_volume_title">媒体音量</string>
@@ -986,7 +990,7 @@
   <string name="runningservices_settings_title">正在运行的服务</string>
   <string name="screen_rotation">旋转屏幕</string>
   <string name="screen_timeout">屏幕超时</string>
-  <string name="sd_card_storage">USB 存储设备</string>
+  <string name="sd_card_storage">SD 卡存储设备</string>
   <string name="sd_eject">卸载 SD 卡</string>
   <string name="sd_eject_summary">必须先卸载 SD 卡，才能将其安全移除</string>
   <string name="sd_ejecting_summary">正在卸载</string>
@@ -1329,6 +1333,7 @@
   <string name="wifi_notify_open_networks">自动搜索WLAN</string>
   <string name="wifi_notify_open_networks_summary">附近有开放网络时通知我</string>
   <string name="wifi_password">密码</string>
+  <string name="wifi_password_incorrect">密码错误，请重新输入</string>
   <string name="wifi_quick_toggle_summary">打开 WLAN</string>
   <string name="wifi_quick_toggle_title">WLAN</string>
   <string name="wifi_remembered">已保存</string>

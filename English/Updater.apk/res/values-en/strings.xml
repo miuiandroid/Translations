@@ -2,11 +2,11 @@
 <resources>
   <string name="about_device">About phone</string>
   <string name="app_name">Updater</string>
-  <string name="apply_buddy_update_info_message">Press Update, the phone will begin the update process</string>
+  <string name="apply_buddy_update_info_message">Click Update now Update, the phone will begin the update process</string>
   <string name="apply_existing_update_md5error_title">MD5 signature does not match</string>
   <string name="apply_later_button_text">Apply later</string>
   <string name="apply_now_button_text">Update now</string>
-  <string name="apply_unable_to_reboot_toast">Unable to update or boot to recovery</string>
+  <string name="apply_unable_to_reboot_toast">Unable to reboot to enter recovery</string>
   <string name="apply_update_dialog_cancel_button">Cancel</string>
   <string name="apply_update_dialog_update_button">Update</string>
   <string name="apply_update_fail">System update failed!</string>
@@ -23,12 +23,12 @@
   <string name="check_update_when_wifi_available">Check for updates only using Wi-Fi</string>
   <string name="checking_for_updates">Checking for updates...</string>
   <string name="confirm_download_cancelation_dialog_message">Are you sure you want to cancel the current download?</string>
-  <string name="copy_install_log">Install log copied to clipboard for export</string>
+  <string name="copy_install_log">Copy to clipboard</string>
   <string name="current_version_text">Current version:</string>
   <string name="dialog_no">No</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_yes">Yes</string>
-  <string name="download_current_rom">Download latest ROM</string>
+  <string name="download_current_rom">Download latest full ROM</string>
   <string name="download_ota_rom">Download the OTA update (%s)</string>
   <string name="download_whole_rom">Download full ROM (%s)</string>
   <string name="downloading_description">Downloading...</string>
@@ -39,6 +39,7 @@
   <string name="file_not_found_error_message">Requested file not found on server</string>
   <string name="finish_download">Download complete</string>
   <string name="install_email">Install E-mail software</string>
+  <string name="install_file_explorer">Please install file explorer</string>
   <string name="install_rom_from_sd">Install from SD card</string>
   <string name="install_whole_rom">Download full ROM package is recommended</string>
   <string name="loading">Connecting to MIUIAndroid OTA...</string>
@@ -46,7 +47,7 @@
   <string name="mione_update_fail_description">MI-ONE update has failed, please try again</string>
   <string name="mione_update_fail_title">Update Failed</string>
   <string name="mione_update_success_description">MI-ONE was updated successfully</string>
-  <string name="mione_update_success_title">Update complete</string>
+  <string name="mione_update_success_title">Update completed</string>
   <string name="move_data_to_sdcard_not_enough_space_message">Not enough space on SD card to move the selected %dMB of data</string>
   <string name="move_data_to_sdcard_title">Move data to SD card</string>
   <string name="moving_data_to_sdcard_message">Data is being transferred to SD card</string>
@@ -69,8 +70,8 @@
   <string name="sdcard_has_no_space_dialog_title">SD card low memory</string>
   <string name="sdcard_is_not_present_dialog_body">SD card was not mounted or unreadable, please try again</string>
   <string name="sdcard_is_not_present_dialog_title">SD card not found</string>
-  <string name="send_install_log">Send install log</string>
-  <string name="send_install_log_error">Failed to send install log</string>
+  <string name="send_install_log">Send error log</string>
+  <string name="send_install_log_error">Failed to send error log</string>
   <string name="sign_in_add_account_helper">Your phone has no active MIUI account, add one to receive user-points</string>
   <string name="sign_in_info">Your user ranking is %1$s\n%2$s\n%3$s version</string>
   <string name="stable_version">Stable version</string>
@@ -88,7 +89,7 @@
   <string name="verify_and_apply_dialog_message">Verifying MD5 checksum...</string>
   <string name="verify_and_apply_dialog_title">Check file integrity</string>
   <string name="view_details">View details</string>
-  <string name="view_install_log">View install log</string>
+  <string name="view_install_log">View error log</string>
   <string name="widget_feedback">Give us your feedback</string>
   <string name="widget_title">My MIUI</string>
   <string name="wifi_not_available_body">It is recommended to use Wi-Fi to download updates as file sizes can be large, you are not currently using Wi-Fi, are you sure want to continue?</string>

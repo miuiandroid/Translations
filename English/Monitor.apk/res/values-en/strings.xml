@@ -4,6 +4,8 @@
   <string name="android_system">Android System</string>
   <string name="app_detail">Application Details</string>
   <string name="app_name">Monitor</string>
+  <string name="apply_rules_failed">Failed to apply firewall rules, please try again</string>
+  <string name="apply_rules_failed_known">Unknown</string>
   <string name="auto_turn_off_mobile">Turn off automatically</string>
   <string name="call_sms_detail_title">Calls and messages this month</string>
   <string name="clear_traffic">Clear Traffic</string>

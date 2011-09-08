@@ -344,7 +344,7 @@
   <string name="error_title">注意</string>
   <string name="filter">篩選</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">USB 儲存裝置</string>
+  <string name="filter_apps_onsdcard">於 SD 卡</string>
   <string name="filter_apps_running">執行中</string>
   <string name="filter_apps_third_party">已下載</string>
   <string name="font_size_save">確定</string>
@@ -459,7 +459,7 @@
   <string name="media_format_final_desc">確定要將 SD 卡格式化、清除所有媒體嗎？此項操作將無法復原！</string>
   <string name="media_format_gesture_explanation">您必須畫出解鎖圖形，以確認將 SD 卡格式化。</string>
   <string name="media_format_gesture_prompt">畫出解鎖圖形</string>
-  <string name="media_format_title">將 SD 卡格式化。</string>
+  <string name="media_format_title">將 SD 卡格式化</string>
   <string name="media_volume_title">媒體</string>
   <string name="memory">RAM</string>
   <string name="memory_available">可用空間</string>
@@ -476,7 +476,7 @@
   <string name="move_app_failed_dlg_text">因為 %1$s，無法移動應用程式。</string>
   <string name="move_app_failed_dlg_title">移動應用程式</string>
   <string name="move_app_to_internal">移至手機</string>
-  <string name="move_app_to_sdcard">移至 USB 儲存裝置</string>
+  <string name="move_app_to_sdcard">移至 SD 卡</string>
   <string name="moving">正在移動</string>
   <string name="network_settings_summary">設定漫遊、網路、APN 選項</string>
   <string name="network_settings_title">行動網路</string>
@@ -612,7 +612,7 @@
   <string name="runningservices_settings_summary">查看並控制目前正在運作的服務</string>
   <string name="runningservices_settings_title">正在運作的服務</string>
   <string name="screen_timeout">螢幕逾時</string>
-  <string name="sd_card_storage">USB 儲存裝置</string>
+  <string name="sd_card_storage">SD 卡儲存裝置</string>
   <string name="sd_eject">卸載 SD 卡</string>
   <string name="sd_eject_summary">必須先卸載 SD 卡，才能安全移除</string>
   <string name="sd_ejecting_summary">正在取出</string>

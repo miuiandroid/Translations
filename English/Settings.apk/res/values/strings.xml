@@ -38,6 +38,9 @@
   <string name="animations_title">Animation</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
+  <string name="apn_auto_switch_dialog_message">The only preferred APN will be used if the auto swtich is closed, so that some data request may fail.\nAre you sure to close it?</string>
+  <string name="apn_auto_switch_setting_summary">Allow system switch APN automatically according to requirements (expect MMS)</string>
+  <string name="apn_auto_switch_setting_title">Auto switch</string>
   <string name="apn_delete_confirm_dialog_message">Are you sure you want to remove this access point?</string>
   <string name="apn_delete_confirm_dialog_title">Remove APN</string>
   <string name="apn_edit">Edit access point</string>
@@ -332,12 +335,16 @@
   <string name="calendar_settings_title">Calendar Settings</string>
   <string name="call_settings_title">Call Settings</string>
   <string name="camera_key_action_app_title">Open application</string>
-  <string name="camera_key_action_category_title">Use if camera application is open</string>
-  <string name="camera_key_action_home_title">Back to homescreen</string>
+  <string name="camera_key_action_category_title">Use if camera application is not open</string>
   <string name="camera_key_action_none_title">No action</string>
   <string name="camera_key_action_setting_title">MI Button Settings</string>
+  <string name="camera_key_action_shortcut_call">Call</string>
+  <string name="camera_key_action_shortcut_home">Back to homescreen</string>
+  <string name="camera_key_action_shortcut_screenshot">Capture screenshot</string>
+  <string name="camera_key_action_shortcut_search">Search</string>
+  <string name="camera_key_action_shortcut_title">Shortcut</string>
   <string name="camera_key_action_title">MI button</string>
-  <string name="camera_key_action_toggle_title">Enable Toggle</string>
+  <string name="camera_key_action_toggle_title">Trigger toggle</string>
   <string name="cancel">Cancel</string>
   <string name="carrier_settings_title">Mobile Network Settings</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
@@ -588,9 +595,6 @@
   <string name="dtmf_tone_enable_summary_off">Play tones when using dial pad</string>
   <string name="dtmf_tone_enable_summary_on">Play tones when using dial pad</string>
   <string name="dtmf_tone_enable_title">Audible touch tones</string>
-  <string name="dual_microphone_enable_summary_off">Dual-microphone noise cancellation is disabled</string>
-  <string name="dual_microphone_enable_summary_on">Dual-microphone noise cancellation is enabled</string>
-  <string name="dual_microphone_enable_title">Enable noise-cancelling</string>
   <string name="electron_beam_animation_off">Screen off animation</string>
   <string name="electron_beam_animation_on">Screen on animation</string>
   <string name="enableNetwork">enableNetwork</string>
@@ -607,7 +611,7 @@
   <string name="error_title">Attention</string>
   <string name="filter">Filter</string>
   <string name="filter_apps_all">All</string>
-  <string name="filter_apps_onsdcard">USB storage</string>
+  <string name="filter_apps_onsdcard">On SD card</string>
   <string name="filter_apps_running">Running</string>
   <string name="filter_apps_third_party">Downloaded</string>
   <string name="font_size_preview_text">This is a text size preview.</string>
@@ -834,8 +838,8 @@
   <string name="menu_stats_total">Total Usage</string>
   <string name="menu_stats_unplugged">Unplugged Usage</string>
   <string name="miui_copyright_title">Copyright</string>
-  <string name="miui_license_title">MIUI Service license information</string>
-  <string name="miui_market_license_title">MIUI App Market license information</string>
+  <string name="miui_privacy_policy_title">Privacy policy</string>
+  <string name="miui_user_agreement_title">User agreement</string>
   <string name="mms_kept_in_memory">Messages kept in memory</string>
   <string name="mms_settings_title">Messaging Settings</string>
   <string name="mms_vibrate_abbreviation">Messages</string>
@@ -845,7 +849,7 @@
   <string name="move_app_failed_dlg_text">Failed to move application. %1$s</string>
   <string name="move_app_failed_dlg_title">Move application</string>
   <string name="move_app_to_internal">Move to phone</string>
-  <string name="move_app_to_sdcard">Move to USB storage</string>
+  <string name="move_app_to_sdcard">Move to SD card</string>
   <string name="moving">Moving</string>
   <string name="music_volume_summary">Set volume for music, games and other media</string>
   <string name="music_volume_title">Media volume</string>
@@ -1021,7 +1025,7 @@
   <string name="scan_list_label">Scan results :</string>
   <string name="screen_rotation">Screen rotation</string>
   <string name="screen_timeout">Screen timeout</string>
-  <string name="sd_card_storage">USB storage</string>
+  <string name="sd_card_storage">SD card storage</string>
   <string name="sd_eject">Unmount SD card</string>
   <string name="sd_eject_summary">Unmount the SD card for safe removal</string>
   <string name="sd_ejecting_summary">Unmount in progress</string>
@@ -1374,6 +1378,7 @@
   <string name="wifi_notify_open_networks">Network notification</string>
   <string name="wifi_notify_open_networks_summary">Notify me when an open network is available</string>
   <string name="wifi_password">Password</string>
+  <string name="wifi_password_incorrect">Incorrect password, please try again</string>
   <string name="wifi_quick_toggle_summary">Turn on WLAN</string>
   <string name="wifi_quick_toggle_title">WLAN</string>
   <string name="wifi_remembered">Remembered</string>

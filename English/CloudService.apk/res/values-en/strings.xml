@@ -16,6 +16,7 @@
   <string name="email_not_verified">E-mail account not yet verified</string>
   <string name="forget_password">Forgotten password?</string>
   <string name="get_vercode">Get verification code</string>
+  <string name="has_bound">Already bound</string>
   <string name="invalid_password">Password must be 6 and 16 chars</string>
   <string name="invalid_phone_number">Invalid phone number</string>
   <string name="invalid_vercode">Please input verification code</string>
@@ -37,12 +38,15 @@
   <string name="service_disabled">Service disabled</string>
   <string name="service_name">MIUI Account Manager</string>
   <string name="service_unavailable">Service unavailable</string>
+  <string name="settings_safetylegal_activity_unreachable">Your phone is not connected to a data service. To view this information now, go to %s from any computer connected to the Internet.</string>
   <string name="show_password">Show password</string>
   <string name="succeed">Completed</string>
   <string name="terms_not_agreed">You must agree to our terms to register</string>
   <string name="unknown">Unknown error</string>
   <string name="user_agreement1">By creating account, you accepted</string>
-  <string name="user_agreement2">\u0020term of service</string>
+  <string name="user_agreement2">user agreement</string>
+  <string name="user_agreement3">\u0020and\u0020</string>
+  <string name="user_agreement4">privacy policy</string>
   <string name="username">Username:</string>
   <string name="vercode">Verification code</string>
   <string name="vercode_hint_text">Please input the SMS verification code</string>

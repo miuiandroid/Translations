@@ -39,6 +39,7 @@
   <string name="file_not_found_error_message">文件不存在或无权访问, 请重新下载</string>
   <string name="finish_download">下载完成</string>
   <string name="install_email">请安装邮件软件</string>
+  <string name="install_file_explorer">请安装文件管理器</string>
   <string name="install_rom_from_sd">选择安装包</string>
   <string name="install_whole_rom">建议您下载完整包进行系统升级</string>
   <string name="loading">正在连接MIUI</string>

@@ -84,6 +84,7 @@
   <string name="user_phone_hint">input your phone number here</string>
   <string name="user_phone_title">Bind phone number</string>
   <string name="user_unbind">unbind</string>
+  <string name="xiaomi_account">Xiaomi Account</string>
   <string name="xiaomi_remove_account_message">Removing this account will also delete MI-ONE service data, Market and MiTalk applications (Contacts, SMS and Call logs are retained), are you sure you want to remove?</string>
   <string name="xiaomi_remove_account_title">Remove Xiaomi account</string>
 </resources>

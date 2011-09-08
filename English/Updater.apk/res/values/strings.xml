@@ -39,6 +39,7 @@
   <string name="file_not_found_error_message">Requested file not found on server</string>
   <string name="finish_download">Download completed</string>
   <string name="install_email">Install E-mail software</string>
+  <string name="install_file_explorer">please install file explorer</string>
   <string name="install_rom_from_sd">Select installation pack</string>
   <string name="install_whole_rom">Download full ROM package is recommended</string>
   <string name="loading">Connecting to MIUI...</string>

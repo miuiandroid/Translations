@@ -178,6 +178,7 @@
   <string name="message_send_read_report">A read report will be sent.</string>
   <string name="message_size_label">Message size:\u0020</string>
   <string name="message_title">%1$s %2$s</string>
+  <string name="message_too_big_for_audio">The message is too big to attach a audio.</string>
   <string name="message_too_big_for_video">The message is too big to attach a video.</string>
   <string name="message_type_label">Type:\u0020</string>
   <string name="messagelist_sender_self">Me</string>

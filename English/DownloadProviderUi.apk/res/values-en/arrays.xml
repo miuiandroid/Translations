@@ -6,5 +6,6 @@
         <item>Music</item>
         <item>Theme</item>
         <item>Browser</item>
+	<item>Other</item>
     </string-array>
 </resources>

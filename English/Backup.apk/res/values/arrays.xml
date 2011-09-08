@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="backup_dialog_content_type">
-        <item>WLAN数据</item>
-        <item>所有程序</item>
+        <item>WLAN data</item>
+        <item>All programs</item>
     </string-array>
     <string-array name="system_package_label">
-        <item>图库</item>
-        <item>音乐</item>
-        <item>录音机</item>
-        <item>浏览器</item>
-        <item>相机</item>
+        <item>Gallery</item>
+        <item>Music</item>
+        <item>Sound Recorder</item>
+        <item>Browser</item>
+        <item>Camera</item>
     </string-array>
     <string-array name="system_data_label">
-        <item>通讯录</item>
-        <item>通话记录</item>
-        <item>短信</item>
-        <item>系统设置</item>
-        <item>WLAN设置</item>
-        <item>桌面布局位置</item>
-        <item>闹钟设置</item>
-        <item>便签</item>
-        <item>防打扰</item>
+        <item>Contacts</item>
+        <item>Call log</item>
+        <item>Messages</item>
+        <item>System settings</item>
+        <item>WLAN settings</item>
+        <item>Desktop layout</item>
+        <item>Alarm settings</item>
+        <item>Notes</item>
+        <item>DND</item>
     </string-array>
     <string-array name="app_type_desc">
-        <item>数据</item>
-        <item>程序</item>
-        <item>程序和数据</item>
+        <item>Data</item>
+        <item>Programs</item>
+        <item>Programs and Data</item>
     </string-array>
     <string-array name="cloud_data_label">
-        <item>通讯录</item>
-        <item>通话记录</item>
-        <item>短信</item>
-        <item>WLAN设置</item>
-        <item>便签</item>
+        <item>Contacts</item>
+        <item>Call log</item>
+        <item>Messages</item>
+        <item>WLAN settings</item>
+        <item>Notes</item>
     </string-array>
     <string-array name="cloud_account_data">
-        <item>通讯录</item>
-        <item>WLAN设置</item>
-        <item>便签</item>
+        <item>Contacts</item>
+        <item>WLAN settings</item>
+        <item>Notes</item>
     </string-array>
     <string-array name="cloud_sim_data">
-        <item>通话记录</item>
-        <item>短信</item>
+        <item>Call logs</item>
+        <item>Messages</item>
     </string-array>
 </resources>

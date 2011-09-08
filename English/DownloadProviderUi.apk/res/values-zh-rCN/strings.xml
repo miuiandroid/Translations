@@ -4,8 +4,6 @@
   <string name="cancel_running_download">取消</string>
   <string name="confirm_delete_downloads_message">将删除所选的%d条下载内容！</string>
   <string name="confirm_delete_the_download_item_message">将删除该条下载内容！</string>
-  <string name="confirm_delete_the_running_tab_downloads">将删除下载中的所有下载内容！</string>
-  <string name="confirm_delete_the_success_tab_downloads">将删除已下载的所有下载内容！</string>
   <string name="delete_download">删除</string>
   <string name="delete_downloads_records">删除下载</string>
   <string name="delete_the_downloaded_file">删除已下载的文件</string>

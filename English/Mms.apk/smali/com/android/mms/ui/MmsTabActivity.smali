@@ -49,7 +49,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f090130
+    const v3, 0x7f090131
 
     invoke-virtual {p0, v3}, Lcom/android/mms/ui/MmsTabActivity;->getText(I)Ljava/lang/CharSequence;
 

@@ -8,7 +8,10 @@
   <string name="backup_theme_dialog_ok">Backup</string>
   <string name="backup_theme_progress_message">Backing up theme files, please wait...</string>
   <string name="backup_theme_success_message">Theme backed up successfully.</string>
+  <string name="component_category_ringtone_title">Ringtones</string>
+  <string name="component_category_style_title">Styles</string>
   <string name="component_category_title">Customize</string>
+  <string name="component_category_wallpaper_title">Wallpapers</string>
   <string name="component_include_title">Contains %1$s components</string>
   <string name="component_screen_title">Including wallpaper</string>
   <string name="component_select_title">Selected %1$s components</string>

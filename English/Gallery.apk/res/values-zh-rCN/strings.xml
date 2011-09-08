@@ -86,6 +86,7 @@
   <string name="page_category">页面</string>
   <string name="photo_adjust">请拖动缩放调整图片</string>
   <string name="photo_confirm">完成</string>
+  <string name="photo_load_failed">图片加载失败！</string>
   <string name="play_video">播放视频</string>
   <string name="rename_failed">重命名失败</string>
   <string name="rename_failed_duplicated_name">存在同名文件，重命名失败</string>

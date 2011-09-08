@@ -267,6 +267,7 @@
   <string name="label_ndp">SIM网络解锁PIN</string>
   <string name="label_puk2_code">输入 PUK2 码</string>
   <string name="label_puk_code">输入 PUK 码</string>
+  <string name="lable_call_privileged">呼叫</string>
   <string name="lafs_disable">已停用本地机场航班时刻表</string>
   <string name="lafs_enable">已启用本地机场航班时刻表</string>
   <string name="list_language_dtitle">语言</string>

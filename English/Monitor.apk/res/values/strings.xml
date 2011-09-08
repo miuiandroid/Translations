@@ -4,6 +4,8 @@
   <string name="android_system">Android系统</string>
   <string name="app_detail">程序详情</string>
   <string name="app_name">流量监控</string>
+  <string name="apply_rules_failed">应用防火墙失败了，请重试。</string>
+  <string name="apply_rules_failed_known">知道了</string>
   <string name="auto_turn_off_mobile">超流量时自动断网</string>
   <string name="call_sms_detail_title">本月电话和短信</string>
   <string name="clear_traffic">清空流量数据</string>

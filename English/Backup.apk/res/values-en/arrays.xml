@@ -7,7 +7,7 @@
     <string-array name="system_package_label">
         <item>Gallery</item>
         <item>Music</item>
-        <item>Recorder</item>
+        <item>Sound Recorder</item>
         <item>Browser</item>
         <item>Camera</item>
     </string-array>

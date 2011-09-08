@@ -2,9 +2,6 @@
 <resources>
   <string name="always_use_accessory">Always use this USB device</string>
   <string name="app_label">Status Bar</string>
-  <string name="apps_clean_current_memory">Available memory %1$s</string>
-  <string name="apps_clean_result">%1$s released, current available memory is now: %2$s</string>
-  <string name="apps_clean_title">Kill apps</string>
   <string name="battery_low_percent_format">%d%% or less remaining.</string>
   <string name="battery_low_subtitle">The battery is getting low:</string>
   <string name="battery_low_title">Please connect charger</string>
@@ -22,7 +19,6 @@
   <string name="status_bar_ongoing_events_title">On-going</string>
   <string name="status_bar_time_format_12">h:mma</string>
   <string name="status_bar_time_format_24">HH:mm</string>
-  <string name="tab_apps_lable">Apps</string>
   <string name="tab_notifications_lable">Notifications</string>
   <string name="tab_toggles_lable">Toggles</string>
   <string name="title_usb_accessory">USB accessory</string>
@@ -31,7 +27,10 @@
   <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this device at %1$s</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
   <string name="usb_mode_dont_ask">Don\'t prompt again</string>
-  <string name="usb_mode_mount_storage_summary">Mount SD card to view and transfer files</string>
   <string name="usb_mode_mount_storage_title">Mount SD card media</string>
   <string name="usb_mode_notification">Mount SD card</string>
+  <string name="user_guide_for_call">To back to the phone UI, you can drag down the status bar and click the calling notification</string>
+  <string name="user_guide_for_notification">A new notification received，you can drag down the status bar to check detail</string>
+  <string name="user_guide_for_toggle">The toggle list can be scrolled horizontally</string>
+  <string name="user_guide_for_toggle_list">Click this to customize the toggle list</string>
 </resources>

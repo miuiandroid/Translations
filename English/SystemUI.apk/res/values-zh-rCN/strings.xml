@@ -6,7 +6,11 @@
   <string name="battery_low_subtitle">电量所剩不多：</string>
   <string name="battery_low_title">请连接充电器</string>
   <string name="battery_low_why">电量使用情况</string>
+  <string name="dismount_storage">不打开</string>
   <string name="label_view">查看</string>
+  <string name="mount_storage">打开</string>
+  <string name="move_data_to_sdcard_message">将会把手机存储中的截屏、照片、录音等数据永久迁移到SD卡，以确保更流畅、稳定的使用体验。请您尽量在日常使用手机时确保手机中插入可用的SD卡。</string>
+  <string name="move_data_to_sdcard_title">数据迁移到SD卡</string>
   <string name="status_bar_clear_all_button">清除通知</string>
   <string name="status_bar_date_format">M月d日</string>
   <string name="status_bar_date_format_lock">M月d日 E</string>
@@ -14,6 +18,15 @@
   <string name="status_bar_no_notifications_title">无通知</string>
   <string name="status_bar_ongoing_events_title">正在进行的</string>
   <string name="status_bar_time_format_12">ah:mm</string>
+  <string name="tab_notifications_lable">通知</string>
+  <string name="tab_toggles_lable">开关</string>
   <string name="title_usb_accessory">USB 配件</string>
   <string name="usb_accessory_uri_prompt">未安装此 USB 配件适用的应用程序。要了解关于此配件的详情，请访问：%1$s</string>
+  <string name="usb_mode_dont_ask">下次不再询问</string>
+  <string name="usb_mode_mount_storage_title">是否打开USB存储？</string>
+  <string name="usb_mode_notification">USB数据存储</string>
+  <string name="user_guide_for_call">下拉通知栏，点击通话记录可以回到通话界面</string>
+  <string name="user_guide_for_notification">有新通知，你可以下拉通知栏查看详情</string>
+  <string name="user_guide_for_toggle">快捷开关栏可以左右滑动</string>
+  <string name="user_guide_for_toggle_list">点击此可以自定义快捷开关栏</string>
 </resources>

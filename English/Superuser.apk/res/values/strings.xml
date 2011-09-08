@@ -9,6 +9,7 @@
   <string name="app_name_request">Superuser Request</string>
   <string name="ask">Inquire</string>
   <string name="ask_for_root_permission_message">%s is attempting to gain root permissions, are you sure you wish to allow this action?</string>
+  <string name="ask_for_root_permission_toast">%s tries to request system ROOT permission which is disabled by default to ensure system security. If you need to enable it, please go to settings in Superuser.</string>
   <string name="cancel">Cancel</string>
   <string name="clear_log_message">Superuser permissions will be cleared of all logs.</string>
   <string name="confirm_disable_authority">Disabling Superuser permissions will disable monitoring of third-party malicious software. Are you sure to close this?</string>
@@ -22,8 +23,10 @@
   <string name="malicious_app_found">Package %s was found to be requesting permission to respond to Superuser requests. It\'s likely that this app is malicious and attempting to grant superuser access without your knowledge. It\'s recommended that you uninstall it now.</string>
   <string name="malicious_app_notification_text">%s may be malicious.</string>
   <string name="malicious_app_notification_ticker">Potentially malicious app detected</string>
+  <string name="menu_setting">Setting</string>
   <string name="no">No</string>
   <string name="notification_text">%s has been granted Superuser permissions</string>
+  <string name="open_root_permission_message">Enabling it will allow applications to request ROOT permission.\nNote: Programs with the permission may cause system instability, even loss of personal data, system or hardware damage, please be cautious. Are you sure to enable it?</string>
   <string name="permdesc_respond">Allows the application to respond to requests for superuser access.</string>
   <string name="permission">Permissions:</string>
   <string name="permission_manage">Manage Permissions</string>
@@ -37,6 +40,8 @@
   <string name="permssion_detail">%s permissions</string>
   <string name="pref_category_log_title">Log</string>
   <string name="pref_clear_log">Clear log</string>
+  <string name="pref_root_permission_summary">Allow applications to request ROOT permission</string>
+  <string name="pref_root_permission_title">ROOT permission</string>
   <string name="remember">Remember</string>
   <string name="request">%1$s as %2$s uid: %3$d</string>
   <string name="su_original">original</string>

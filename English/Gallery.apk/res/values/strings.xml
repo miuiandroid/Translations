@@ -86,6 +86,7 @@
   <string name="page_category">Categories</string>
   <string name="photo_adjust">Edit photo</string>
   <string name="photo_confirm">Confirm</string>
+  <string name="photo_load_failed">Failed to load photo!</string>
   <string name="play_video">Play video</string>
   <string name="rename_failed">Rename failed</string>
   <string name="rename_failed_duplicated_name">The name already exists, unable to rename</string>
