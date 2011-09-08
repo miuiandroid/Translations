@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pick_photo_values">
+        <item>Take photo</item>
+        <item>Select photo from Gallery</item>
+        <item>Photo collection</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="pick_incoming_call_photo_values">
+        <item>Take photo</item>
+        <item>Select photo from Gallery</item>
+    </string-array>
+    <string-array name="edit_incoming_call_photo_values">
+        <item>Take photo</item>
+        <item>Select photo from Gallery</item>
+        <item>Edit full screen picture</item>
+        <item>Delete</item>
+    </string-array>
+    <array name="callrecordview_menu_show_values">
+        <item>@string/callrecordview_menu_show_all</item>
+        <item>@string/callrecordview_menu_show_missed</item>
+        <item>@string/callrecordview_menu_show_called</item>
+        <item>@string/callrecordview_menu_show_accepted</item>
+        <item>@string/callrecordview_menu_show_stranger</item>
+    </array>
+    <string-array name="click_shortcut_entries">
+        <item>Call</item>
+        <item>View contacts</item>
+        <item>Show quick contact badge</item>
+    </string-array>
+    <string-array name="click_shortcut_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="dialer_item_click_guide_options">
+        <item>@string/dialer_item_click_guide_call</item>
+        <item>@string/dialer_item_click_guide_view_contacts</item>
+    </array>
+</resources>

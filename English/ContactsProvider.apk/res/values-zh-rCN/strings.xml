@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_label">联系人存储</string>
+  <string name="provider_label">联系人</string>
+  <string name="upgrade_out_of_memory_notification_text">请选择以完成升级。</string>
+  <string name="upgrade_out_of_memory_notification_ticker">联系人升级需要更多的存储空间</string>
+  <string name="upgrade_out_of_memory_notification_title">升级联系人时存储空间不足</string>
+</resources>

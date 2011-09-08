@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/play_video" android:visible="false" android:title="@string/play_video" />
+    <item android:id="@id/set_contact_photo" android:visible="false" android:title="@string/set_contact_photo" />
+    <item android:id="@id/set_lock_or_wallpaper" android:title="@string/set_lock_or_wallpaper">
+        <menu>
+            <item android:id="@id/set_wallpaper" android:title="@string/set_wallpaper" />
+            <item android:id="@id/set_lockscreen" android:title="@string/set_lockscreen" />
+        </menu>
+    </item>
+    <item android:id="@id/send_to_target" android:title="@string/send" />
+    <item android:id="@id/rename" android:title="@string/operation_rename" />
+    <item android:id="@id/set_cover" android:title="@string/set_as_folder_cover" />
+    <item android:id="@id/photo_property" />
+    <item android:id="@id/delete_file" android:title="@string/delete" />
+</menu>
