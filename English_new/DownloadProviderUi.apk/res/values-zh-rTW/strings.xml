@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_label">下載</string>
+  <string name="cancel_running_download">取消</string>
+  <string name="delete_download">刪除</string>
+  <string name="deselect_all">取消選取</string>
+  <string name="dialog_cannot_resume">下載中斷，無法恢復下載。</string>
+  <string name="dialog_failed_body">您要日後再重試下載檔案，或是從佇列中刪除檔案？</string>
+  <string name="dialog_file_already_exists">無法下載，目標位置已有相同檔案。</string>
+  <string name="dialog_file_missing_body">找不到下載的檔案。</string>
+  <string name="dialog_insufficient_space_on_cache">無法完成下載，內部下載儲存空間不足。</string>
+  <string name="dialog_insufficient_space_on_external">無法完成下載，外部儲存空間不足。</string>
+  <string name="dialog_media_not_found">無法下載，外部媒體無法使用。</string>
+  <string name="dialog_queued_body">檔案已排入之後要下載的佇列中。</string>
+  <string name="dialog_title_not_available">下載失敗</string>
+  <string name="dialog_title_queued_body">檔案目前尚無法使用</string>
+  <string name="download_error">失敗</string>
+  <string name="download_menu_sort_by_date">依時間排序</string>
+  <string name="download_menu_sort_by_size">依大小排序</string>
+  <string name="download_no_application_title">無法開啟檔案</string>
+  <string name="download_queued">已佇列</string>
+  <string name="download_running">進行中</string>
+  <string name="download_success">完成</string>
+  <string name="download_title">下載檔案</string>
+  <string name="keep_queued_download">保留</string>
+  <string name="missing_title">&lt;不明&gt;</string>
+  <string name="no_downloads">無下載檔案。</string>
+  <string name="remove_download">移除</string>
+  <string name="retry_download">重試</string>
+</resources>

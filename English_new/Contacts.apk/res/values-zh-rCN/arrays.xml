@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pick_photo_values">
+        <item>拍照</item>
+        <item>去相册</item>
+        <item>头像仓库</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="pick_incoming_call_photo_values">
+        <item>拍照</item>
+        <item>去相册</item>
+    </string-array>
+    <string-array name="edit_incoming_call_photo_values">
+        <item>拍照</item>
+        <item>去相册</item>
+        <item>编辑大头像</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="click_shortcut_entries">
+        <item>拨打电话</item>
+        <item>查看联系人</item>
+        <item>弹出快捷操作</item>
+    </string-array>
+</resources>

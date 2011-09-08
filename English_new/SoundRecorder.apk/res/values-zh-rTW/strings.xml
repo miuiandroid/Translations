@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">錄音程式</string>
+  <string name="audio_db_album_name">錄音</string>
+  <string name="audio_db_artist_name">您的錄音</string>
+  <string name="audio_db_playlist_name">我的錄音</string>
+  <string name="button_ok">確定</string>
+  <string name="error_app_internal">內部應用程式錯誤</string>
+  <string name="error_mediadb_new_record">無法儲存錄製的音訊</string>
+  <string name="error_sdcard_access">無法存取 SD 卡</string>
+  <string name="insert_sd_card">請插入 SD 卡</string>
+  <string name="max_length_reached">已達長度上限</string>
+  <string name="recording">錄音中</string>
+  <string name="recording_stopped">停止錄音</string>
+  <string name="storage_is_full">儲存空間已滿</string>
+</resources>
