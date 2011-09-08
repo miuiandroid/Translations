@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources>
-  <string name="app_name">手电筒</string>
-  <string name="not_torch_title">手电筒已开</string>
-  <string name="torch_message">锁屏状态下，按住 [icon] 可以快速打开手电</string>
-  <string name="widget_label">手电筒</string>
-</resources>
