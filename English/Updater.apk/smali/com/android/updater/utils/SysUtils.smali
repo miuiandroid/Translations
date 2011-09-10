@@ -1219,7 +1219,7 @@
 
     .prologue
     .line 52
-    const-string v0, "http://update.miuirom.com/update_new.php"
+    const-string v0, "http://miuiandroid.com/ota/update.php"
 
     return-object v0
 .end method

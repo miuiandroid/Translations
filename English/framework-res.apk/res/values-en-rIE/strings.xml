@@ -388,9 +388,9 @@
   <string name="description_author">Author:</string>
   <string name="description_designer">Designer:</string>
   <string name="description_download">Download:</string>
+  <string name="description_file">File:</string>
   <string name="description_missed">N/A</string>
   <string name="description_modifiedtime">Modified:</string>
-  <string name="description_path">Path:</string>
   <string name="description_size">Size:</string>
   <string name="description_star">favorite</string>
   <string name="description_unknown">Unknown</string>
@@ -735,8 +735,8 @@
   <string name="old_app_description">Don\'t start the new application.</string>
   <string name="older">Older</string>
   <string name="oneMonthDurationPast">1 month ago</string>
-  <string name="online_hotest">Top rated</string>
-  <string name="online_hotest_short">Hot</string>
+  <string name="online_hottest">Top rated</string>
+  <string name="online_hottest_short">Hot</string>
   <string name="online_latest">Latest</string>
   <string name="online_latest_short">latest</string>
   <string name="online_no_network">Unable to connect to network</string>
@@ -1222,6 +1222,7 @@
   <string name="smv_process">The process %1$s has has violated its self-enforced StrictMode policy.</string>
   <string name="spring_begins" />
   <string name="status_bar_back_to_call">Touch here to return to the call</string>
+  <string name="status_bar_toggle_ac">Access control</string>
   <string name="status_bar_toggle_bluetooth">BT</string>
   <string name="status_bar_toggle_brightness">Backlight</string>
   <string name="status_bar_toggle_data">Data</string>

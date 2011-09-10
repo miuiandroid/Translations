@@ -43,8 +43,8 @@
   <string name="succeed">Completed</string>
   <string name="terms_not_agreed">You must agree to our terms to register</string>
   <string name="unknown">Unknown error</string>
-  <string name="user_agreement1">By creating account, you accepted</string>
-  <string name="user_agreement2">user agreement</string>
+  <string name="user_agreement1">By creating account, you accept the following:</string>
+   <string name="user_agreement2">user agreement</string>
   <string name="user_agreement3">\u0020and\u0020</string>
   <string name="user_agreement4">privacy policy</string>
   <string name="username">Username:</string>
