@@ -25,6 +25,7 @@
   <string name="fmradio_found_station">Found %d stations.</string>
   <string name="fmradio_music_playing_in_listen">Radio has detected another media application running and will now 
 exit</string>
+  <string name="fmradio_no_headset_title">Warning</string> 
   <string name="fmradio_no_headset_at_begin">Insert headset before using radio</string>
   <string name="fmradio_no_headset_in_listen">Radio is automatically turned off, insert the headset.</string>
   <string name="fmradio_scan_begin_msg">Scanning...</string>
