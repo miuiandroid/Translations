@@ -25,6 +25,10 @@
   <string name="error_info_cant_send_folder">不能发送文件夹</string>
   <string name="fail_to_create_folder">创建文件夹失败，文件夹已存在。</string>
   <string name="fail_to_rename">重命名失败失败，可能使用该名称的文件或文件夹已存在。</string>
+  <string name="favorite_photo">照片</string>
+  <string name="favorite_ringtone">铃声</string>
+  <string name="favorite_screen_cap">MIUI截屏</string>
+  <string name="favorite_sdcard">SD卡</string>
   <string name="file_info_canread">可读:</string>
   <string name="file_info_canwrite">可写:</string>
   <string name="file_info_ishidden">隐藏:</string>

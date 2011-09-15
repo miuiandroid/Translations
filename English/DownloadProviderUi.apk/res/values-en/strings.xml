@@ -37,6 +37,7 @@
   <string name="download_waiting_for_wifi">Waiting for Wi-Fi connection</string>
   <string name="download_waiting_to_retry">Waiting to retry</string>
   <string name="download_when_network_connected">Download using Mobile network</string>
+  <string name="downloads_operating">Working...</string>
   <string name="keep_queued_download">Keep</string>
   <string name="menu_enter_edit_mode">Editor</string>
   <string name="menu_exit_edit_mode">Close editor</string>

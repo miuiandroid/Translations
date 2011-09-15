@@ -171,12 +171,6 @@
   <string name="scanning">正在扫描 SD 卡...</string>
   <string name="screen_bright_wake">屏幕背光常亮</string>
   <string name="screen_bright_wake_summary">在当前播放页，屏幕背光保持常亮</string>
-  <string name="sdcard_busy_message">抱歉，SD 卡正忙。</string>
-  <string name="sdcard_busy_title">SD 卡不可用</string>
-  <string name="sdcard_error_message">SD 卡出现错误。</string>
-  <string name="sdcard_error_title">SD 卡错误</string>
-  <string name="sdcard_missing_message">手机中未插入 SD 卡。</string>
-  <string name="sdcard_missing_title">无 SD 卡</string>
   <string name="search_failed">搜索失败，请确认网络连接</string>
   <string name="search_failed_report">没有找到相关曲目</string>
   <string name="search_from_local_to_online">在网络曲库中搜索\'%s\'</string>

@@ -2,6 +2,7 @@
 <resources>
   <string name="access_sd_fail">Failed to access SD card.</string>
   <string name="anti_shake">Anti-shake</string>
+  <string name="anti_shake_time_expired">Time expired, take picture immediately.</string>
   <string name="burst">Burst</string>
   <string name="burst_reach_count_limit">Burst count limit reached.</string>
   <string name="camera_error_title">Camera error</string>

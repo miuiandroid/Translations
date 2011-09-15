@@ -174,12 +174,6 @@
   <string name="scanning">Scanning SD card...</string>
   <string name="screen_bright_wake">Screen stays awake</string>
   <string name="screen_bright_wake_summary">Backlight remains active when this setting is enabled</string>
-  <string name="sdcard_busy_message">Sorry, SD card is busy</string>
-  <string name="sdcard_busy_title">SD card not available</string>
-  <string name="sdcard_error_message">SD card error</string>
-  <string name="sdcard_error_title">SD card error</string>
-  <string name="sdcard_missing_message">No SD card was found</string>
-  <string name="sdcard_missing_title">SD card not found</string>
   <string name="search_failed">Search failed</string>
   <string name="search_failed_report">Nothing found</string>
   <string name="search_from_local_to_online">Search online music for \'%s\'</string>

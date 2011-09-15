@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="download_filters">
-        <item>Direct download</item>
-        <item>App Share</item>
+        <item>All downloads</item>
+        <item>App Market</item>
         <item>Music</item>
-        <item>Theme</item>
+        <item>Themes</item>
         <item>Browser</item>
-	<item>Other</item>
+	<item>Others</item>
     </string-array>
 </resources>

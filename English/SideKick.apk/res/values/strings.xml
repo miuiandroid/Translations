@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="change_search_setting">更改搜索设置</string>
-  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=0/bd_page_type=1/s?word=</string>
+  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=1269a/bd_page_type=1/s?word=</string>
   <string name="default_web_search_engine_google">http://www.google.cn/m/search?q=</string>
   <string name="delete_input_history">删除全部输入历史？</string>
   <string name="history_delete_hint">长按删除最近访问</string>

@@ -2,6 +2,7 @@
 <resources>
   <string name="access_sd_fail">無法存取SD卡。</string>
   <string name="anti_shake">防抖</string>
+  <string name="anti_shake_time_expired">超時，立即拍攝。</string>
   <string name="burst">連拍</string>
   <string name="burst_reach_count_limit">已達到連拍上限。</string>
   <string name="camera_error_title">相機發生錯誤</string>

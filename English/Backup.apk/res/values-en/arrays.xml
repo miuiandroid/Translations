@@ -40,7 +40,7 @@
         <item>Notes</item>
     </string-array>
     <string-array name="cloud_sim_data">
-        <item>Call log</item>
+        <item>Call logs</item>
         <item>Messages</item>
     </string-array>
 </resources>

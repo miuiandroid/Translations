@@ -11,12 +11,10 @@
   <string name="birthday_remind">生日提醒</string>
   <string name="birthday_remind_3days_notify">还有3天是%s的%s，记得准备生日礼物喔！</string>
   <string name="birthday_remind_notify">今天是%s的%s，记得送上生日祝福喔！</string>
-  <string name="btn_back">返回</string>
   <string name="btn_cancel">取消</string>
   <string name="btn_confirm">确定</string>
   <string name="btn_delete">删除</string>
   <string name="btn_ignore">跳过</string>
-  <string name="btn_next">下一步</string>
   <string name="btn_remove">移除</string>
   <string name="btn_replace">替换</string>
   <string name="btn_selected">选择</string>
@@ -207,9 +205,6 @@
   <string name="imLabelsGroup">即时消息</string>
   <string name="imei">移动通信国际识别码</string>
   <string name="importFromXiaomiAccountLabel">从备份中恢复</string>
-  <string name="importFromXiaomiAccountStep1">在非小米手机上用米聊备份联系人</string>
-  <string name="importFromXiaomiAccountStep1Text">1.	打开保存有联系人信息的手机\n\n2.	在手机上安装并登录米聊\n	http://www.miliao.com\n\n3.	进入米聊设置选择“备份联系人到小米帐号”</string>
-  <string name="importFromXiaomiAccountStep1Text2">注:如已有备份可直接进入下一步</string>
   <string name="import_from_account">从其他帐号导入到MIUI帐号</string>
   <string name="import_from_sdcard">从SD卡导入</string>
   <string name="import_from_sim">从SIM卡导入</string>

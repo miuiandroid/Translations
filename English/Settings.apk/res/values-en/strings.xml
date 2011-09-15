@@ -343,6 +343,7 @@
   <string name="camera_key_action_shortcut_screenshot">Capture screenshot</string>
   <string name="camera_key_action_shortcut_search">Search</string>
   <string name="camera_key_action_shortcut_title">Shortcut</string>
+  <string name="camera_key_action_shortcut_wake">Lock/Wake device</string>
   <string name="camera_key_action_title">MI button</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
   <string name="cancel">Cancel</string>
@@ -1443,6 +1444,10 @@
   <string name="wifi_wps_start">Start</string>
   <string name="wifi_wps_succeeded">WPS completed</string>
   <string name="wifi_wps_timeout">WPS timeout</string>
+  <string name="wipe_all_data">Wipe all data</string>
+  <string name="wipe_all_data_desc">This will erase user data and:\n</string>
+  <string name="wipe_user_data">Wipe user data</string>
+  <string name="wipe_user_data_desc">This will erase user data from your phone, including:\n</string>
   <string name="wireless_networks_settings_title">Wireless &amp; Network Settings</string>
   <string name="yes">Yes</string>
   <string name="zone_list_menu_sort_alphabetically">Sort Alphabetically</string>

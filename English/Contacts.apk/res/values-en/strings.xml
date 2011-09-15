@@ -11,12 +11,10 @@
   <string name="birthday_remind">Birthday Reminder</string>
   <string name="birthday_remind_3days_notify">3 days until %s %s don\'t forget to buy a card and present</string>
   <string name="birthday_remind_notify">Today is %s %s don\'t forget to say happy birthday or get a present</string>
-  <string name="btn_back">Back</string>
   <string name="btn_cancel">Cancel</string>
   <string name="btn_confirm">OK</string>
   <string name="btn_delete">Delete</string>
   <string name="btn_ignore">Ignore</string>
-  <string name="btn_next">Next</string>
   <string name="btn_remove">Remove</string>
   <string name="btn_replace">Replace</string>
   <string name="btn_selected">Select</string>
@@ -215,9 +213,6 @@
   <string name="imLabelsGroup">IM</string>
   <string name="imei">IMEI</string>
   <string name="importFromXiaomiAccountLabel">Restore from Backup</string>
-  <string name="importFromXiaomiAccountStep1">Use MiTalk to backup contacts on other devices, not MI-ONE</string>
-  <string name="importFromXiaomiAccountStep1Text">1. Start a phone with contacts\n\n2.	Install MiTalk and log in.\n	http://www.miliao.com\n\n3.	Enter MiTalk settings and choose ”Back up contacts to Xiaomi account”</string>
-  <string name="importFromXiaomiAccountStep1Text2">2. Go to next step if backup has already existed</string>
   <string name="import_from_account">Import from other accounts</string>
   <string name="import_from_sdcard">Import from SD card</string>
   <string name="import_from_sim">Import from SIM card</string>

@@ -20,6 +20,7 @@
   <string name="enable_authority_message">已开启权限管理功能。</string>
   <string name="forbidden">禁止</string>
   <string name="forget">忘记</string>
+  <string name="know">知道了</string>
   <string name="malicious_app_found">发现软件包 %s 申请权限响应最高权限访问请求。它可能是试图在不通知你的情况下授予程序最高权限的恶意程序。建议你立即卸载它。</string>
   <string name="malicious_app_notification_text">%s 可能是恶意程序。</string>
   <string name="malicious_app_notification_ticker">发现疑似恶意程序</string>

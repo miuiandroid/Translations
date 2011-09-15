@@ -58,7 +58,7 @@
     .line 64
     invoke-direct {p0}, Lcom/miui/player/ui/BaseActivity;-><init>()V
 
-    .line 428
+    .line 427
     return-void
 .end method
 
@@ -111,19 +111,19 @@
     .locals 1
 
     .prologue
-    .line 268
+    .line 267
     invoke-static {p0}, Lcom/miui/player/drawerActivityGroup/MainActivityGroup;->getServiceFromParent(Landroid/app/Activity;)Lcom/miui/player/IMediaPlaybackService;
 
     move-result-object v0
 
-    .line 269
+    .line 268
     .local v0, service:Lcom/miui/player/IMediaPlaybackService;
     if-nez v0, :cond_0
 
-    .line 270
+    .line 269
     invoke-static {p0}, Lcom/miui/player/drawerActivityGroup/DrawerActivityGroup;->finishParent(Landroid/app/Activity;)V
 
-    .line 272
+    .line 271
     :cond_0
     return-void
 .end method
@@ -132,47 +132,38 @@
     .locals 2
 
     .prologue
-    const/4 v1, 0x0
-
     .line 203
-    invoke-static {}, Lcom/miui/player/helper/Global;->isSDCardBusy()Z
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-nez v0, :cond_0
 
-    .line 204
-    const v0, 0x7f080021
-
-    invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
-
-    .line 214
+    .line 213
     :goto_0
     return-void
 
-    .line 208
+    .line 207
     :cond_0
     iget-boolean v0, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mIsRefreshMediaProvider:Z
 
     if-nez v0, :cond_1
 
-    .line 209
+    .line 208
     invoke-direct {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->triggerMediaMounted()V
 
-    .line 210
+    .line 209
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mIsRefreshMediaProvider:Z
 
     goto :goto_0
 
-    .line 212
+    .line 211
     :cond_1
-    const v0, 0x7f080054
+    const v0, 0x7f08004e
+
+    const/4 v1, 0x0
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -187,20 +178,20 @@
     .locals 13
 
     .prologue
-    const v12, 0x7f08004b
+    const v12, 0x7f080045
 
     const/4 v11, 0x1
 
     const/4 v10, 0x0
 
-    .line 452
-    invoke-static {}, Lcom/miui/player/helper/Global;->isSDCardBusy()Z
+    .line 451
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v6
 
-    if-eqz v6, :cond_0
+    if-nez v6, :cond_0
 
-    .line 453
+    .line 452
     const/4 v3, 0x0
 
     .local v3, i:I
@@ -209,17 +200,17 @@
 
     if-ge v3, v6, :cond_0
 
-    .line 454
+    .line 453
     sget-object v6, Lcom/miui/player/ui/MusicBrowserActivity;->sNumArr:[I
 
     aput v10, v6, v3
 
-    .line 453
+    .line 452
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 458
+    .line 457
     .end local v3           #i:I
     :cond_0
     invoke-virtual {p0, v12}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
@@ -242,7 +233,7 @@
 
     move-result-object v5
 
-    .line 459
+    .line 458
     .local v5, songNumStr:Ljava/lang/String;
     invoke-virtual {p0, v12}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
 
@@ -264,7 +255,7 @@
 
     move-result-object v1
 
-    .line 460
+    .line 459
     .local v1, artistNumStr:Ljava/lang/String;
     invoke-virtual {p0, v12}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
 
@@ -288,7 +279,7 @@
 
     move-result-object v0
 
-    .line 461
+    .line 460
     .local v0, albumNumStr:Ljava/lang/String;
     invoke-virtual {p0, v12}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
 
@@ -312,7 +303,7 @@
 
     move-result-object v4
 
-    .line 462
+    .line 461
     .local v4, playlistNumStr:Ljava/lang/String;
     invoke-virtual {p0, v12}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
 
@@ -336,33 +327,33 @@
 
     move-result-object v2
 
-    .line 463
+    .line 462
     .local v2, folderNumStr:Ljava/lang/String;
     iget-object v6, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mSongtabNum:Landroid/widget/TextView;
 
     invoke-virtual {v6, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 464
+    .line 463
     iget-object v6, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mAlbumtabNum:Landroid/widget/TextView;
 
     invoke-virtual {v6, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 465
+    .line 464
     iget-object v6, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mArtisttabNum:Landroid/widget/TextView;
 
     invoke-virtual {v6, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 466
+    .line 465
     iget-object v6, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mFoldertabNum:Landroid/widget/TextView;
 
     invoke-virtual {v6, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 467
+    .line 466
     iget-object v6, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mPlaylisttabNum:Landroid/widget/TextView;
 
     invoke-virtual {v6, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 468
+    .line 467
     return-void
 .end method
 
@@ -370,12 +361,12 @@
     .locals 4
 
     .prologue
-    .line 302
+    .line 301
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v1, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0800a7
+    const v2, 0x7f0800a1
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -401,11 +392,11 @@
 
     move-result-object v0
 
-    .line 310
+    .line 309
     .local v0, dialog:Landroid/app/Dialog;
     invoke-virtual {v0}, Landroid/app/AlertDialog;->show()V
 
-    .line 312
+    .line 311
     return-void
 .end method
 
@@ -413,7 +404,7 @@
     .locals 4
 
     .prologue
-    .line 218
+    .line 217
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.MEDIA_MOUNTED"
@@ -450,7 +441,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 220
+    .line 219
     .local v0, intent:Landroid/content/Intent;
     const-string v1, "com.android.providers.media"
 
@@ -458,10 +449,10 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 222
+    .line 221
     invoke-virtual {p0, v0}, Lcom/miui/player/ui/MusicBrowserActivity;->sendBroadcast(Landroid/content/Intent;)V
 
-    .line 223
+    .line 222
     return-void
 .end method
 
@@ -469,12 +460,12 @@
     .locals 9
 
     .prologue
-    .line 283
+    .line 282
     new-instance v4, Lcom/miui/player/helper/VersionManager;
 
     invoke-direct {v4, p0}, Lcom/miui/player/helper/VersionManager;-><init>(Landroid/content/Context;)V
 
-    .line 284
+    .line 283
     .local v4, vm:Lcom/miui/player/helper/VersionManager;
     invoke-virtual {v4}, Lcom/miui/player/helper/VersionManager;->isUpdated()Z
 
@@ -482,7 +473,7 @@
 
     if-eqz v5, :cond_2
 
-    .line 285
+    .line 284
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v5
@@ -495,32 +486,32 @@
 
     if-eqz v5, :cond_1
 
-    .line 286
+    .line 285
     invoke-virtual {v4}, Lcom/miui/player/helper/VersionManager;->isFirstInstalled()Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 287
+    .line 286
     invoke-direct {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->showHelperInfo()V
 
-    .line 289
+    .line 288
     :cond_0
     invoke-virtual {v4, p0}, Lcom/miui/player/helper/VersionManager;->updateVersionNum(Landroid/content/Context;)V
 
-    .line 299
+    .line 298
     :cond_1
     :goto_0
     return-void
 
-    .line 292
+    .line 291
     :cond_2
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v2
 
-    .line 293
+    .line 292
     .local v2, sp:Landroid/content/SharedPreferences;
     const-string v5, "pref_last_clear_trash_time"
 
@@ -530,7 +521,7 @@
 
     move-result-wide v0
 
-    .line 294
+    .line 293
     .local v0, lastClearTime:J
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -544,7 +535,7 @@
 
     if-lez v5, :cond_1
 
-    .line 295
+    .line 294
     new-instance v3, Lcom/miui/player/ui/MusicBrowserActivity$RecycleTrashTask;
 
     invoke-virtual {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->getApplicationContext()Landroid/content/Context;
@@ -553,7 +544,7 @@
 
     invoke-direct {v3, p0, v5}, Lcom/miui/player/ui/MusicBrowserActivity$RecycleTrashTask;-><init>(Lcom/miui/player/ui/MusicBrowserActivity;Landroid/content/Context;)V
 
-    .line 296
+    .line 295
     .local v3, task:Lcom/miui/player/ui/MusicBrowserActivity$RecycleTrashTask;
     const/4 v5, 0x0
 
@@ -569,11 +560,11 @@
 
     .prologue
     .line 150
-    invoke-static {}, Lcom/miui/player/helper/Global;->isSDCardBusy()Z
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-nez v0, :cond_1
 
     .line 159
     :cond_0
@@ -625,7 +616,7 @@
     .locals 1
 
     .prologue
-    .line 501
+    .line 500
     const/4 v0, 0x1
 
     return v0
@@ -635,7 +626,7 @@
     .locals 1
 
     .prologue
-    .line 496
+    .line 495
     const/4 v0, 0x1
 
     return v0
@@ -646,10 +637,10 @@
     .parameter "service"
 
     .prologue
-    .line 408
+    .line 407
     invoke-direct {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->connectService()V
 
-    .line 409
+    .line 408
     return-void
 .end method
 
@@ -682,7 +673,7 @@
 
     .line 109
     .local v2, listener:Landroid/view/View$OnClickListener;
-    const v4, 0x7f0c006f
+    const v4, 0x7f0c0070
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +682,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 110
-    const v4, 0x7f0c0071
+    const v4, 0x7f0c0072
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -700,7 +691,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 111
-    const v4, 0x7f0c0074
+    const v4, 0x7f0c0075
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -709,7 +700,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 112
-    const v4, 0x7f0c0079
+    const v4, 0x7f0c007a
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +709,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 113
-    const v4, 0x7f0c0076
+    const v4, 0x7f0c0077
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -727,7 +718,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 114
-    const v4, 0x7f0c007b
+    const v4, 0x7f0c007c
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -736,7 +727,7 @@
     invoke-virtual {v4, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 116
-    const v4, 0x7f0c006c
+    const v4, 0x7f0c006d
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +747,7 @@
     invoke-virtual {v3, v7}, Landroid/view/View;->setDrawingCacheEnabled(Z)V
 
     .line 120
-    const v4, 0x7f0c0070
+    const v4, 0x7f0c0071
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -767,7 +758,7 @@
     iput-object v4, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mSongtabNum:Landroid/widget/TextView;
 
     .line 121
-    const v4, 0x7f0c0072
+    const v4, 0x7f0c0073
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -778,7 +769,7 @@
     iput-object v4, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mArtisttabNum:Landroid/widget/TextView;
 
     .line 122
-    const v4, 0x7f0c0075
+    const v4, 0x7f0c0076
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -789,7 +780,7 @@
     iput-object v4, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mAlbumtabNum:Landroid/widget/TextView;
 
     .line 123
-    const v4, 0x7f0c0077
+    const v4, 0x7f0c0078
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -800,7 +791,7 @@
     iput-object v4, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mFoldertabNum:Landroid/widget/TextView;
 
     .line 124
-    const v4, 0x7f0c007a
+    const v4, 0x7f0c007b
 
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->findViewById(I)Landroid/view/View;
 
@@ -903,7 +894,7 @@
     .line 168
     const/4 v0, 0x7
 
-    const v1, 0x7f0800b7
+    const v1, 0x7f0800b1
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -914,7 +905,7 @@
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
     .line 169
-    const v0, 0x7f080052
+    const v0, 0x7f08004c
 
     invoke-interface {p1, v2, v3, v2, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -927,7 +918,7 @@
     .line 170
     const/4 v0, 0x6
 
-    const v1, 0x7f080043
+    const v1, 0x7f08003d
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -940,7 +931,7 @@
     .line 172
     const/4 v0, 0x3
 
-    const v1, 0x7f080042
+    const v1, 0x7f08003c
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -958,7 +949,7 @@
     .locals 3
 
     .prologue
-    .line 276
+    .line 275
     invoke-virtual {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
@@ -967,7 +958,7 @@
 
     invoke-virtual {v1, v2}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
-    .line 277
+    .line 276
     invoke-virtual {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -976,14 +967,14 @@
 
     move-result-object v0
 
-    .line 278
+    .line 277
     .local v0, folderProvider:Lcom/miui/player/helper/FolderProvider;
     invoke-virtual {v0, p0}, Lcom/miui/player/helper/FolderProvider;->removeRefreshFolder(Lcom/miui/player/helper/FolderProvider$RefreshFolderAsPlaylist;)V
 
-    .line 279
+    .line 278
     invoke-super {p0}, Lcom/miui/player/ui/BaseActivity;->onDestroy()V
 
-    .line 280
+    .line 279
     return-void
 .end method
 
@@ -1097,25 +1088,25 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 506
+    .line 505
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 507
+    .line 506
     .local v0, action:Ljava/lang/String;
     iget-boolean v1, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mIsRefreshMediaProvider:Z
 
-    .line 508
+    .line 507
     .local v1, isRefreshMediaProvider:Z
     if-nez v1, :cond_1
 
-    .line 517
+    .line 516
     :cond_0
     :goto_0
     return-void
 
-    .line 511
+    .line 510
     :cond_1
     const-string v2, "android.intent.action.MEDIA_SCANNER_FINISHED"
 
@@ -1125,8 +1116,8 @@
 
     if-eqz v2, :cond_2
 
-    .line 512
-    const v2, 0x7f080053
+    .line 511
+    const v2, 0x7f08004d
 
     invoke-static {p1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1134,12 +1125,12 @@
 
     invoke-virtual {v2}, Landroid/widget/Toast;->show()V
 
-    .line 513
+    .line 512
     iput-boolean v3, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mIsRefreshMediaProvider:Z
 
     goto :goto_0
 
-    .line 514
+    .line 513
     :cond_2
     const-string v2, "android.intent.action.MEDIA_SCANNER_STARTED"
 
@@ -1149,8 +1140,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 515
-    const v2, 0x7f080055
+    .line 514
+    const v2, 0x7f08004f
 
     invoke-static {p1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1165,18 +1156,18 @@
     .locals 1
 
     .prologue
-    .line 480
+    .line 479
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mNeedRefresh:Z
 
-    .line 481
+    .line 480
     invoke-direct {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->updateItemNum()V
 
-    .line 482
+    .line 481
     invoke-super {p0}, Lcom/miui/player/ui/BaseActivity;->refreshAfterRecovery()V
 
-    .line 483
+    .line 482
     return-void
 .end method
 
@@ -1184,24 +1175,24 @@
     .locals 1
 
     .prologue
-    .line 487
+    .line 486
     iget-boolean v0, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mNeedRefresh:Z
 
     if-eqz v0, :cond_0
 
-    .line 488
+    .line 487
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mNeedRefresh:Z
 
-    .line 489
+    .line 488
     invoke-direct {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->updateItemNum()V
 
-    .line 491
+    .line 490
     :cond_0
     invoke-super {p0}, Lcom/miui/player/ui/BaseActivity;->refreshBeforeRecovery()V
 
-    .line 492
+    .line 491
     return-void
 .end method
 
@@ -1211,7 +1202,7 @@
     .prologue
     const/4 v6, 0x4
 
-    .line 472
+    .line 471
     invoke-virtual {p0}, Lcom/miui/player/ui/MusicBrowserActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1220,7 +1211,7 @@
 
     move-result-object v1
 
-    .line 473
+    .line 472
     .local v1, folderProvider:Lcom/miui/player/helper/FolderProvider;
     sget-object v2, Lcom/miui/player/ui/MusicBrowserActivity;->sNumArr:[I
 
@@ -1230,8 +1221,8 @@
 
     aput v3, v2, v6
 
-    .line 474
-    const v2, 0x7f08004b
+    .line 473
+    const v2, 0x7f080045
 
     invoke-virtual {p0, v2}, Lcom/miui/player/ui/MusicBrowserActivity;->getString(I)Ljava/lang/String;
 
@@ -1257,12 +1248,12 @@
 
     move-result-object v0
 
-    .line 475
+    .line 474
     .local v0, folderNumStr:Ljava/lang/String;
     iget-object v2, p0, Lcom/miui/player/ui/MusicBrowserActivity;->mFoldertabNum:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 476
+    .line 475
     return-void
 .end method

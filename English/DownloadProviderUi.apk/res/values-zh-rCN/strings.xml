@@ -34,9 +34,10 @@
   <string name="download_successful_tab_text">已下载</string>
   <string name="download_title">下载内容</string>
   <string name="download_waiting_for_network">等待网络连接</string>
-  <string name="download_waiting_for_wifi">等待Wi-Fi网络连接</string>
+  <string name="download_waiting_for_wifi">等待WLAN网络连接</string>
   <string name="download_waiting_to_retry">等待再次尝试</string>
   <string name="download_when_network_connected">任何网络连接时下载</string>
+  <string name="downloads_operating">正在操作...</string>
   <string name="keep_queued_download">保留</string>
   <string name="menu_enter_edit_mode">进入编辑</string>
   <string name="menu_exit_edit_mode">退出编辑</string>
@@ -46,7 +47,7 @@
   <string name="pause_download">暂停</string>
   <string name="pause_download_when_wifi_disconnected">仅在WLAN下下载</string>
   <string name="paused_by_app">已被手动暂停</string>
-  <string name="paused_queued_for_wifi">等待Wi-Fi连接</string>
+  <string name="paused_queued_for_wifi">等待WLAN连接</string>
   <string name="paused_unknown">未知原因暂停</string>
   <string name="paused_waiting_for_network">等待网络连接</string>
   <string name="paused_waiting_to_retry">等待重试</string>

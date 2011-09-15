@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="download_filters">
+        <item>全部下载</item>
+        <item>应用超市</item>
+        <item>音乐</item>
+        <item>主题</item>
+        <item>浏览器</item>
+        <item>其他</item>
+    </string-array>
+</resources>

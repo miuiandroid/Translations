@@ -19,7 +19,7 @@
   <string name="dialog_title_not_available">Download Failed</string>
   <string name="dialog_title_queued_body">File not yet available</string>
   <string name="download_error">Failed</string>
-  <string name="download_filter_all_downloads">Filter downloads</string>
+  <string name="download_filter_all_downloads">All downloads</string>
   <string name="download_info_count_deleted_tasks">%s downloads removed</string>
   <string name="download_info_start_deleted_tasks">Delete downloads</string>
   <string name="download_menu_sort_by_date">Sort by time</string>
@@ -37,6 +37,7 @@
   <string name="download_waiting_for_wifi">Waiting for WLAN connection</string>
   <string name="download_waiting_to_retry">Waiting to retry</string>
   <string name="download_when_network_connected">Download using Mobile network</string>
+  <string name="downloads_operating">Operating...</string>
   <string name="keep_queued_download">Keep</string>
   <string name="menu_enter_edit_mode">Editor</string>
   <string name="menu_exit_edit_mode">Close editor</string>

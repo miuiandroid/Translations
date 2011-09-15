@@ -69,10 +69,13 @@
   <string name="delete_failed_backup_confirm">该备份存在异常，无法使用该备份恢复</string>
   <string name="findlost_contact">恢复联系人</string>
   <string name="findlost_contact_online">在线恢复联系人</string>
+  <string name="import_from_xiaomi_account_hint1">1.	打开保存有联系人信息的手机\n\n2.	在手机上安装并登录米聊\n	http://www.miliao.com\n\n3.	进入米聊设置选择“备份联系人到小米帐号”</string>
+  <string name="import_from_xiaomi_account_hint2">注:如已有备份可直接进入下一步</string>
+  <string name="import_from_xiaomi_account_hint_title">在非小米手机上用米聊备份联系人</string>
   <string name="local_app_name">本地备份</string>
-  <string name="local_backup_hint">当前无备份或找不到SD卡</string>
   <string name="local_backup_window_title">本地备份数据</string>
   <string name="local_home_title">本地备份</string>
+  <string name="local_no_backup">当前无备份</string>
   <string name="local_restore_window_title">本地恢复数据</string>
   <string name="local_select_sysdata">系统数据</string>
   <string name="local_select_userapp">软件程序</string>
@@ -110,10 +113,11 @@
   <string name="sc_internal_server_error">服务器内部错误</string>
   <string name="sc_network_unavailable">网络连接错误</string>
   <string name="sc_others">程序异常</string>
+  <string name="sc_precondition_failed">小米帐号还没有绑定邮箱</string>
   <string name="sc_request_timeout">请求超时</string>
   <string name="sc_service_unavailable">云端服务不可用</string>
   <string name="sc_unaccess_password_file">没有读取到WLAN密码文件</string>
-  <string name="sc_unauthorized">认证无效</string>
+  <string name="sc_unauthorized">认证无效，请重新登录</string>
   <string name="sdcard_no_enough_space">SD卡空间不足，请清理后重试</string>
   <string name="sdcard_no_enough_space_warning">SD卡空间不足50M，备份可能会失败，是否继续？</string>
   <string name="sdcard_unmounted">SD卡没有装载</string>

@@ -77,14 +77,14 @@
 
     sput-object v0, Lcom/miui/player/MusicUtils;->sEmptyList:[J
 
-    .line 1030
+    .line 1022
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     sput-object v0, Lcom/miui/player/MusicUtils;->sFormatBuilder:Ljava/lang/StringBuilder;
 
-    .line 1032
+    .line 1024
     new-instance v0, Ljava/util/Formatter;
 
     sget-object v1, Lcom/miui/player/MusicUtils;->sFormatBuilder:Ljava/lang/StringBuilder;
@@ -97,14 +97,14 @@
 
     sput-object v0, Lcom/miui/player/MusicUtils;->sFormatter:Ljava/util/Formatter;
 
-    .line 1034
+    .line 1026
     const/4 v0, 0x5
 
     new-array v0, v0, [Ljava/lang/Object;
 
     sput-object v0, Lcom/miui/player/MusicUtils;->sTimeArgs:[Ljava/lang/Object;
 
-    .line 1757
+    .line 1748
     const/4 v0, 0x3
 
     new-array v0, v0, [C
@@ -132,7 +132,7 @@
     .line 93
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1527
+    .line 1518
     return-void
 .end method
 
@@ -545,7 +545,7 @@
     .end annotation
 
     .prologue
-    .line 1373
+    .line 1364
     .local p1, selectFolder:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/String;>;"
     invoke-virtual {p1}, Ljava/util/HashSet;->size()I
 
@@ -553,11 +553,11 @@
 
     if-nez v5, :cond_0
 
-    .line 1387
+    .line 1378
     :goto_0
     return-void
 
-    .line 1377
+    .line 1368
     :cond_0
     invoke-virtual {p1}, Ljava/util/HashSet;->size()I
 
@@ -565,11 +565,11 @@
 
     new-array v4, v5, [Landroid/content/ContentValues;
 
-    .line 1378
+    .line 1369
     .local v4, values:[Landroid/content/ContentValues;
     const/4 v2, 0x0
 
-    .line 1379
+    .line 1370
     .local v2, index:I
     invoke-virtual {p1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
@@ -589,28 +589,28 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 1380
+    .line 1371
     .local v3, path:Ljava/lang/String;
     new-instance v0, Landroid/content/ContentValues;
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    .line 1381
+    .line 1372
     .local v0, cv:Landroid/content/ContentValues;
     const-string v5, "folder_path"
 
     invoke-virtual {v0, v5, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1382
+    .line 1373
     aput-object v0, v4, v2
 
-    .line 1383
+    .line 1374
     add-int/lit8 v2, v2, 0x1
 
-    .line 1384
+    .line 1375
     goto :goto_1
 
-    .line 1386
+    .line 1377
     .end local v0           #cv:Landroid/content/ContentValues;
     .end local v3           #path:Ljava/lang/String;
     :cond_1
@@ -968,7 +968,7 @@
     .locals 3
 
     .prologue
-    .line 1168
+    .line 1159
     :try_start_0
     sget-object v0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -980,11 +980,11 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1171
+    .line 1162
     :goto_0
     return-void
 
-    .line 1169
+    .line 1160
     :catch_0
     move-exception v0
 
@@ -1000,10 +1000,10 @@
     .prologue
     const/4 v7, 0x0
 
-    .line 2122
+    .line 2113
     const/4 v2, 0x0
 
-    .line 2123
+    .line 2114
     .local v2, uri:Landroid/net/Uri;
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1011,12 +1011,12 @@
 
     if-nez v4, :cond_0
 
-    .line 2124
+    .line 2115
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
 
-    .line 2125
+    .line 2116
     .local v1, resolver:Landroid/content/ContentResolver;
     new-instance v3, Landroid/content/ContentValues;
 
@@ -1024,27 +1024,27 @@
 
     invoke-direct {v3, v4}, Landroid/content/ContentValues;-><init>(I)V
 
-    .line 2126
+    .line 2117
     .local v3, values:Landroid/content/ContentValues;
     const-string v4, "name"
 
     invoke-virtual {v3, v4, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2127
+    .line 2118
     const-string v4, "_data"
 
     invoke-virtual {v3, v4, p2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2129
+    .line 2120
     invoke-static {p0, p1}, Lcom/miui/player/MusicUtils;->idForEqualizer(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
 
-    .line 2130
+    .line 2121
     .local v0, id:I
     if-ltz v0, :cond_1
 
-    .line 2131
+    .line 2122
     sget-object v4, Lcom/miui/player/provider/PlayerStore$MiuiEqualizer;->EXTERNAL_URI:Landroid/net/Uri;
 
     int-to-long v5, v0
@@ -1053,10 +1053,10 @@
 
     move-result-object v2
 
-    .line 2132
+    .line 2123
     invoke-virtual {v1, v2, v3, v7, v7}, Landroid/content/ContentResolver;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
-    .line 2138
+    .line 2129
     .end local v0           #id:I
     .end local v1           #resolver:Landroid/content/ContentResolver;
     .end local v3           #values:Landroid/content/ContentValues;
@@ -1064,7 +1064,7 @@
     :goto_0
     return-object v2
 
-    .line 2134
+    .line 2125
     .restart local v0       #id:I
     .restart local v1       #resolver:Landroid/content/ContentResolver;
     .restart local v3       #values:Landroid/content/ContentValues;
@@ -1809,212 +1809,163 @@
 .end method
 
 .method public static displayDatabaseError(Landroid/app/Activity;Lcom/miui/player/MusicUtils$OnDialogCallback;)V
-    .locals 11
+    .locals 10
     .parameter "a"
     .parameter "l"
 
     .prologue
-    const/16 v10, 0x8
+    const/16 v9, 0x8
 
-    const/4 v9, 0x0
+    const/4 v8, 0x0
 
     .line 958
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
-    move-result-object v2
+    move-result-object v1
 
     .line 959
-    .local v2, status:Ljava/lang/String;
-    const v3, 0x7f080023
+    .local v1, status:Ljava/lang/String;
+    const v2, 0x1040395
 
     .line 960
-    .local v3, title:I
-    const v1, 0x7f080024
+    .local v2, title:I
+    const-string v5, "mounted"
 
-    .line 962
-    .local v1, message:I
-    const-string v6, "shared"
+    invoke-virtual {v1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v5
 
-    move-result v6
+    if-eqz v5, :cond_5
 
-    if-nez v6, :cond_0
+    .line 965
+    const-string v5, ""
 
-    const-string v6, "unmounted"
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    .line 966
+    new-instance v5, Lcom/miui/player/ui/ScanningProgress;
 
-    move-result v6
+    const/4 v6, 0x2
 
-    if-eqz v6, :cond_6
+    invoke-direct {v5, p0, p1, v6}, Lcom/miui/player/ui/ScanningProgress;-><init>(Landroid/app/Activity;Lcom/miui/player/MusicUtils$OnDialogCallback;I)V
 
-    .line 963
+    invoke-virtual {v5}, Lcom/miui/player/ui/ScanningProgress;->show()V
+
+    .line 972
     :cond_0
-    const v3, 0x7f080021
-
-    .line 964
-    const v1, 0x7f080022
-
-    .line 980
-    :cond_1
     :goto_0
-    invoke-virtual {p0, v3}, Landroid/app/Activity;->setTitle(I)V
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->setTitle(I)V
 
-    .line 981
-    const v6, 0x7f0c009b
+    .line 973
+    const v5, 0x7f0c009c
 
-    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
-    move-result-object v5
+    move-result-object v4
 
-    .line 982
-    .local v5, v:Landroid/view/View;
-    if-eqz v5, :cond_2
+    .line 974
+    .local v4, v:Landroid/view/View;
+    if-eqz v4, :cond_1
 
-    .line 983
-    invoke-virtual {v5, v9}, Landroid/view/View;->setVisibility(I)V
+    .line 975
+    invoke-virtual {v4, v8}, Landroid/view/View;->setVisibility(I)V
 
-    .line 984
-    move-object v0, v5
+    .line 976
+    move-object v0, v4
 
     check-cast v0, Landroid/widget/TextView;
 
-    move-object v4, v0
-
-    .line 985
-    .local v4, tv:Landroid/widget/TextView;
-    invoke-virtual {v4, v1}, Landroid/widget/TextView;->setText(I)V
-
-    .line 987
-    .end local v4           #tv:Landroid/widget/TextView;
-    :cond_2
-    const v6, 0x7f0c009a
-
-    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v5
-
-    .line 988
-    if-eqz v5, :cond_3
-
-    .line 989
-    invoke-virtual {v5, v9}, Landroid/view/View;->setVisibility(I)V
-
-    .line 991
-    :cond_3
-    const v6, 0x102000a
-
-    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v5
-
-    .line 992
-    if-eqz v5, :cond_4
-
-    .line 993
-    invoke-virtual {v5, v10}, Landroid/view/View;->setVisibility(I)V
-
-    .line 996
-    :cond_4
-    const v6, 0x7f0c000d
-
-    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v5
-
-    .line 997
-    if-eqz v5, :cond_5
-
-    .line 998
-    invoke-virtual {v5, v10}, Landroid/view/View;->setVisibility(I)V
-
-    .line 1001
-    :cond_5
-    return-void
-
-    .line 965
-    .end local v5           #v:Landroid/view/View;
-    :cond_6
-    const-string v6, "removed"
-
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_7
-
-    .line 966
-    const v3, 0x7f08001f
-
-    .line 967
-    const v1, 0x7f080020
-
-    goto :goto_0
-
-    .line 968
-    :cond_7
-    const-string v6, "mounted"
-
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_8
-
-    .line 973
-    const-string v6, ""
-
-    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
-
-    .line 974
-    new-instance v6, Lcom/miui/player/ui/ScanningProgress;
-
-    const/4 v7, 0x2
-
-    invoke-direct {v6, p0, p1, v7}, Lcom/miui/player/ui/ScanningProgress;-><init>(Landroid/app/Activity;Lcom/miui/player/MusicUtils$OnDialogCallback;I)V
-
-    invoke-virtual {v6}, Lcom/miui/player/ui/ScanningProgress;->show()V
-
-    goto :goto_0
-
-    .line 975
-    :cond_8
-    sget-object v6, Lcom/miui/player/MusicUtils;->mLastSdStatus:Ljava/lang/String;
-
-    invoke-static {v6, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
-
-    move-result v6
-
-    if-nez v6, :cond_1
-
-    .line 976
-    sput-object v2, Lcom/miui/player/MusicUtils;->mLastSdStatus:Ljava/lang/String;
+    move-object v3, v0
 
     .line 977
-    const-string v6, "MusicUtils"
+    .local v3, tv:Landroid/widget/TextView;
+    invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(I)V
 
-    new-instance v7, Ljava/lang/StringBuilder;
+    .line 979
+    .end local v3           #tv:Landroid/widget/TextView;
+    :cond_1
+    const v5, 0x7f0c009b
 
-    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
-    const-string v8, "sd card: "
+    move-result-object v4
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 980
+    if-eqz v4, :cond_2
 
-    move-result-object v7
+    .line 981
+    invoke-virtual {v4, v8}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 983
+    :cond_2
+    const v5, 0x102000a
 
-    move-result-object v7
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v4
 
-    move-result-object v7
+    .line 984
+    if-eqz v4, :cond_3
 
-    invoke-static {v6, v7}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    .line 985
+    invoke-virtual {v4, v9}, Landroid/view/View;->setVisibility(I)V
 
-    goto/16 :goto_0
+    .line 988
+    :cond_3
+    const v5, 0x7f0c000d
+
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v4
+
+    .line 989
+    if-eqz v4, :cond_4
+
+    .line 990
+    invoke-virtual {v4, v9}, Landroid/view/View;->setVisibility(I)V
+
+    .line 993
+    :cond_4
+    return-void
+
+    .line 967
+    .end local v4           #v:Landroid/view/View;
+    :cond_5
+    sget-object v5, Lcom/miui/player/MusicUtils;->mLastSdStatus:Ljava/lang/String;
+
+    invoke-static {v5, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_0
+
+    .line 968
+    sput-object v1, Lcom/miui/player/MusicUtils;->mLastSdStatus:Ljava/lang/String;
+
+    .line 969
+    const-string v5, "MusicUtils"
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "sd card: "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_0
 .end method
 
 .method public static filterSQL(Ljava/lang/String;)Ljava/lang/String;
@@ -2022,7 +1973,7 @@
     .parameter "rawSql"
 
     .prologue
-    .line 1765
+    .line 1756
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -2031,17 +1982,17 @@
 
     move-object v3, p0
 
-    .line 1781
+    .line 1772
     :goto_0
     return-object v3
 
-    .line 1769
+    .line 1760
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1771
+    .line 1762
     .local v2, ret:Ljava/lang/StringBuilder;
     const/4 v1, 0x0
 
@@ -2053,12 +2004,12 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 1772
+    .line 1763
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
 
-    .line 1773
+    .line 1764
     .local v0, c:C
     invoke-static {v0}, Lcom/miui/player/MusicUtils;->isValidSQLChar(C)Z
 
@@ -2066,27 +2017,27 @@
 
     if-eqz v3, :cond_1
 
-    .line 1774
+    .line 1765
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 1771
+    .line 1762
     :goto_2
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 1776
+    .line 1767
     :cond_1
     const/16 v3, 0x5c
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 1777
+    .line 1768
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 1781
+    .line 1772
     .end local v0           #c:C
     :cond_2
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -2104,7 +2055,7 @@
     .prologue
     const/4 v8, 0x0
 
-    .line 1930
+    .line 1921
     const/4 v0, 0x1
 
     new-array v2, v0, [Ljava/lang/String;
@@ -2113,11 +2064,11 @@
 
     aput-object v0, v2, v8
 
-    .line 1936
+    .line 1927
     .local v2, cols:[Ljava/lang/String;
     if-eqz p1, :cond_0
 
-    .line 1937
+    .line 1928
     const-string v0, "external"
 
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
@@ -2132,7 +2083,7 @@
 
     move-result-object v1
 
-    .line 1938
+    .line 1929
     .local v1, uri:Landroid/net/Uri;
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2156,7 +2107,7 @@
 
     move-result-object v3
 
-    .line 1943
+    .line 1934
     .local v3, inClause:Ljava/lang/String;
     :goto_0
     const/4 v4, 0x0
@@ -2169,17 +2120,17 @@
 
     move-result-object v7
 
-    .line 1946
+    .line 1937
     .local v7, cursor:Landroid/database/Cursor;
     if-nez v7, :cond_1
 
     move v0, v8
 
-    .line 1952
+    .line 1943
     :goto_1
     return v0
 
-    .line 1940
+    .line 1931
     .end local v1           #uri:Landroid/net/Uri;
     .end local v3           #inClause:Ljava/lang/String;
     .end local v7           #cursor:Landroid/database/Cursor;
@@ -2206,27 +2157,27 @@
 
     move-result-object v3
 
-    .line 1941
+    .line 1932
     .restart local v3       #inClause:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Albums;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     .restart local v1       #uri:Landroid/net/Uri;
     goto :goto_0
 
-    .line 1950
+    .line 1941
     .restart local v7       #cursor:Landroid/database/Cursor;
     :cond_1
     invoke-interface {v7}, Landroid/database/Cursor;->getCount()I
 
     move-result v6
 
-    .line 1951
+    .line 1942
     .local v6, count:I
     invoke-interface {v7}, Landroid/database/Cursor;->close()V
 
     move v0, v6
 
-    .line 1952
+    .line 1943
     goto :goto_1
 .end method
 
@@ -2302,7 +2253,7 @@
     .end annotation
 
     .prologue
-    .line 1889
+    .line 1880
     .local p0, set:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     invoke-virtual {p0}, Ljava/util/HashSet;->size()I
 
@@ -2310,11 +2261,11 @@
 
     new-array v1, v4, [J
 
-    .line 1890
+    .line 1881
     .local v1, audioList:[J
     const/4 v3, 0x0
 
-    .line 1891
+    .line 1882
     .local v3, index:I
     invoke-virtual {p0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
@@ -2334,7 +2285,7 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    .line 1892
+    .line 1883
     .local v0, audioId:Ljava/lang/Long;
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
@@ -2342,12 +2293,12 @@
 
     aput-wide v4, v1, v3
 
-    .line 1893
+    .line 1884
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 1895
+    .line 1886
     .end local v0           #audioId:Ljava/lang/Long;
     :cond_0
     return-object v1
@@ -2360,14 +2311,14 @@
     .prologue
     const/4 v12, 0x0
 
-    .line 1956
+    .line 1947
     const-string v6, " AND "
 
-    .line 1957
+    .line 1948
     .local v6, AND:Ljava/lang/String;
     const-string v7, " IN "
 
-    .line 1958
+    .line 1949
     .local v7, IN:Ljava/lang/String;
     const/4 v0, 0x1
 
@@ -2377,43 +2328,43 @@
 
     aput-object v0, v2, v12
 
-    .line 1962
+    .line 1953
     .local v2, cols:[Ljava/lang/String;
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1963
+    .line 1954
     .local v11, where:Ljava/lang/StringBuilder;
     const-string v0, "artist != \'\'"
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1964
+    .line 1955
     invoke-static {p0}, Lcom/miui/player/MusicUtils;->getValidArtistIdSetAsStr(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 1965
+    .line 1956
     .local v8, artistSet:Ljava/lang/String;
     const-string v0, " AND "
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1966
+    .line 1957
     const-string v0, "_id"
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1967
+    .line 1958
     const-string v0, " IN "
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1968
+    .line 1959
     invoke-virtual {v11, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1970
+    .line 1961
     sget-object v1, Landroid/provider/MediaStore$Audio$Artists;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -2430,31 +2381,31 @@
 
     move-result-object v10
 
-    .line 1973
+    .line 1964
     .local v10, cursor:Landroid/database/Cursor;
     const/4 v9, 0x0
 
-    .line 1974
+    .line 1965
     .local v9, count:I
     if-eqz v10, :cond_1
 
-    .line 1975
+    .line 1966
     invoke-interface {v10}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1976
+    .line 1967
     invoke-interface {v10, v12}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v9
 
-    .line 1978
+    .line 1969
     :cond_0
     invoke-interface {v10}, Landroid/database/Cursor;->close()V
 
-    .line 1980
+    .line 1971
     :cond_1
     return v9
 .end method
@@ -2464,10 +2415,10 @@
     .parameter "c"
 
     .prologue
-    .line 1458
+    .line 1449
     const/4 v1, -0x1
 
-    .line 1461
+    .line 1452
     .local v1, index:I
     :try_start_0
     const-string v2, "audio_id"
@@ -2478,17 +2429,17 @@
 
     move-result v1
 
-    .line 1467
+    .line 1458
     :goto_0
     return v1
 
-    .line 1462
+    .line 1453
     :catch_0
     move-exception v2
 
     move-object v0, v2
 
-    .line 1464
+    .line 1455
     .local v0, ex:Ljava/lang/IllegalArgumentException;
     const-string v2, "_id"
 
@@ -2760,10 +2711,10 @@
 
     const-string v1, "_id"
 
-    .line 1681
+    .line 1672
     const/4 v10, 0x0
 
-    .line 1682
+    .line 1673
     .local v10, ret:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     if-eqz p1, :cond_0
 
@@ -2771,19 +2722,19 @@
 
     if-nez v0, :cond_1
 
-    .line 1683
+    .line 1674
     :cond_0
     new-instance v10, Ljava/util/HashSet;
 
     .end local v10           #ret:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     invoke-direct {v10, v12}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 1712
+    .line 1703
     .restart local v10       #ret:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     :goto_0
     return-object v10
 
-    .line 1685
+    .line 1676
     :cond_1
     const/4 v0, 0x1
 
@@ -2793,43 +2744,43 @@
 
     aput-object v1, v2, v12
 
-    .line 1689
+    .line 1680
     .local v2, cols:[Ljava/lang/String;
     invoke-static {p1}, Lcom/miui/player/provider/PlayerProviderUtils;->concatIdsAsSet([J)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 1690
+    .line 1681
     .local v8, audioIdSet:Ljava/lang/String;
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1691
+    .line 1682
     .local v11, whereBuilder:Ljava/lang/StringBuilder;
     const-string v0, "title"
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1692
+    .line 1683
     const-string v0, " != \'\' AND "
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1693
+    .line 1684
     const-string v0, "_id"
 
     invoke-virtual {v11, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1694
+    .line 1685
     const-string v0, " IN "
 
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1695
+    .line 1686
     invoke-virtual {v11, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1697
+    .line 1688
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -2850,11 +2801,11 @@
 
     move-result-object v9
 
-    .line 1701
+    .line 1692
     .local v9, cursor:Landroid/database/Cursor;
     if-eqz v9, :cond_3
 
-    .line 1702
+    .line 1693
     new-instance v10, Ljava/util/HashSet;
 
     .end local v10           #ret:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
@@ -2864,7 +2815,7 @@
 
     invoke-direct {v10, v0}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 1703
+    .line 1694
     .restart local v10       #ret:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     :goto_1
     invoke-interface {v9}, Landroid/database/Cursor;->moveToNext()Z
@@ -2873,12 +2824,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 1704
+    .line 1695
     invoke-interface {v9, v12}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v6
 
-    .line 1705
+    .line 1696
     .local v6, audioId:J
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2888,14 +2839,14 @@
 
     goto :goto_1
 
-    .line 1707
+    .line 1698
     .end local v6           #audioId:J
     :cond_2
     invoke-interface {v9}, Landroid/database/Cursor;->close()V
 
     goto :goto_0
 
-    .line 1709
+    .line 1700
     :cond_3
     new-instance v10, Ljava/util/HashSet;
 
@@ -2912,7 +2863,7 @@
     .parameter "path"
 
     .prologue
-    .line 1641
+    .line 1632
     const/4 v0, 0x2
 
     new-array v2, v0, [Ljava/lang/String;
@@ -2929,13 +2880,13 @@
 
     aput-object v1, v2, v0
 
-    .line 1645
+    .line 1636
     .local v2, ccols:[Ljava/lang/String;
     invoke-static {p1}, Lcom/miui/player/MusicUtils;->filterSQL(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1646
+    .line 1637
     .local p1, escapedPath:Ljava/lang/String;
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2975,7 +2926,7 @@
 
     move-result-object v0
 
-    .line 1648
+    .line 1639
     .local v0, likeClause:Ljava/lang/String;
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3016,7 +2967,7 @@
 
     move-result-object p1
 
-    .line 1650
+    .line 1641
     .local p1, notlikeClause:Ljava/lang/String;
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3042,7 +2993,7 @@
 
     move-result-object p1
 
-    .line 1651
+    .line 1642
     .local p1, where:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -3060,21 +3011,21 @@
 
     move-result-object p0
 
-    .line 1655
+    .line 1646
     .local p0, cursor:Landroid/database/Cursor;
     if-nez p0, :cond_0
 
-    .line 1656
+    .line 1647
     const/4 p0, 0x0
 
-    .line 1671
+    .line 1662
     .end local v2           #ccols:[Ljava/lang/String;
     .end local p0           #cursor:Landroid/database/Cursor;
     .end local p1           #where:Ljava/lang/String;
     :goto_0
     return-object p0
 
-    .line 1658
+    .line 1649
     .restart local v2       #ccols:[Ljava/lang/String;
     .restart local p0       #cursor:Landroid/database/Cursor;
     .restart local p1       #where:Ljava/lang/String;
@@ -3083,11 +3034,11 @@
 
     move-result v0
 
-    .line 1659
+    .line 1650
     .local v0, len:I
     new-array v1, v0, [J
 
-    .line 1662
+    .line 1653
     .local v1, list:[J
     const/4 p1, 0x0
 
@@ -3096,11 +3047,11 @@
     :goto_1
     if-ge p1, v0, :cond_1
 
-    .line 1663
+    .line 1654
     :try_start_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
-    .line 1664
+    .line 1655
     const/4 v2, 0x0
 
     invoke-interface {p0, v2}, Landroid/database/Cursor;->getLong(I)J
@@ -3112,12 +3063,12 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1662
+    .line 1653
     add-int/lit8 p1, p1, 0x1
 
     goto :goto_1
 
-    .line 1668
+    .line 1659
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -3125,15 +3076,15 @@
     :goto_2
     move-object p0, v1
 
-    .line 1671
+    .line 1662
     goto :goto_0
 
-    .line 1666
+    .line 1657
     .restart local p1       #i:I
     :catch_0
     move-exception p1
 
-    .line 1668
+    .line 1659
     .end local p1           #i:I
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -3156,22 +3107,22 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 1194
+    .line 1185
     const-wide/16 v1, 0x0
 
     cmp-long v1, p0, v1
 
     if-gtz v1, :cond_0
 
-    .line 1195
+    .line 1186
     :try_start_0
     const-string v1, "0 B"
 
-    .line 1204
+    .line 1195
     :goto_0
     return-object v1
 
-    .line 1197
+    .line 1188
     :cond_0
     const-wide/32 v1, 0x100000
 
@@ -3179,7 +3130,7 @@
 
     if-gez v1, :cond_1
 
-    .line 1198
+    .line 1189
     const-string v1, "%1.1f K"
 
     const/4 v2, 0x1
@@ -3208,7 +3159,7 @@
 
     goto :goto_0
 
-    .line 1200
+    .line 1191
     :cond_1
     const-string v1, "%1.1f M"
 
@@ -3240,13 +3191,13 @@
 
     goto :goto_0
 
-    .line 1202
+    .line 1193
     :catch_0
     move-exception v1
 
     move-object v0, v1
 
-    .line 1203
+    .line 1194
     .local v0, ex:Ljava/lang/Exception;
     const-string v1, "MusicUtils"
 
@@ -3256,7 +3207,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1204
+    .line 1195
     const-string v1, "Unknown"
 
     goto :goto_0
@@ -3616,10 +3567,10 @@
 
     const-string v5, "name"
 
-    .line 1984
+    .line 1975
     const-string v6, " AND "
 
-    .line 1985
+    .line 1976
     .local v6, AND:Ljava/lang/String;
     new-array v2, v1, [Ljava/lang/String;
 
@@ -3627,49 +3578,49 @@
 
     aput-object v0, v2, v10
 
-    .line 1988
+    .line 1979
     .local v2, cols:[Ljava/lang/String;
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1989
+    .line 1980
     .local v9, where:Ljava/lang/StringBuilder;
     const-string v0, "name"
 
     invoke-virtual {v9, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1990
+    .line 1981
     const-string v0, " != \'\'"
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1991
+    .line 1982
     const-string v0, " AND "
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1992
+    .line 1983
     const-string v0, "list_type"
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1993
+    .line 1984
     const-string v0, " != "
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1994
+    .line 1985
     invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 1996
+    .line 1987
     const/4 v8, 0x0
 
-    .line 1998
+    .line 1989
     .local v8, cursor:Landroid/database/Cursor;
     const/4 v7, 0x1
 
-    .line 2000
+    .line 1991
     .local v7, count:I
     sget-object v1, Lcom/miui/player/provider/PlayerStore$MiuiPlaylists;->EXTERNAL_URI:Landroid/net/Uri;
 
@@ -3687,28 +3638,28 @@
 
     move-result-object v8
 
-    .line 2002
+    .line 1993
     if-eqz v8, :cond_1
 
-    .line 2003
+    .line 1994
     invoke-interface {v8}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2004
+    .line 1995
     invoke-interface {v8, v10}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
 
     add-int/2addr v7, v0
 
-    .line 2006
+    .line 1997
     :cond_0
     invoke-interface {v8}, Landroid/database/Cursor;->close()V
 
-    .line 2008
+    .line 1999
     :cond_1
     return v7
 .end method
@@ -3721,10 +3672,10 @@
     .prologue
     const/4 v10, 0x0
 
-    .line 1899
+    .line 1890
     const-string v6, " AND "
 
-    .line 1900
+    .line 1891
     .local v6, AND:Ljava/lang/String;
     const/4 v0, 0x1
 
@@ -3734,45 +3685,45 @@
 
     aput-object v0, v2, v10
 
-    .line 1904
+    .line 1895
     .local v2, cols:[Ljava/lang/String;
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1905
+    .line 1896
     .local v9, where:Ljava/lang/StringBuilder;
     const-string v0, "title"
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1906
+    .line 1897
     const-string v0, " != \'\' "
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1907
+    .line 1898
     if-eqz p1, :cond_0
 
-    .line 1908
+    .line 1899
     const-string v0, " AND "
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1909
+    .line 1900
     const-string v0, "artist_id"
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1910
+    .line 1901
     const-string v0, "="
 
     invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1911
+    .line 1902
     invoke-virtual {v9, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1914
+    .line 1905
     :cond_0
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -3794,31 +3745,31 @@
 
     move-result-object v8
 
-    .line 1918
+    .line 1909
     .local v8, cursor:Landroid/database/Cursor;
     const/4 v7, 0x0
 
-    .line 1919
+    .line 1910
     .local v7, count:I
     if-eqz v8, :cond_2
 
-    .line 1920
+    .line 1911
     invoke-interface {v8}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 1921
+    .line 1912
     invoke-interface {v8, v10}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v7
 
-    .line 1923
+    .line 1914
     :cond_1
     invoke-interface {v8}, Landroid/database/Cursor;->close()V
 
-    .line 1926
+    .line 1917
     :cond_2
     return v7
 .end method
@@ -4162,27 +4113,27 @@
 
     const/4 v8, 0x0
 
-    .line 2087
+    .line 2078
     if-nez p1, :cond_0
 
-    .line 2088
+    .line 2079
     const/4 v6, 0x0
 
-    .line 2117
+    .line 2108
     :goto_0
     return-object v6
 
-    .line 2091
+    .line 2082
     :cond_0
     invoke-interface {p1}, Landroid/database/Cursor;->getPosition()I
 
     move-result v4
 
-    .line 2092
+    .line 2083
     .local v4, pos:I
     const/4 v2, 0x1
 
-    .line 2093
+    .line 2084
     .local v2, num:I
     new-array v6, v9, [Ljava/lang/Object;
 
@@ -4200,26 +4151,26 @@
 
     move-result-object v5
 
-    .line 2102
+    .line 2093
     .local v5, suggestedname:Ljava/lang/String;
     const/4 v0, 0x0
 
     .local v0, done:Z
     move v2, v3
 
-    .line 2103
+    .line 2094
     .end local v3           #num:I
     .restart local v2       #num:I
     :cond_1
     if-nez v0, :cond_3
 
-    .line 2104
+    .line 2095
     const/4 v0, 0x1
 
-    .line 2105
+    .line 2096
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 2106
+    .line 2097
     :goto_1
     invoke-interface {p1}, Landroid/database/Cursor;->isAfterLast()Z
 
@@ -4227,12 +4178,12 @@
 
     if-nez v6, :cond_1
 
-    .line 2107
+    .line 2098
     invoke-interface {p1, p2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2108
+    .line 2099
     .local v1, name:Ljava/lang/String;
     invoke-virtual {v1, v5}, Ljava/lang/String;->compareToIgnoreCase(Ljava/lang/String;)I
 
@@ -4240,7 +4191,7 @@
 
     if-nez v6, :cond_2
 
-    .line 2109
+    .line 2100
     new-array v6, v9, [Ljava/lang/Object;
 
     add-int/lit8 v3, v2, 0x1
@@ -4257,12 +4208,12 @@
 
     move-result-object v5
 
-    .line 2110
+    .line 2101
     const/4 v0, 0x0
 
     move v2, v3
 
-    .line 2112
+    .line 2103
     .end local v3           #num:I
     .restart local v2       #num:I
     :cond_2
@@ -4270,14 +4221,14 @@
 
     goto :goto_1
 
-    .line 2116
+    .line 2107
     .end local v1           #name:Ljava/lang/String;
     :cond_3
     invoke-interface {p1, v4}, Landroid/database/Cursor;->moveToPosition(I)Z
 
     move-object v6, v5
 
-    .line 2117
+    .line 2108
     goto :goto_0
 .end method
 
@@ -4297,12 +4248,12 @@
     .end annotation
 
     .prologue
-    .line 1860
+    .line 1851
     invoke-static {p0}, Lcom/miui/player/MusicUtils;->queryValidAlbumIdCursor(Landroid/content/Context;)Landroid/database/Cursor;
 
     move-result-object v0
 
-    .line 1861
+    .line 1852
     .local v0, cursor:Landroid/database/Cursor;
     const/4 v2, 0x0
 
@@ -4310,14 +4261,14 @@
 
     move-result-object v1
 
-    .line 1862
+    .line 1853
     .local v1, ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     if-eqz v0, :cond_0
 
-    .line 1863
+    .line 1854
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    .line 1866
+    .line 1857
     :cond_0
     return-object v1
 .end method
@@ -4327,12 +4278,12 @@
     .parameter "context"
 
     .prologue
-    .line 1850
+    .line 1841
     invoke-static {p0}, Lcom/miui/player/MusicUtils;->queryValidAlbumIdCursor(Landroid/content/Context;)Landroid/database/Cursor;
 
     move-result-object v1
 
-    .line 1851
+    .line 1842
     .local v1, cursor:Landroid/database/Cursor;
     const/4 v2, 0x0
 
@@ -4340,14 +4291,14 @@
 
     move-result-object v0
 
-    .line 1853
+    .line 1844
     .local v0, albumSet:Ljava/lang/String;
     if-eqz v1, :cond_0
 
-    .line 1854
+    .line 1845
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 1856
+    .line 1847
     :cond_0
     return-object v0
 .end method
@@ -4368,12 +4319,12 @@
     .end annotation
 
     .prologue
-    .line 1830
+    .line 1821
     invoke-static {p0}, Lcom/miui/player/MusicUtils;->queryValidArtistIdCursor(Landroid/content/Context;)Landroid/database/Cursor;
 
     move-result-object v0
 
-    .line 1831
+    .line 1822
     .local v0, cursor:Landroid/database/Cursor;
     const/4 v2, 0x0
 
@@ -4381,14 +4332,14 @@
 
     move-result-object v1
 
-    .line 1832
+    .line 1823
     .local v1, ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     if-eqz v0, :cond_0
 
-    .line 1833
+    .line 1824
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    .line 1836
+    .line 1827
     :cond_0
     return-object v1
 .end method
@@ -4398,12 +4349,12 @@
     .parameter "context"
 
     .prologue
-    .line 1820
+    .line 1811
     invoke-static {p0}, Lcom/miui/player/MusicUtils;->queryValidArtistIdCursor(Landroid/content/Context;)Landroid/database/Cursor;
 
     move-result-object v1
 
-    .line 1821
+    .line 1812
     .local v1, cursor:Landroid/database/Cursor;
     const/4 v2, 0x0
 
@@ -4411,14 +4362,14 @@
 
     move-result-object v0
 
-    .line 1822
+    .line 1813
     .local v0, artistSet:Ljava/lang/String;
     if-eqz v1, :cond_0
 
-    .line 1823
+    .line 1814
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 1826
+    .line 1817
     :cond_0
     return-object v0
 .end method
@@ -4441,7 +4392,7 @@
     .prologue
     const/4 v9, 0x0
 
-    .line 1871
+    .line 1862
     const/4 v0, 0x1
 
     new-array v2, v0, [Ljava/lang/String;
@@ -4450,11 +4401,11 @@
 
     aput-object v0, v2, v9
 
-    .line 1875
+    .line 1866
     .local v2, cols:[Ljava/lang/String;
     const-string v8, "title != \'\'"
 
-    .line 1876
+    .line 1867
     .local v8, where:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -4472,20 +4423,20 @@
 
     move-result-object v6
 
-    .line 1880
+    .line 1871
     .local v6, cursor:Landroid/database/Cursor;
     invoke-static {v6, v9}, Lcom/miui/player/MusicUtils;->getValueSetFromCursor(Landroid/database/Cursor;I)Ljava/util/Set;
 
     move-result-object v7
 
-    .line 1881
+    .line 1872
     .local v7, ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     if-eqz v6, :cond_0
 
-    .line 1882
+    .line 1873
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    .line 1885
+    .line 1876
     :cond_0
     return-object v7
 .end method
@@ -4507,14 +4458,14 @@
     .end annotation
 
     .prologue
-    .line 1795
+    .line 1786
     const/4 v0, 0x0
 
-    .line 1796
+    .line 1787
     .local v0, ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     if-eqz p0, :cond_0
 
-    .line 1797
+    .line 1788
     new-instance v0, Ljava/util/HashSet;
 
     .end local v0           #ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
@@ -4524,7 +4475,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 1798
+    .line 1789
     .restart local v0       #ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -4535,7 +4486,7 @@
 
     if-nez v1, :cond_1
 
-    .line 1799
+    .line 1790
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v1
@@ -4546,12 +4497,12 @@
 
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 1798
+    .line 1789
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
     goto :goto_0
 
-    .line 1802
+    .line 1793
     :cond_0
     new-instance v0, Ljava/util/HashSet;
 
@@ -4560,7 +4511,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 1805
+    .line 1796
     .restart local v0       #ret:Ljava/util/Set;,"Ljava/util/Set<Ljava/lang/Integer;>;"
     :cond_1
     return-object v0
@@ -4576,35 +4527,35 @@
 
     const/4 v2, 0x0
 
-    .line 1004
+    .line 996
+    const v1, 0x7f0c009c
+
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    .line 997
+    .local v0, v:Landroid/view/View;
+    if-eqz v0, :cond_0
+
+    .line 998
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
+
+    .line 1000
+    :cond_0
     const v1, 0x7f0c009b
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 1005
-    .local v0, v:Landroid/view/View;
-    if-eqz v0, :cond_0
-
-    .line 1006
-    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
-
-    .line 1008
-    :cond_0
-    const v1, 0x7f0c009a
-
-    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    .line 1009
+    .line 1001
     if-eqz v0, :cond_1
 
-    .line 1010
+    .line 1002
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1012
+    .line 1004
     :cond_1
     const v1, 0x102000a
 
@@ -4612,30 +4563,30 @@
 
     move-result-object v0
 
-    .line 1013
+    .line 1005
     if-eqz v0, :cond_2
 
-    .line 1014
+    .line 1006
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1016
+    .line 1008
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 1017
+    .line 1009
     const v1, 0x7f0c000d
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 1018
+    .line 1010
     if-eqz v0, :cond_3
 
-    .line 1019
+    .line 1011
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1022
+    .line 1014
     :cond_3
     return-void
 .end method
@@ -4650,7 +4601,7 @@
 
     const/4 v8, 0x0
 
-    .line 2069
+    .line 2060
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
@@ -4675,34 +4626,34 @@
 
     move-result-object v6
 
-    .line 2075
+    .line 2066
     .local v6, c:Landroid/database/Cursor;
     const/4 v7, -0x1
 
-    .line 2076
+    .line 2067
     .local v7, id:I
     if-eqz v6, :cond_1
 
-    .line 2077
+    .line 2068
     invoke-interface {v6}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 2078
+    .line 2069
     invoke-interface {v6}, Landroid/database/Cursor;->isAfterLast()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2079
+    .line 2070
     invoke-interface {v6, v8}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v7
 
-    .line 2081
+    .line 2072
     :cond_0
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    .line 2083
+    .line 2074
     :cond_1
     return v7
 .end method
@@ -4975,7 +4926,7 @@
     .locals 1
 
     .prologue
-    .line 1630
+    .line 1621
     :try_start_0
     sget-object v0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -4991,18 +4942,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 1631
+    .line 1622
     const/4 v0, 0x1
 
-    .line 1636
+    .line 1627
     :goto_0
     return v0
 
-    .line 1633
+    .line 1624
     :catch_0
     move-exception v0
 
-    .line 1636
+    .line 1627
     :cond_0
     const/4 v0, 0x0
 
@@ -5013,7 +4964,7 @@
     .locals 1
 
     .prologue
-    .line 1619
+    .line 1610
     :try_start_0
     sget-object v0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -5029,18 +4980,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 1620
+    .line 1611
     const/4 v0, 0x1
 
-    .line 1625
+    .line 1616
     :goto_0
     return v0
 
-    .line 1622
+    .line 1613
     :catch_0
     move-exception v0
 
-    .line 1625
+    .line 1616
     :cond_0
     const/4 v0, 0x0
 
@@ -5055,10 +5006,10 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1360
+    .line 1351
     const/4 v7, 0x1
 
-    .line 1361
+    .line 1352
     .local v7, ret:Z
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -5078,11 +5029,11 @@
 
     move-result-object v6
 
-    .line 1364
+    .line 1355
     .local v6, c:Landroid/database/Cursor;
     if-eqz v6, :cond_0
 
-    .line 1365
+    .line 1356
     invoke-interface {v6}, Landroid/database/Cursor;->getCount()I
 
     move-result v0
@@ -5093,15 +5044,15 @@
 
     move v7, v0
 
-    .line 1366
+    .line 1357
     :goto_0
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    .line 1369
+    .line 1360
     :cond_0
     return v7
 
-    .line 1365
+    .line 1356
     :cond_1
     const/4 v0, 0x0
 
@@ -5115,7 +5066,7 @@
     .parameter "c"
 
     .prologue
-    .line 1785
+    .line 1776
     sget-object v0, Lcom/miui/player/MusicUtils;->INVALID_CHAR:[C
 
     .local v0, arr$:[C
@@ -5130,26 +5081,26 @@
 
     aget-char v1, v0, v2
 
-    .line 1786
+    .line 1777
     .local v1, cc:C
     if-ne v1, p0, :cond_0
 
-    .line 1787
+    .line 1778
     const/4 v4, 0x0
 
-    .line 1791
+    .line 1782
     .end local v1           #cc:C
     :goto_1
     return v4
 
-    .line 1785
+    .line 1776
     .restart local v1       #cc:C
     :cond_0
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 1791
+    .line 1782
     .end local v1           #cc:C
     :cond_1
     const/4 v4, 0x1
@@ -5241,7 +5192,7 @@
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 165
-    const v3, 0x7f080046
+    const v3, 0x7f080040
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5298,12 +5249,12 @@
     .parameter "isLocal"
 
     .prologue
-    .line 2013
+    .line 2004
     invoke-static {p0, p2, p3}, Lcom/miui/player/helper/MediaInfo;->getDescript(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 2014
+    .line 2005
     .local v0, descript:Ljava/lang/CharSequence;
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -5317,7 +5268,7 @@
 
     move-result-object v1
 
-    .line 2015
+    .line 2006
     .local v1, menuHeader:Landroid/view/View;
     const v3, 0x7f0c0022
 
@@ -5330,8 +5281,8 @@
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2016
-    const v3, 0x7f0c00b4
+    .line 2007
+    const v3, 0x7f0c00b5
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5341,17 +5292,17 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2017
+    .line 2008
     if-eqz p4, :cond_0
 
-    const v3, 0x7f080032
+    const v3, 0x7f08002c
 
     move v2, v3
 
-    .line 2018
+    .line 2009
     .local v2, statusId:I
     :goto_0
-    const v3, 0x7f0c00b3
+    const v3, 0x7f0c00b4
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5361,13 +5312,13 @@
 
     invoke-virtual {p0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 2019
+    .line 2010
     return-object v1
 
-    .line 2017
+    .line 2008
     .end local v2           #statusId:I
     :cond_0
-    const v3, 0x7f080031
+    const v3, 0x7f08002b
 
     move v2, v3
 
@@ -5474,14 +5425,14 @@
     .line 428
     const/16 v1, 0x19
 
-    const v4, 0x7f08002e
+    const v4, 0x7f080028
 
     invoke-interface {p1, v11, v1, v10, v4}, Landroid/view/SubMenu;->add(IIII)Landroid/view/MenuItem;
 
     .line 429
     const/16 v1, 0x16
 
-    const v4, 0x7f08002f
+    const v4, 0x7f080029
 
     invoke-interface {p1, v11, v1, v10, v4}, Landroid/view/SubMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -5557,8 +5508,8 @@
     .parameter "secs"
 
     .prologue
-    .line 1037
-    const v0, 0x7f0800ea
+    .line 1029
+    const v0, 0x7f0800e4
 
     invoke-static {p0, p1, p2, v0}, Lcom/miui/player/MusicUtils;->makeTimeString(Landroid/content/Context;JI)Ljava/lang/String;
 
@@ -5580,7 +5531,7 @@
 
     const-wide/16 v5, 0x3c
 
-    .line 1041
+    .line 1033
     cmp-long v2, p1, v7
 
     if-gez v2, :cond_0
@@ -5592,16 +5543,16 @@
 
     move-result-object v0
 
-    .line 1048
+    .line 1040
     .local v0, durationformat:Ljava/lang/String;
     sget-object v2, Lcom/miui/player/MusicUtils;->sFormatBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 1050
+    .line 1042
     sget-object v1, Lcom/miui/player/MusicUtils;->sTimeArgs:[Ljava/lang/Object;
 
-    .line 1051
+    .line 1043
     .local v1, timeArgs:[Ljava/lang/Object;
     div-long v2, p1, v7
 
@@ -5611,7 +5562,7 @@
 
     aput-object v2, v1, v4
 
-    .line 1052
+    .line 1044
     const/4 v2, 0x1
 
     div-long v3, p1, v5
@@ -5622,7 +5573,7 @@
 
     aput-object v3, v1, v2
 
-    .line 1053
+    .line 1045
     const/4 v2, 0x2
 
     div-long v3, p1, v5
@@ -5635,7 +5586,7 @@
 
     aput-object v3, v1, v2
 
-    .line 1054
+    .line 1046
     const/4 v2, 0x3
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -5644,7 +5595,7 @@
 
     aput-object v3, v1, v2
 
-    .line 1055
+    .line 1047
     const/4 v2, 0x4
 
     rem-long v3, p1, v5
@@ -5655,7 +5606,7 @@
 
     aput-object v3, v1, v2
 
-    .line 1057
+    .line 1049
     sget-object v2, Lcom/miui/player/MusicUtils;->sFormatter:Ljava/util/Formatter;
 
     invoke-virtual {v2, v0, v1}, Ljava/util/Formatter;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Formatter;
@@ -5668,11 +5619,11 @@
 
     return-object v2
 
-    .line 1041
+    .line 1033
     .end local v0           #durationformat:Ljava/lang/String;
     .end local v1           #timeArgs:[Ljava/lang/Object;
     :cond_0
-    const v2, 0x7f0800ec
+    const v2, 0x7f0800e6
 
     goto :goto_0
 .end method
@@ -5748,10 +5699,10 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 1065
+    .line 1057
     invoke-static {p0, p1, v0, v0}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;Landroid/database/Cursor;IZ)V
 
-    .line 1066
+    .line 1058
     return-void
 .end method
 
@@ -5762,12 +5713,12 @@
     .parameter "position"
 
     .prologue
-    .line 1069
+    .line 1061
     const/4 v0, 0x0
 
     invoke-static {p0, p1, p2, v0}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;Landroid/database/Cursor;IZ)V
 
-    .line 1070
+    .line 1062
     return-void
 .end method
 
@@ -5779,16 +5730,16 @@
     .parameter "force_shuffle"
 
     .prologue
-    .line 1114
+    .line 1106
     invoke-static {p1}, Lcom/miui/player/MusicUtils;->getSongListForCursor(Landroid/database/Cursor;)[J
 
     move-result-object v0
 
-    .line 1115
+    .line 1107
     .local v0, list:[J
     invoke-static {p0, v0, p2, p3}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;[JIZ)V
 
-    .line 1116
+    .line 1108
     return-void
 .end method
 
@@ -5799,12 +5750,12 @@
     .parameter "position"
 
     .prologue
-    .line 1073
+    .line 1065
     const/4 v0, 0x0
 
     invoke-static {p0, p1, p2, v0}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;[JIZ)V
 
-    .line 1074
+    .line 1066
     return-void
 .end method
 
@@ -5822,29 +5773,20 @@
 
     const/4 v7, 0x1
 
-    .line 1119
-    invoke-static {}, Lcom/miui/player/helper/Global;->isSDCardBusy()Z
+    .line 1111
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v5
 
-    if-eqz v5, :cond_1
+    if-nez v5, :cond_1
 
-    .line 1120
-    const v5, 0x7f080021
-
-    invoke-static {p0, v5, v8}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Landroid/widget/Toast;->show()V
-
-    .line 1164
+    .line 1155
     .end local p0
     :cond_0
     :goto_0
     return-void
 
-    .line 1123
+    .line 1114
     .restart local p0
     :cond_1
     array-length v5, p1
@@ -5855,7 +5797,7 @@
 
     if-nez v5, :cond_3
 
-    .line 1124
+    .line 1115
     :cond_2
     const-string v5, "MusicUtils"
 
@@ -5863,8 +5805,8 @@
 
     invoke-static {v5, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1126
-    const v5, 0x7f080033
+    .line 1117
+    const v5, 0x7f08002d
 
     new-array v6, v7, [Ljava/lang/Object;
 
@@ -5880,7 +5822,7 @@
 
     move-result-object v3
 
-    .line 1127
+    .line 1118
     .local v3, message:Ljava/lang/String;
     invoke-static {p0, v3, v8}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -5890,12 +5832,12 @@
 
     goto :goto_0
 
-    .line 1131
+    .line 1122
     .end local v3           #message:Ljava/lang/String;
     :cond_3
     if-eqz p3, :cond_4
 
-    .line 1132
+    .line 1123
     :try_start_0
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -5903,7 +5845,7 @@
 
     invoke-interface {v5, v6}, Lcom/miui/player/IMediaPlaybackService;->setShuffleMode(I)V
 
-    .line 1133
+    .line 1124
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v5}, Lcom/miui/player/IMediaPlaybackService;->getRepeatMode()I
@@ -5914,14 +5856,14 @@
 
     if-ne v5, v6, :cond_4
 
-    .line 1134
+    .line 1125
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     const/4 v6, 0x1
 
     invoke-interface {v5, v6}, Lcom/miui/player/IMediaPlaybackService;->setRepeatMode(I)V
 
-    .line 1137
+    .line 1128
     :cond_4
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -5929,7 +5871,7 @@
 
     move-result-wide v0
 
-    .line 1138
+    .line 1129
     .local v0, curid:J
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -5937,7 +5879,7 @@
 
     move-result v2
 
-    .line 1139
+    .line 1130
     .local v2, curpos:I
     if-eq p2, v9, :cond_5
 
@@ -5949,14 +5891,14 @@
 
     if-nez v5, :cond_5
 
-    .line 1143
+    .line 1134
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v5}, Lcom/miui/player/IMediaPlaybackService;->getQueue()[J
 
     move-result-object v4
 
-    .line 1144
+    .line 1135
     .local v4, playlist:[J
     invoke-static {p1, v4}, Ljava/util/Arrays;->equals([J[J)Z
     :try_end_0
@@ -5967,19 +5909,19 @@
 
     if-eqz v5, :cond_5
 
-    .line 1158
+    .line 1149
     instance-of v5, p0, Landroid/app/Activity;
 
     if-eqz v5, :cond_0
 
-    .line 1159
+    .line 1150
     invoke-static {}, Lcom/miui/player/MusicUtils;->isMusicLoaded()Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 1160
+    .line 1151
     check-cast p0, Landroid/app/Activity;
 
     .end local p0
@@ -5987,16 +5929,16 @@
 
     goto :goto_0
 
-    .line 1150
+    .line 1141
     .end local v4           #playlist:[J
     .restart local p0
     :cond_5
     if-gez p2, :cond_6
 
-    .line 1151
+    .line 1142
     const/4 p2, 0x0
 
-    .line 1154
+    .line 1145
     :cond_6
     const/4 v5, 0x0
 
@@ -6005,7 +5947,7 @@
 
     move-result-object p1
 
-    .line 1155
+    .line 1146
     sget-object v5, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     if-eqz p3, :cond_7
@@ -6018,19 +5960,19 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1158
+    .line 1149
     instance-of v5, p0, Landroid/app/Activity;
 
     if-eqz v5, :cond_0
 
-    .line 1159
+    .line 1150
     invoke-static {}, Lcom/miui/player/MusicUtils;->isMusicLoaded()Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 1160
+    .line 1151
     check-cast p0, Landroid/app/Activity;
 
     .end local p0
@@ -6042,28 +5984,28 @@
     :cond_7
     move v6, p2
 
-    .line 1155
+    .line 1146
     goto :goto_1
 
-    .line 1156
+    .line 1147
     .end local v0           #curid:J
     .end local v2           #curpos:I
     :catch_0
     move-exception v5
 
-    .line 1158
+    .line 1149
     instance-of v5, p0, Landroid/app/Activity;
 
     if-eqz v5, :cond_0
 
-    .line 1159
+    .line 1150
     invoke-static {}, Lcom/miui/player/MusicUtils;->isMusicLoaded()Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 1160
+    .line 1151
     check-cast p0, Landroid/app/Activity;
 
     .end local p0
@@ -6071,7 +6013,7 @@
 
     goto/16 :goto_0
 
-    .line 1158
+    .line 1149
     .restart local p0
     :catchall_0
     move-exception v5
@@ -6080,14 +6022,14 @@
 
     if-eqz v6, :cond_8
 
-    .line 1159
+    .line 1150
     invoke-static {}, Lcom/miui/player/MusicUtils;->isMusicLoaded()Z
 
     move-result v6
 
     if-eqz v6, :cond_8
 
-    .line 1160
+    .line 1151
     check-cast p0, Landroid/app/Activity;
 
     .end local p0
@@ -6105,33 +6047,24 @@
     .parameter "force_shuffle"
 
     .prologue
-    const/4 v5, 0x1
-
     const/4 v6, 0x0
 
-    .line 1078
-    invoke-static {}, Lcom/miui/player/helper/Global;->isSDCardBusy()Z
+    const/4 v5, 0x1
+
+    .line 1070
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v3
 
-    if-eqz v3, :cond_1
+    if-nez v3, :cond_1
 
-    .line 1079
-    const v3, 0x7f080021
-
-    invoke-static {p0, v3, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Landroid/widget/Toast;->show()V
-
-    .line 1111
+    .line 1103
     .end local p0
     :cond_0
     :goto_0
     return-void
 
-    .line 1082
+    .line 1074
     .restart local p0
     :cond_1
     array-length v3, p1
@@ -6142,7 +6075,7 @@
 
     if-nez v3, :cond_3
 
-    .line 1083
+    .line 1075
     :cond_2
     const-string v3, "MusicUtils"
 
@@ -6150,8 +6083,8 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1085
-    const v3, 0x7f080033
+    .line 1077
+    const v3, 0x7f08002d
 
     new-array v4, v5, [Ljava/lang/Object;
 
@@ -6167,7 +6100,7 @@
 
     move-result-object v2
 
-    .line 1086
+    .line 1078
     .local v2, message:Ljava/lang/String;
     invoke-static {p0, v2, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -6177,12 +6110,12 @@
 
     goto :goto_0
 
-    .line 1090
+    .line 1082
     .end local v2           #message:Ljava/lang/String;
     :cond_3
     if-eqz p3, :cond_4
 
-    .line 1091
+    .line 1083
     :try_start_0
     sget-object v3, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6190,7 +6123,7 @@
 
     invoke-interface {v3, v4}, Lcom/miui/player/IMediaPlaybackService;->setShuffleMode(I)V
 
-    .line 1092
+    .line 1084
     sget-object v3, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v3}, Lcom/miui/player/IMediaPlaybackService;->getRepeatMode()I
@@ -6201,21 +6134,21 @@
 
     if-ne v3, v4, :cond_4
 
-    .line 1093
+    .line 1085
     sget-object v3, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     const/4 v4, 0x1
 
     invoke-interface {v3, v4}, Lcom/miui/player/IMediaPlaybackService;->setRepeatMode(I)V
 
-    .line 1097
+    .line 1089
     :cond_4
     if-gez p2, :cond_5
 
-    .line 1098
+    .line 1090
     const/4 p2, 0x0
 
-    .line 1101
+    .line 1093
     :cond_5
     const/4 v3, 0x0
 
@@ -6223,7 +6156,7 @@
 
     move-result-object v1
 
-    .line 1102
+    .line 1094
     .local v1, list:[J
     sget-object v3, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6234,19 +6167,19 @@
     :goto_1
     invoke-interface {v3, v1, v4}, Lcom/miui/player/IMediaPlaybackService;->open([JI)V
 
-    .line 1103
+    .line 1095
     instance-of v3, p0, Landroid/app/Activity;
 
     if-eqz v3, :cond_0
 
-    .line 1104
+    .line 1096
     invoke-static {}, Lcom/miui/player/MusicUtils;->isMusicLoaded()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 1105
+    .line 1097
     check-cast p0, Landroid/app/Activity;
 
     .end local p0
@@ -6258,14 +6191,14 @@
 
     goto :goto_0
 
-    .line 1108
+    .line 1100
     .end local v1           #list:[J
     :catch_0
     move-exception v3
 
     move-object v0, v3
 
-    .line 1109
+    .line 1101
     .local v0, ex:Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->printStackTrace()V
 
@@ -6277,7 +6210,7 @@
     :cond_6
     move v4, p2
 
-    .line 1102
+    .line 1094
     goto :goto_1
 .end method
 
@@ -6287,18 +6220,18 @@
     .parameter "path"
 
     .prologue
-    .line 1675
+    .line 1666
     invoke-static {p0, p1}, Lcom/miui/player/MusicUtils;->getFolderAudioListId(Landroid/content/Context;Ljava/lang/String;)[J
 
     move-result-object v0
 
-    .line 1676
+    .line 1667
     .local v0, list:[J
     const/4 v1, 0x0
 
     invoke-static {p0, v0, v1}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;[JI)V
 
-    .line 1678
+    .line 1669
     return-void
 .end method
 
@@ -6474,7 +6407,7 @@
     .parameter "context"
 
     .prologue
-    .line 1840
+    .line 1831
     const/4 v0, 0x1
 
     new-array v2, v0, [Ljava/lang/String;
@@ -6485,11 +6418,11 @@
 
     aput-object v1, v2, v0
 
-    .line 1843
+    .line 1834
     .local v2, cols:[Ljava/lang/String;
     const-string v6, "title != \'\'"
 
-    .line 1844
+    .line 1835
     .local v6, whereclause:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -6515,7 +6448,7 @@
     .parameter "context"
 
     .prologue
-    .line 1809
+    .line 1800
     const/4 v0, 0x1
 
     new-array v2, v0, [Ljava/lang/String;
@@ -6526,11 +6459,11 @@
 
     aput-object v1, v2, v0
 
-    .line 1813
+    .line 1804
     .local v2, cols:[Ljava/lang/String;
     const-string v6, "title != \'\'"
 
-    .line 1814
+    .line 1805
     .local v6, whereclause:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -6556,12 +6489,12 @@
     .parameter "context"
 
     .prologue
-    .line 1390
+    .line 1381
     sget-object v1, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     if-eqz v1, :cond_0
 
-    .line 1392
+    .line 1383
     :try_start_0
     sget-object v1, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6569,14 +6502,14 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1399
+    .line 1390
     :goto_0
     invoke-static {p0}, Lcom/miui/player/helper/SleepModeManager;->deleteTimer(Landroid/content/Context;)V
 
-    .line 1400
+    .line 1391
     return-void
 
-    .line 1396
+    .line 1387
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -6584,13 +6517,13 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 1397
+    .line 1388
     .local v0, intent:Landroid/content/Intent;
     invoke-virtual {p0, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 1393
+    .line 1384
     .end local v0           #intent:Landroid/content/Intent;
     :catch_0
     move-exception v1
@@ -6604,26 +6537,26 @@
     .parameter "observer"
 
     .prologue
-    .line 2037
+    .line 2028
     if-eqz p0, :cond_0
 
-    .line 2039
+    .line 2030
     :try_start_0
     invoke-virtual {p0, p1}, Landroid/widget/SimpleCursorAdapter;->unregisterDataSetObserver(Landroid/database/DataSetObserver;)V
 
-    .line 2040
+    .line 2031
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Landroid/widget/SimpleCursorAdapter;->changeCursor(Landroid/database/Cursor;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2045
+    .line 2036
     :cond_0
     :goto_0
     return-void
 
-    .line 2041
+    .line 2032
     :catch_0
     move-exception v0
 
@@ -6693,20 +6626,20 @@
 
     const-wide/16 v10, 0x0
 
-    .line 1538
+    .line 1529
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     if-nez v4, :cond_0
 
-    .line 1576
+    .line 1567
     :goto_0
     return-void
 
-    .line 1543
+    .line 1534
     :cond_0
     if-nez p0, :cond_1
 
-    .line 1544
+    .line 1535
     :try_start_0
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6716,65 +6649,65 @@
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
-    .line 1545
+    .line 1536
     const-wide/16 v4, 0x0
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
 
-    .line 1546
+    .line 1537
     const/4 v4, 0x0
 
     iput-boolean v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->isSeeking:Z
 
     goto :goto_0
 
-    .line 1574
+    .line 1565
     :catch_0
     move-exception v4
 
     goto :goto_0
 
-    .line 1548
+    .line 1539
     :cond_1
     const/4 v4, 0x1
 
     iput-boolean v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->isSeeking:Z
 
-    .line 1549
+    .line 1540
     cmp-long v4, p1, v6
 
     if-gez v4, :cond_5
 
-    .line 1551
+    .line 1542
     const-wide/16 v4, 0xa
 
     mul-long/2addr p1, v4
 
-    .line 1556
+    .line 1547
     :goto_1
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
     sub-long v2, v4, p1
 
-    .line 1557
+    .line 1548
     .local v2, newpos:J
     cmp-long v4, v2, v10
 
     if-gez v4, :cond_2
 
-    .line 1559
+    .line 1550
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v4}, Lcom/miui/player/IMediaPlaybackService;->prev()V
 
-    .line 1560
+    .line 1551
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v4}, Lcom/miui/player/IMediaPlaybackService;->duration()J
 
     move-result-wide v0
 
-    .line 1561
+    .line 1552
     .local v0, duration:J
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
@@ -6782,10 +6715,10 @@
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
-    .line 1562
+    .line 1553
     add-long/2addr v2, v0
 
-    .line 1564
+    .line 1555
     .end local v0           #duration:J
     :cond_2
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
@@ -6800,25 +6733,25 @@
 
     if-gez p0, :cond_4
 
-    .line 1565
+    .line 1556
     :cond_3
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v4, v2, v3}, Lcom/miui/player/IMediaPlaybackService;->seek(J)J
 
-    .line 1566
+    .line 1557
     iput-wide p1, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
 
-    .line 1568
+    .line 1559
     :cond_4
     if-ltz p0, :cond_6
 
-    .line 1569
+    .line 1560
     iput-wide v2, p3, Lcom/miui/player/MusicUtils$ScanInfo;->posOverride:J
 
     goto :goto_0
 
-    .line 1554
+    .line 1545
     .end local v2           #newpos:J
     :cond_5
     const-wide/32 v4, 0xc350
@@ -6833,7 +6766,7 @@
 
     goto :goto_1
 
-    .line 1571
+    .line 1562
     .restart local v2       #newpos:J
     :cond_6
     const-wide/16 v4, -0x1
@@ -6854,20 +6787,20 @@
     .prologue
     const-wide/16 v6, 0x1388
 
-    .line 1579
+    .line 1570
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     if-nez v4, :cond_0
 
-    .line 1615
+    .line 1606
     :goto_0
     return-void
 
-    .line 1582
+    .line 1573
     :cond_0
     if-nez p0, :cond_1
 
-    .line 1583
+    .line 1574
     :try_start_0
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6877,47 +6810,47 @@
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
-    .line 1584
+    .line 1575
     const-wide/16 v4, 0x0
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
 
-    .line 1585
+    .line 1576
     const/4 v4, 0x0
 
     iput-boolean v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->isSeeking:Z
 
     goto :goto_0
 
-    .line 1613
+    .line 1604
     :catch_0
     move-exception v4
 
     goto :goto_0
 
-    .line 1587
+    .line 1578
     :cond_1
     const/4 v4, 0x1
 
     iput-boolean v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->isSeeking:Z
 
-    .line 1588
+    .line 1579
     cmp-long v4, p1, v6
 
     if-gez v4, :cond_5
 
-    .line 1590
+    .line 1581
     const-wide/16 v4, 0xa
 
     mul-long/2addr p1, v4
 
-    .line 1595
+    .line 1586
     :goto_1
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
     add-long v2, v4, p1
 
-    .line 1596
+    .line 1587
     .local v2, newpos:J
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -6925,28 +6858,28 @@
 
     move-result-wide v0
 
-    .line 1597
+    .line 1588
     .local v0, duration:J
     cmp-long v4, v2, v0
 
     if-ltz v4, :cond_2
 
-    .line 1599
+    .line 1590
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v4}, Lcom/miui/player/IMediaPlaybackService;->next()V
 
-    .line 1600
+    .line 1591
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
     sub-long/2addr v4, v0
 
     iput-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->startSeekPos:J
 
-    .line 1601
+    .line 1592
     sub-long/2addr v2, v0
 
-    .line 1603
+    .line 1594
     :cond_2
     iget-wide v4, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
 
@@ -6960,25 +6893,25 @@
 
     if-gez p0, :cond_4
 
-    .line 1604
+    .line 1595
     :cond_3
     sget-object v4, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {v4, v2, v3}, Lcom/miui/player/IMediaPlaybackService;->seek(J)J
 
-    .line 1605
+    .line 1596
     iput-wide p1, p3, Lcom/miui/player/MusicUtils$ScanInfo;->lastEventTime:J
 
-    .line 1607
+    .line 1598
     :cond_4
     if-ltz p0, :cond_6
 
-    .line 1608
+    .line 1599
     iput-wide v2, p3, Lcom/miui/player/MusicUtils$ScanInfo;->posOverride:J
 
     goto :goto_0
 
-    .line 1593
+    .line 1584
     .end local v0           #duration:J
     .end local v2           #newpos:J
     :cond_5
@@ -6994,7 +6927,7 @@
 
     goto :goto_1
 
-    .line 1610
+    .line 1601
     .restart local v0       #duration:J
     .restart local v2       #newpos:J
     :cond_6
@@ -7019,14 +6952,14 @@
 
     const/4 v3, 0x0
 
-    .line 1175
+    .line 1166
     sget-object v0, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     invoke-static {v0, p1, p2}, Landroid/content/ContentUris;->withAppendedId(Landroid/net/Uri;J)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 1176
+    .line 1167
     .local v1, uri:Landroid/net/Uri;
     const/4 v0, 0x2
 
@@ -7040,7 +6973,7 @@
 
     aput-object v0, v2, v11
 
-    .line 1177
+    .line 1168
     .local v2, proj:[Ljava/lang/String;
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -7054,36 +6987,36 @@
 
     move-result-object v6
 
-    .line 1178
+    .line 1169
     .local v6, c:Landroid/database/Cursor;
     if-eqz v6, :cond_1
 
-    .line 1179
+    .line 1170
     invoke-interface {v6}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1180
+    .line 1171
     new-instance v8, Landroid/content/Intent;
 
     const-string v0, "android.intent.action.SEND"
 
     invoke-direct {v8, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 1181
+    .line 1172
     .local v8, intent:Landroid/content/Intent;
     const-string v0, "android.intent.extra.STREAM"
 
     invoke-virtual {v8, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 1182
+    .line 1173
     const-string v0, "audio/*"
 
     invoke-virtual {v8, v3, v0}, Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 1183
+    .line 1174
     invoke-interface {v6, v11}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v3
@@ -7092,7 +7025,7 @@
 
     move-result-object v7
 
-    .line 1184
+    .line 1175
     .local v7, descrip:Ljava/lang/String;
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -7126,7 +7059,7 @@
 
     move-result-object v9
 
-    .line 1185
+    .line 1176
     .local v9, title:Ljava/lang/String;
     invoke-static {v8, v9}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
@@ -7134,14 +7067,14 @@
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 1187
+    .line 1178
     .end local v7           #descrip:Ljava/lang/String;
     .end local v8           #intent:Landroid/content/Intent;
     .end local v9           #title:Ljava/lang/String;
     :cond_0
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    .line 1189
+    .line 1180
     :cond_1
     return-void
 .end method
@@ -7152,46 +7085,46 @@
     .parameter "bm"
 
     .prologue
-    .line 1249
+    .line 1240
     if-nez p1, :cond_1
 
-    .line 1250
+    .line 1241
     const/16 p1, 0x0
 
     invoke-virtual/range {p0 .. p1}, Landroid/view/View;->setBackgroundResource(I)V
 
-    .line 1296
+    .line 1287
     .end local p1
     :cond_0
     :goto_0
     return-void
 
-    .line 1254
+    .line 1245
     .restart local p1
     :cond_1
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getWidth()I
 
     move-result v14
 
-    .line 1255
+    .line 1246
     .local v14, vwidth:I
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v13
 
-    .line 1256
+    .line 1247
     .local v13, vheight:I
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 1257
+    .line 1248
     .local v7, bwidth:I
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v6
 
-    .line 1258
+    .line 1249
     .local v6, bheight:I
     int-to-float v5, v14
 
@@ -7199,7 +7132,7 @@
 
     div-float/2addr v5, v8
 
-    .line 1259
+    .line 1250
     .local v5, scalex:F
     int-to-float v8, v13
 
@@ -7207,7 +7140,7 @@
 
     div-float/2addr v8, v9
 
-    .line 1260
+    .line 1251
     .local v8, scaley:F
     invoke-static {v5, v8}, Ljava/lang/Math;->max(FF)F
 
@@ -7218,61 +7151,61 @@
 
     mul-float v12, v5, v8
 
-    .line 1262
+    .line 1253
     .local v12, scale:F
     sget-object v8, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
-    .line 1263
+    .line 1254
     .local v8, config:Landroid/graphics/Bitmap$Config;
     const/4 v5, 0x0
 
-    .line 1265
+    .line 1256
     .local v5, bg:Landroid/graphics/Bitmap;
     :try_start_0
     invoke-static {v14, v13, v8}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    .line 1266
+    .line 1257
     new-instance v8, Landroid/graphics/Canvas;
 
     .end local v8           #config:Landroid/graphics/Bitmap$Config;
     invoke-direct {v8, v5}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 1267
+    .line 1258
     .local v8, c:Landroid/graphics/Canvas;
     new-instance v11, Landroid/graphics/Paint;
 
     invoke-direct {v11}, Landroid/graphics/Paint;-><init>()V
 
-    .line 1268
+    .line 1259
     .local v11, paint:Landroid/graphics/Paint;
     const/4 v9, 0x1
 
     invoke-virtual {v11, v9}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 1269
+    .line 1260
     const/4 v9, 0x1
 
     invoke-virtual {v11, v9}, Landroid/graphics/Paint;->setFilterBitmap(Z)V
 
-    .line 1270
+    .line 1261
     new-instance v10, Landroid/graphics/ColorMatrix;
 
     invoke-direct {v10}, Landroid/graphics/ColorMatrix;-><init>()V
 
-    .line 1271
+    .line 1262
     .local v10, greymatrix:Landroid/graphics/ColorMatrix;
     const/4 v9, 0x0
 
     invoke-virtual {v10, v9}, Landroid/graphics/ColorMatrix;->setSaturation(F)V
 
-    .line 1272
+    .line 1263
     new-instance v9, Landroid/graphics/ColorMatrix;
 
     invoke-direct {v9}, Landroid/graphics/ColorMatrix;-><init>()V
 
-    .line 1273
+    .line 1264
     .local v9, darkmatrix:Landroid/graphics/ColorMatrix;
     const v15, 0x3e99999a
 
@@ -7294,26 +7227,26 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/ColorMatrix;->setScale(FFFF)V
 
-    .line 1274
+    .line 1265
     invoke-virtual {v10, v9}, Landroid/graphics/ColorMatrix;->postConcat(Landroid/graphics/ColorMatrix;)V
 
-    .line 1275
+    .line 1266
     new-instance v9, Landroid/graphics/ColorMatrixColorFilter;
 
     .end local v9           #darkmatrix:Landroid/graphics/ColorMatrix;
     invoke-direct {v9, v10}, Landroid/graphics/ColorMatrixColorFilter;-><init>(Landroid/graphics/ColorMatrix;)V
 
-    .line 1276
+    .line 1267
     .local v9, filter:Landroid/graphics/ColorFilter;
     invoke-virtual {v11, v9}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
-    .line 1277
+    .line 1268
     new-instance v9, Landroid/graphics/Matrix;
 
     .end local v9           #filter:Landroid/graphics/ColorFilter;
     invoke-direct {v9}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 1278
+    .line 1269
     .local v9, matrix:Landroid/graphics/Matrix;
     neg-int v7, v7
 
@@ -7331,15 +7264,15 @@
 
     invoke-virtual {v9, v7, v6}, Landroid/graphics/Matrix;->setTranslate(FF)V
 
-    .line 1281
+    .line 1272
     const/high16 v6, 0x4120
 
     invoke-virtual {v9, v6}, Landroid/graphics/Matrix;->postRotate(F)Z
 
-    .line 1282
+    .line 1273
     invoke-virtual {v9, v12, v12}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 1283
+    .line 1274
     div-int/lit8 v6, v14, 0x2
 
     int-to-float v6, v6
@@ -7350,7 +7283,7 @@
 
     invoke-virtual {v9, v6, v7}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 1286
+    .line 1277
     move-object v0, v8
 
     move-object/from16 v1, p1
@@ -7361,7 +7294,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 1287
+    .line 1278
     new-instance p1, Landroid/graphics/drawable/BitmapDrawable;
 
     .end local p1
@@ -7371,7 +7304,7 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 1288
+    .line 1279
     .local p1, d:Landroid/graphics/drawable/Drawable;
     const/16 v6, 0x32
 
@@ -7381,14 +7314,14 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
-    .line 1289
+    .line 1280
     invoke-virtual/range {p0 .. p1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
     move-object/from16 p1, v5
 
-    .line 1293
+    .line 1284
     .end local v5           #bg:Landroid/graphics/Bitmap;
     .end local v8           #c:Landroid/graphics/Canvas;
     .end local v9           #matrix:Landroid/graphics/Matrix;
@@ -7398,14 +7331,14 @@
     :goto_1
     if-nez p1, :cond_0
 
-    .line 1294
+    .line 1285
     const/16 p1, 0x0
 
     invoke-virtual/range {p0 .. p1}, Landroid/view/View;->setBackgroundResource(I)V
 
     goto/16 :goto_0
 
-    .line 1290
+    .line 1281
     .end local p1           #bg:Landroid/graphics/Bitmap;
     .restart local v5       #bg:Landroid/graphics/Bitmap;
     :catch_0
@@ -7419,7 +7352,7 @@
     .restart local p1       #bg:Landroid/graphics/Bitmap;
     move-object/from16 v5, v19
 
-    .line 1291
+    .line 1282
     .local v5, e:Ljava/lang/OutOfMemoryError;
     const/16 p1, 0x0
 
@@ -7432,12 +7365,12 @@
     .parameter "id"
 
     .prologue
-    .line 1210
+    .line 1201
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v6
 
-    .line 1212
+    .line 1203
     .local v6, resolver:Landroid/content/ContentResolver;
     sget-object v0, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -7445,7 +7378,7 @@
 
     move-result-object v7
 
-    .line 1214
+    .line 1205
     .local v7, ringUri:Landroid/net/Uri;
     :try_start_0
     new-instance v0, Landroid/content/ContentValues;
@@ -7454,7 +7387,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/ContentValues;-><init>(I)V
 
-    .line 1215
+    .line 1206
     .local v0, values:Landroid/content/ContentValues;
     const-string v1, "is_ringtone"
 
@@ -7462,14 +7395,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1216
+    .line 1207
     const-string v1, "is_alarm"
 
     const-string v2, "1"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1217
+    .line 1208
     const/4 v1, 0x0
 
     const/4 v2, 0x0
@@ -7478,7 +7411,7 @@
     :try_end_0
     .catch Ljava/lang/UnsupportedOperationException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1224
+    .line 1215
     const/4 v0, 0x3
 
     new-array v2, v0, [Ljava/lang/String;
@@ -7502,7 +7435,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1229
+    .line 1220
     .local v2, cols:[Ljava/lang/String;
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -7523,7 +7456,7 @@
 
     move-result-object v3
 
-    .line 1230
+    .line 1221
     .local v3, where:Ljava/lang/String;
     sget-object v1, Landroid/provider/MediaStore$Audio$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -7537,7 +7470,7 @@
 
     move-result-object p1
 
-    .line 1233
+    .line 1224
     .local p1, cursor:Landroid/database/Cursor;
     if-eqz p1, :cond_0
 
@@ -7550,10 +7483,10 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1235
+    .line 1226
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 1236
+    .line 1227
     const-string p2, "ringtone"
 
     invoke-virtual {v7}, Landroid/net/Uri;->toString()Ljava/lang/String;
@@ -7562,8 +7495,8 @@
 
     invoke-static {v6, p2, v0}, Landroid/provider/Settings$System;->putString(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 1237
-    const p2, 0x7f080029
+    .line 1228
+    const p2, 0x7f080023
 
     const/4 v0, 0x1
 
@@ -7584,7 +7517,7 @@
 
     move-result-object p2
 
-    .line 1238
+    .line 1229
     .local p2, message:Ljava/lang/String;
     const/4 v0, 0x0
 
@@ -7597,28 +7530,28 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1241
+    .line 1232
     .end local p2           #message:Ljava/lang/String;
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 1242
+    .line 1233
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 1245
+    .line 1236
     .end local v3           #where:Ljava/lang/String;
     .end local p1           #cursor:Landroid/database/Cursor;
     :cond_1
     :goto_0
     return-void
 
-    .line 1218
+    .line 1209
     .restart local p0
     .local p1, id:J
     :catch_0
     move-exception p0
 
-    .line 1220
+    .line 1211
     .local p0, ex:Ljava/lang/UnsupportedOperationException;
     const-string p0, "MusicUtils"
 
@@ -7646,7 +7579,7 @@
 
     goto :goto_0
 
-    .line 1241
+    .line 1232
     .restart local v3       #where:Ljava/lang/String;
     .local p1, cursor:Landroid/database/Cursor;
     :catchall_0
@@ -7654,7 +7587,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 1242
+    .line 1233
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
     :cond_2
@@ -7671,7 +7604,7 @@
     .parameter "on"
 
     .prologue
-    .line 1426
+    .line 1417
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
@@ -7682,36 +7615,36 @@
 
     move-result v1
 
-    .line 1427
+    .line 1418
     .local v1, ON_COLOR:I
     const/high16 v0, -0x100
 
-    .line 1429
+    .line 1420
     .local v0, OFF_COLOR:I
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 1430
+    .line 1421
     if-eqz p5, :cond_0
 
     move v2, v1
 
-    .line 1431
+    .line 1422
     .local v2, color:I
     :goto_0
     invoke-virtual {p2, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1432
+    .line 1423
     invoke-virtual {p1, p5}, Landroid/view/View;->setSelected(Z)V
 
-    .line 1434
+    .line 1425
     const/4 v3, 0x0
 
     invoke-virtual {p2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 1435
+    .line 1426
     return-void
 
-    .line 1430
+    .line 1421
     .end local v2           #color:I
     :cond_0
     const/high16 v3, -0x100
@@ -7727,14 +7660,14 @@
     .parameter "cursor"
 
     .prologue
-    .line 1061
+    .line 1053
     const/4 v0, -0x1
 
     const/4 v1, 0x1
 
     invoke-static {p0, p1, v0, v1}, Lcom/miui/player/MusicUtils;->playAll(Landroid/content/Context;Landroid/database/Cursor;IZ)V
 
-    .line 1062
+    .line 1054
     return-void
 .end method
 
@@ -7795,17 +7728,17 @@
     .parameter "receiver"
 
     .prologue
-    .line 2030
+    .line 2021
     :try_start_0
     invoke-virtual {p0, p1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2034
+    .line 2025
     :goto_0
     return-void
 
-    .line 2031
+    .line 2022
     :catch_0
     move-exception v0
 
@@ -7820,14 +7753,14 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 2048
+    .line 2039
     invoke-virtual {p0}, Landroid/widget/ListView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/View;
 
-    .line 2049
+    .line 2040
     .local v1, parent:Landroid/view/View;
     const v4, 0x7f0c000d
 
@@ -7837,36 +7770,36 @@
 
     check-cast v2, Lcom/miui/player/ui/view/AlphabetScroller;
 
-    .line 2050
+    .line 2041
     .local v2, scroller:Lcom/miui/player/ui/view/AlphabetScroller;
     if-nez v2, :cond_0
 
-    .line 2066
+    .line 2057
     :goto_0
     return-void
 
-    .line 2053
+    .line 2044
     :cond_0
     const/4 v3, 0x0
 
-    .line 2054
+    .line 2045
     .local v3, sectionAdapter:Lcom/miui/player/model/SectionCursorAdapter;
     instance-of v4, p1, Lcom/miui/player/model/SectionCursorAdapter;
 
     if-eqz v4, :cond_1
 
-    .line 2055
+    .line 2046
     move-object v0, p1
 
     check-cast v0, Lcom/miui/player/model/SectionCursorAdapter;
 
     move-object v3, v0
 
-    .line 2057
+    .line 2048
     :cond_1
     if-eqz v3, :cond_2
 
-    .line 2058
+    .line 2049
     invoke-virtual {v3}, Lcom/miui/player/model/SectionCursorAdapter;->makeScrollListener()Landroid/widget/AbsListView$OnScrollListener;
 
     move-result-object v4
@@ -7877,26 +7810,26 @@
 
     invoke-virtual {p0, v4}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
-    .line 2059
+    .line 2050
     invoke-virtual {v2}, Lcom/miui/player/ui/view/AlphabetScroller;->getIndexerChangeListener()Lcom/miui/player/ui/view/AlphabetScroller$OnIndexerChangedListener;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/miui/player/model/SectionCursorAdapter;->setOnIndexerChangedListener(Lcom/miui/player/ui/view/AlphabetScroller$OnIndexerChangedListener;)V
 
-    .line 2060
+    .line 2051
     invoke-virtual {v2}, Lcom/miui/player/ui/view/AlphabetScroller;->refreshAlphabetBgPos()V
 
-    .line 2061
+    .line 2052
     invoke-virtual {v2, p0, v3}, Lcom/miui/player/ui/view/AlphabetScroller;->setList(Landroid/widget/AbsListView;Landroid/widget/SectionIndexer;)V
 
     goto :goto_0
 
-    .line 2063
+    .line 2054
     :cond_2
     invoke-virtual {p0, v5}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
-    .line 2064
+    .line 2055
     invoke-virtual {v2, v5, v5}, Lcom/miui/player/ui/view/AlphabetScroller;->setList(Landroid/widget/AbsListView;Landroid/widget/SectionIndexer;)V
 
     goto :goto_0
@@ -7907,25 +7840,25 @@
     .parameter "a"
 
     .prologue
-    .line 1438
+    .line 1429
     const v1, 0x7f0c0050
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 1439
+    .line 1430
     .local v0, v:Landroid/view/View;
     if-eqz v0, :cond_0
 
-    .line 1440
+    .line 1431
     new-instance v1, Lcom/miui/player/MusicUtils$1;
 
     invoke-direct {v1, p0}, Lcom/miui/player/MusicUtils$1;-><init>(Landroid/app/Activity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1455
+    .line 1446
     :cond_0
     return-void
 .end method
@@ -7940,22 +7873,22 @@
     .prologue
     const/4 v7, 0x0
 
-    .line 1404
+    .line 1395
     const v4, 0x7f0c000c
 
     invoke-virtual {p0, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    .line 1405
+    .line 1396
     .local v3, titleView:Landroid/view/View;
     if-nez v3, :cond_0
 
-    .line 1421
+    .line 1412
     :goto_0
     return-void
 
-    .line 1409
+    .line 1400
     :cond_0
     const v4, 0x7f0c0051
 
@@ -7965,20 +7898,20 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    .line 1410
+    .line 1401
     .local v2, titleTextView:Landroid/widget/TextView;
     invoke-virtual {v2, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 1411
+    .line 1402
     invoke-virtual {v3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/TextView;
 
-    .line 1412
+    .line 1403
     .local v1, countTextView:Landroid/widget/TextView;
-    const v4, 0x7f08004b
+    const v4, 0x7f080045
 
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -7998,21 +7931,21 @@
 
     move-result-object v0
 
-    .line 1413
+    .line 1404
     .local v0, countStr:Ljava/lang/String;
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 1415
+    .line 1406
     if-gez p3, :cond_1
 
-    .line 1416
+    .line 1407
     const/4 v4, 0x4
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 1418
+    .line 1409
     :cond_1
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setVisibility(I)V
 
@@ -8024,7 +7957,7 @@
     .parameter "context"
 
     .prologue
-    .line 1720
+    .line 1711
     :try_start_0
     sget-object v0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -8032,7 +7965,7 @@
 
     move-result-wide v0
 
-    .line 1721
+    .line 1712
     .local v0, currentId:J
     sget-object v2, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -8040,13 +7973,13 @@
 
     move-result-object v2
 
-    .line 1722
+    .line 1713
     .local v2, oldAudioArr:[J
     invoke-static {p0, v2}, Lcom/miui/player/MusicUtils;->getFilterNowPlayingArr(Landroid/content/Context;[J)Ljava/util/HashSet;
 
     move-result-object v3
 
-    .line 1723
+    .line 1714
     .local v3, newAudioIdSet:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     invoke-static {v0, v1}, Lcom/miui/player/provider/PlayerProvider;->isOnlineAudio(J)Z
 
@@ -8065,16 +7998,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1724
+    .line 1715
     sget-object p0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
     invoke-interface {p0}, Lcom/miui/player/IMediaPlaybackService;->stop()V
 
-    .line 1727
+    .line 1718
     :cond_0
     const/4 v4, 0x0
 
-    .line 1728
+    .line 1719
     .local v4, oldAudioIndex:I
     array-length p0, v2
 
@@ -8085,11 +8018,11 @@
     .end local v0           #currentId:J
     sub-int/2addr p0, v0
 
-    .line 1729
+    .line 1720
     .local p0, length:I
     if-nez p0, :cond_2
 
-    .line 1753
+    .line 1744
     .end local v2           #oldAudioArr:[J
     .end local v3           #newAudioIdSet:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     .end local v4           #oldAudioIndex:I
@@ -8098,7 +8031,7 @@
     :goto_0
     return-void
 
-    .line 1732
+    .line 1723
     .restart local v2       #oldAudioArr:[J
     .restart local v3       #newAudioIdSet:Ljava/util/HashSet;,"Ljava/util/HashSet<Ljava/lang/Long;>;"
     .restart local v4       #oldAudioIndex:I
@@ -8108,7 +8041,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1733
+    .line 1724
     .local v0, deletePosList:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/Integer;>;"
     move-object p0, v2
 
@@ -8128,7 +8061,7 @@
 
     aget-wide v4, p0, v1
 
-    .line 1734
+    .line 1725
     .local v4, oldAudioId:J
     invoke-static {v4, v5}, Lcom/miui/player/provider/PlayerProvider;->isOnlineAudio(J)Z
 
@@ -8147,18 +8080,18 @@
 
     if-nez v4, :cond_3
 
-    .line 1735
+    .line 1726
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 1737
+    .line 1728
     :cond_3
     add-int/lit8 v4, v6, 0x1
 
-    .line 1733
+    .line 1724
     .end local v6           #oldAudioIndex:I
     .local v4, oldAudioIndex:I
     add-int/lit8 v1, v1, 0x1
@@ -8169,7 +8102,7 @@
     .restart local v6       #oldAudioIndex:I
     goto :goto_1
 
-    .line 1739
+    .line 1730
     :cond_4
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -8178,16 +8111,16 @@
     .end local p0           #arr$:[J
     if-nez p0, :cond_1
 
-    .line 1743
+    .line 1734
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
-    .line 1744
+    .line 1735
     .local v2, size:I
     new-array p0, v2, [I
 
-    .line 1745
+    .line 1736
     .local p0, deletePosArr:[I
     const/4 v1, 0x0
 
@@ -8196,7 +8129,7 @@
     :goto_2
     if-ge v1, v2, :cond_5
 
-    .line 1746
+    .line 1737
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -8209,12 +8142,12 @@
 
     aput v3, p0, v1
 
-    .line 1745
+    .line 1736
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_2
 
-    .line 1748
+    .line 1739
     :cond_5
     sget-object v0, Lcom/miui/player/MusicUtils;->sService:Lcom/miui/player/IMediaPlaybackService;
 
@@ -8225,7 +8158,7 @@
 
     goto :goto_0
 
-    .line 1750
+    .line 1741
     .end local v1           #index:I
     .end local v2           #size:I
     .end local v6           #oldAudioIndex:I
@@ -8233,7 +8166,7 @@
     :catch_0
     move-exception p0
 
-    .line 1751
+    .line 1742
     .local p0, e:Landroid/os/RemoteException;
     invoke-virtual {p0}, Landroid/os/RemoteException;->printStackTrace()V
 
@@ -8245,7 +8178,7 @@
     .parameter "context"
 
     .prologue
-    .line 1300
+    .line 1291
     const/4 v0, 0x0
 
     const/4 v1, 0x1
@@ -8263,7 +8196,7 @@
     .parameter "rawWhereClause"
 
     .prologue
-    .line 1304
+    .line 1295
     const/4 v0, 0x1
 
     invoke-static {p0, p1, v0}, Lcom/miui/player/MusicUtils;->wrapWithBlacklist(Landroid/content/Context;Ljava/lang/String;Z)Ljava/lang/String;
@@ -8288,10 +8221,10 @@
 
     const-string v8, " AND "
 
-    .line 1310
+    .line 1301
     const-string v0, " AND "
 
-    .line 1312
+    .line 1303
     .local v0, AND_CLAUSE:Ljava/lang/String;
     const-string v7, "min_music_filter_size"
 
@@ -8303,13 +8236,13 @@
 
     move-result v1
 
-    .line 1315
+    .line 1306
     .local v1, SIZE_BORDER:I
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1316
+    .line 1307
     .local v6, sb:Ljava/lang/StringBuilder;
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -8317,32 +8250,32 @@
 
     if-nez v7, :cond_0
 
-    .line 1317
+    .line 1308
     invoke-virtual {v6, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1318
+    .line 1309
     const-string v7, " AND "
 
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1321
+    .line 1312
     :cond_0
     const-string v7, "_size"
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1322
+    .line 1313
     const-string v7, ">"
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1323
+    .line 1314
     invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 1325
+    .line 1316
     if-eqz p2, :cond_2
 
-    .line 1326
+    .line 1317
     invoke-static {p0}, Lcom/miui/player/helper/FolderPathProvider;->instance(Landroid/content/Context;)Lcom/miui/player/helper/FolderPathProvider;
 
     move-result-object v7
@@ -8351,34 +8284,34 @@
 
     move-result-object v5
 
-    .line 1327
+    .line 1318
     .local v5, likeClause:Ljava/lang/String;
     if-eqz v5, :cond_2
 
-    .line 1328
+    .line 1319
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
 
     if-nez v7, :cond_1
 
-    .line 1329
+    .line 1320
     const-string v7, " AND "
 
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1331
+    .line 1322
     :cond_1
     invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1335
+    .line 1326
     .end local v5           #likeClause:Ljava/lang/String;
     :cond_2
     invoke-static {}, Lcom/miui/player/helper/AsyncMusicPlayer;->getTempFilePathArr()[Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1336
+    .line 1327
     .local v2, filePathArr:[Ljava/lang/String;
     if-eqz v2, :cond_4
 
@@ -8386,45 +8319,45 @@
 
     if-lez v7, :cond_4
 
-    .line 1337
+    .line 1328
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
 
     if-nez v7, :cond_3
 
-    .line 1338
+    .line 1329
     const-string v7, " AND "
 
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1340
+    .line 1331
     :cond_3
     const-string v7, "_data"
 
     invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1341
+    .line 1332
     const-string v7, "!=\'"
 
     invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1342
+    .line 1333
     const/4 v7, 0x0
 
     aget-object v7, v2, v7
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1343
+    .line 1334
     const-string v7, "\'"
 
     invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1345
+    .line 1336
     array-length v4, v2
 
-    .line 1346
+    .line 1337
     .local v4, len:I
     const/4 v3, 0x1
 
@@ -8432,37 +8365,37 @@
     :goto_0
     if-ge v3, v4, :cond_4
 
-    .line 1347
+    .line 1338
     const-string v7, " AND "
 
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1348
+    .line 1339
     const-string v7, "_data"
 
     invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1349
+    .line 1340
     const-string v7, "!=\'"
 
     invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1350
+    .line 1341
     aget-object v7, v2, v3
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1351
+    .line 1342
     const-string v7, "\'"
 
     invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1346
+    .line 1337
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 1355
+    .line 1346
     .end local v3           #i:I
     .end local v4           #len:I
     :cond_4
