@@ -269,6 +269,7 @@
   <string name="priority_label">优先级：\u0020</string>
   <string name="priority_low">低</string>
   <string name="priority_normal">正常</string>
+  <string name="privacy_mode_hint">无法在访客模式下发送信息</string>
   <string name="random_pick">试试手气</string>
   <string name="rate_limit_surpassed">确认</string>
   <string name="received_label">接收时间：\u0020</string>

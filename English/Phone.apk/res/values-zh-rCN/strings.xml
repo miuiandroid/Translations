@@ -480,7 +480,7 @@
   <string name="simContacts_empty">SIM卡上无联系人</string>
   <string name="simContacts_emptyLoading">正在从SIM卡读取...</string>
   <string name="simContacts_empty_add_contact_hint">\n按菜单键新建</string>
-  <string name="simContacts_title">导入SIM卡联系人</string>
+  <string name="simContacts_title">SIM卡联系人</string>
   <string name="sim_card_import_result">以下%d位与已有的联系人姓名、电话完全一致，已合并</string>
   <string name="sim_lock_off">需要输入 PIN 才能使用手机</string>
   <string name="sim_lock_on">需要输入 PIN 才能使用手机</string>

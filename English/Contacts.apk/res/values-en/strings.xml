@@ -59,6 +59,7 @@
   <string name="callrecordview_menu_delete_all">Clear all calls</string>
   <string name="callrecordview_menu_delete_called">Clear dialed calls</string>
   <string name="callrecordview_menu_delete_confirm">Confirm %s?</string>
+  <string name="callrecordview_menu_delete_group">Remove selected group from call log</string>
   <string name="callrecordview_menu_delete_missed">Clear missed calls</string>
   <string name="callrecordview_menu_delete_one">Remove from call log</string>
   <string name="callrecordview_menu_delete_stranger">Clear unknown numbers</string>
@@ -84,6 +85,8 @@
   <string name="check_nothing">Deselect all</string>
   <string name="clearCallLogConfirmation">Are you sure you want to clear the call log?</string>
   <string name="clearCallLogConfirmation_title">Clear call log</string>
+  <string name="clearGroupCallLogConfirmation">Are you sure you want to clear this group from the call log?</string>
+  <string name="clearOneCallLogConfirmation">Are you sure you want to clear the call log?</string>
   <string name="composer_failed_to_get_database_infomation">Failed to get database information</string>
   <string name="composer_has_no_exportable_contact">There is no exportable contact. The data provider may prohibit contacts from being exported.</string>
   <string name="composer_not_initialized">The vCard composer is not correctly initialised</string>
@@ -143,6 +146,7 @@
   <string name="description_image_button_two">two</string>
   <string name="description_image_button_zero">zero</string>
   <string name="dialerDialpadHintText">Dial to add a call</string>
+  <string name="dialer_empty_text_loading">Loading...</string>
   <string name="dialer_empty_text_no_call_log">No calls</string>
   <string name="dialer_empty_text_no_search_result">No contacts found</string>
   <string name="dialer_item_click_guide_call">Call this number</string>
@@ -277,6 +281,7 @@
   <string name="menu_sendTextMessage">Send text message</string>
   <string name="menu_sendToDesktop">Send to homescreen</string>
   <string name="menu_share">Share</string>
+  <string name="menu_sim_contact">SIM contacts</string>
   <string name="menu_splitAggregate">Separate</string>
   <string name="menu_uncheckall">Deselect all</string>
   <string name="menu_viewAddress">Map address</string>

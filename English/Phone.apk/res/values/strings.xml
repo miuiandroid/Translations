@@ -496,7 +496,7 @@
   <string name="simContacts_empty">No contacts on your SIM card</string>
   <string name="simContacts_emptyLoading">Reading from SIM card…</string>
   <string name="simContacts_empty_add_contact_hint">\nPress menu to add one</string>
-  <string name="simContacts_title">Select contacts to import</string>
+  <string name="simContacts_title">SIM contacts</string>
   <string name="sim_card_import_result">A total of %d were existing contacts and have been consolidated</string>
   <string name="sim_lock_off">Require PIN to use phone</string>
   <string name="sim_lock_on">Require PIN to use phone</string>

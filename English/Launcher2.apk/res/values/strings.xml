@@ -67,8 +67,6 @@
   <string name="preferences_general_title">General settings</string>
   <string name="preferences_title">Launcher Settings</string>
   <string name="process" />
-  <string name="sdcard_busy_title">SD card is not available or busy</string>
-  <string name="sdcard_missing_title">SD card not found</string>
   <string name="sharedUserId" />
   <string name="sort_by_abc">Sort by name</string>
   <string name="sort_by_frequency">Sort by usage</string>

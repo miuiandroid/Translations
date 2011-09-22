@@ -510,6 +510,7 @@
   <string name="date_time_set_date">设置日期</string>
   <string name="date_time_set_time">设置时间</string>
   <string name="date_time_set_timezone">选择时区</string>
+  <string name="date_time_sync_when_startup">每次开机同步时间</string>
   <string name="debug_log">调试日志</string>
   <string name="default_application_settings">默认程序设置</string>
   <string name="default_browser">默认浏览器</string>
@@ -592,7 +593,7 @@
   <string name="error_title">注意</string>
   <string name="filter">过滤</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">USB 存储设备</string>
+  <string name="filter_apps_onsdcard">SD 卡中</string>
   <string name="filter_apps_running">正在运行</string>
   <string name="filter_apps_third_party">已下载</string>
   <string name="font_size_save">确定</string>
@@ -819,7 +820,7 @@
   <string name="move_app_failed_dlg_text">无法移动应用程序。%1$s</string>
   <string name="move_app_failed_dlg_title">移动应用程序</string>
   <string name="move_app_to_internal">移至手机内存</string>
-  <string name="move_app_to_sdcard">移至 USB 存储设备</string>
+  <string name="move_app_to_sdcard">移至 SD 卡</string>
   <string name="moving">正在移动</string>
   <string name="music_volume_summary">音乐、视频、游戏等的音量</string>
   <string name="music_volume_title">媒体音量</string>
@@ -991,7 +992,7 @@
   <string name="runningservices_settings_title">正在运行的服务</string>
   <string name="screen_rotation">旋转屏幕</string>
   <string name="screen_timeout">屏幕超时</string>
-  <string name="sd_card_storage">USB 存储设备</string>
+  <string name="sd_card_storage">SD 卡存储设备</string>
   <string name="sd_eject">卸载 SD 卡</string>
   <string name="sd_eject_summary">必须先卸载 SD 卡，才能将其安全移除</string>
   <string name="sd_ejecting_summary">正在卸载</string>
@@ -1279,6 +1280,7 @@
   <string name="vpn_reconnect_from_lost">连接已断。是否要重新连接？</string>
   <string name="vpn_remote_hung_up_error_dialog_msg">服务器已暂停。输入的用户名或密码可能不正确。是否要再试一次？</string>
   <string name="vpn_remote_ppp_hung_up_error_dialog_msg">服务器已挂起。可能是防火墙阻止了您与服务器的连接。是否要重试？</string>
+  <string name="vpn_save_password">记住密码</string>
   <string name="vpn_save_username">记住用户名</string>
   <string name="vpn_secret_not_set">（未设置）</string>
   <string name="vpn_secret_not_set_dialog_msg">此虚拟专用网配置中缺少一个或多个密钥。是否要检查密钥设置？</string>
@@ -1316,7 +1318,7 @@
   <string name="wifi_eap_user_cert">用户证书</string>
   <string name="wifi_error">出错</string>
   <string name="wifi_fail_to_scan">无法通过扫描查找网络</string>
-  <string name="wifi_forget">不保存</string>
+  <string name="wifi_forget">忽略此网络</string>
   <string name="wifi_gateway">网关</string>
   <string name="wifi_in_airplane_mode">正处于飞行模式</string>
   <string name="wifi_ip_address">IP 地址</string>
@@ -1342,6 +1344,7 @@
   <string name="wifi_secured">通过 %1$s 进行保护</string>
   <string name="wifi_secured_with_status">%2$s，通过 %1$s 进行保护</string>
   <string name="wifi_security">安全性</string>
+  <string name="wifi_setting">设置</string>
   <string name="wifi_setting_num_channels_channel_phrase">%1$d 个频道</string>
   <string name="wifi_setting_num_channels_error">设置调整域时出现问题。</string>
   <string name="wifi_setting_num_channels_summary">设置要使用的频道个数</string>

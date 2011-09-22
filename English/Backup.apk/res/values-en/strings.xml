@@ -70,6 +70,8 @@
   <string name="dir_date_format">yyyy-MM-dd_HH-mm-ss</string>
   <string name="findlost_contact">Recover contacts</string>
   <string name="findlost_contact_online">Restore deleted contacts from cloud</string>
+  <string name="guarded_mode_dialog_message">Cannot backup/restore in guarded mode</string>
+  <string name="guarded_mode_dialog_title">Guarded mode</string>
   <string name="import_from_xiaomi_account_hint1">1. Install MiTalk and log in.\n http://www.miliao.com\n\n3.	Enter MiTalk settings and choose ”Back up contacts to Xiaomi account”</string>
   <string name="import_from_xiaomi_account_hint2">Note: Go to next step if backup already exists</string>
   <string name="import_from_xiaomi_account_hint_title">Use MiTalk to back up contacts on other devices, not MI-ONE</string>

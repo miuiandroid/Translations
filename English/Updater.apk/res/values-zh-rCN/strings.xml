@@ -84,7 +84,7 @@
   <string name="sytemt_backup_helper">系统升级并不影响您的用户数据。不过，为了保障您的数据安全，建议您进行数据备份</string>
   <string name="test_version">开发版</string>
   <string name="update_success">恭喜您，升级成功</string>
-  <string name="update_success_body_title">恭喜您已经成功升级到</string>
+  <string name="update_success_body">您已经成功更新到 %s</string>
   <string name="update_success_title">恭喜您，刷机成功啦!</string>
   <string name="verify_and_apply_dialog_message">正在验证文件MD5</string>
   <string name="verify_and_apply_dialog_title">正在确认文件完整性</string>

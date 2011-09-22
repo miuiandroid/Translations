@@ -271,6 +271,7 @@
   <string name="priority_label">Priority:\u0020</string>
   <string name="priority_low">Low</string>
   <string name="priority_normal">Normal</string>
+  <string name="privacy_mode_hint">Cannot send message in guarded mode</string>
   <string name="random_pick">Shuffle</string>
   <string name="rate_limit_surpassed">Confirm</string>
   <string name="received_label">Received:\u0020</string>

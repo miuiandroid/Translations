@@ -62,8 +62,6 @@
   <string name="pref_screen_transformation_type_title">选择屏幕切换效果</string>
   <string name="preferences_general_title">一般设置</string>
   <string name="preferences_title">桌面效果设置</string>
-  <string name="sdcard_busy_title">SD 卡不可用</string>
-  <string name="sdcard_missing_title">无 SD 卡</string>
   <string name="sort_by_abc">按程序名称排序</string>
   <string name="sort_by_frequency">按使用频率排序</string>
   <string name="sort_by_not_defined">按默认顺序排序</string>

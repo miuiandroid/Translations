@@ -525,6 +525,7 @@
   <string name="date_time_set_date">Set date</string>
   <string name="date_time_set_time">Set time</string>
   <string name="date_time_set_timezone">Select time zone</string>
+  <string name="date_time_sync_when_startup">Synchronize time at startup</string>
   <string name="debug_intent_sender_label">Debug intent sender</string>
   <string name="debug_log">Debug log</string>
   <string name="default_application_settings">Default Program Settings</string>
@@ -1322,6 +1323,7 @@
   <string name="vpn_reconnect_from_lost">Connection lost. Do you want to connect again?</string>
   <string name="vpn_remote_hung_up_error_dialog_msg">Server hung up. The username or password you entered could be incorrect. Do you want to try again?</string>
   <string name="vpn_remote_ppp_hung_up_error_dialog_msg">Server hung up. It is possible that you are behind a firewall that prevents you from connecting to the server. Do you want to try again?</string>
+  <string name="vpn_save_password">Remember password</string>
   <string name="vpn_save_username">Remember username</string>
   <string name="vpn_secret_not_set">(not set)</string>
   <string name="vpn_secret_not_set_dialog_msg">One or more secrets are missing in this VPN configuration. Do you want to check your secret setting?</string>
@@ -1387,6 +1389,7 @@
   <string name="wifi_secured">Secured with %1$s</string>
   <string name="wifi_secured_with_status">%2$s, secured with %1$s</string>
   <string name="wifi_security">Security</string>
+  <string name="wifi_setting">Wi-Fi Setting</string>
   <string name="wifi_setting_num_channels_channel_phrase">%1$d channels</string>
   <string name="wifi_setting_num_channels_error">There was a problem setting the regulatory domain.</string>
   <string name="wifi_setting_num_channels_summary">Set the number of channels to use</string>

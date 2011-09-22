@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="act_action_accept_accept">不做操作</string>
+  <string name="act_action_accept_accept">不拦截</string>
   <string name="act_action_accept_mute">静音短信</string>
   <string name="act_action_accept_reject">屏蔽短信</string>
   <string name="act_action_mute_accept">静音来电</string>
@@ -14,8 +14,8 @@
   <string name="act_del_ms_summary">屏蔽的短信不会出现在短信会话中</string>
   <string name="act_hangup_call">屏蔽并放入拦截记录</string>
   <string name="act_hangup_call_summary">屏蔽的来电不会出现在通话记录中</string>
-  <string name="act_ignore_call">不做操作</string>
-  <string name="act_ignore_ms">不做操作</string>
+  <string name="act_ignore_call">不拦截</string>
+  <string name="act_ignore_ms">不拦截</string>
   <string name="act_ms">对于拦截的短信</string>
   <string name="act_mute_call">简单静音</string>
   <string name="act_mute_call_summary">不响铃不振动，但依然在通话记录中</string>

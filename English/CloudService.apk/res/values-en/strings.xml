@@ -30,7 +30,7 @@
   <string name="mobile">Mobile</string>
   <string name="mobile_hint_text">Please input valid mobile number</string>
   <string name="must_input">Required field</string>
-  <string name="my_account">My account</string>
+  <string name="my_account">My Account</string>
   <string name="network_error">Network connection error, please check mobile data is active and available</string>
   <string name="new_account">Create account</string>
   <string name="nickname">Nickname:</string>
@@ -41,8 +41,8 @@
   <string name="register_success">Successfully registered</string>
   <string name="registered_account">Account has been registered</string>
   <string name="sending_request">Sending request</string>
-  <string name="service_disabled">Service disabled</string>
-  <string name="service_name">MIUI Account Manager</string>
+  <string name="service_disabled">Service has been disabled</string>
+  <string name="service_name">Xiaomi Account Verification</string>
   <string name="service_unavailable">Service unavailable</string>
   <string name="settings_safetylegal_activity_unreachable">Your phone is not connected to a data service. To view this information now, go to %s from any computer connected to the Internet.</string>
   <string name="show_password">Show password</string>

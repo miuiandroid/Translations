@@ -84,7 +84,7 @@
   <string name="sytemt_backup_helper">System update will not wipe user data. However,it is recommended to make a backup of your user data before updating</string>
   <string name="test_version">Developer version</string>
   <string name="update_success">Congratulations, update successfully applied!</string>
-  <string name="update_success_body_title">Congratulations,system has been successfully updated to</string>
+  <string name="update_success_body">System has been successfully updated to %s</string>
   <string name="update_success_title">Congratulations,update succeeded</string>
   <string name="verify_and_apply_dialog_message">Verifying MD5 checksum...</string>
   <string name="verify_and_apply_dialog_title">Check file integrity</string>

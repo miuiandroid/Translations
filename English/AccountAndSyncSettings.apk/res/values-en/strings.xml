@@ -24,6 +24,8 @@
   <string name="enable_mitalk_dialog_message">Enable MiTalk sync to receive new message notifications from your friends?</string>
   <string name="enable_mitalk_dialog_title">Enable MiTalk sync</string>
   <string name="finish_button_label">Finish</string>
+  <string name="has_bound">Already exists</string>
+  <string name="has_nick">Account already has a nickname</string>
   <string name="header_account_settings">Account settings</string>
   <string name="header_add_an_account">Add an account</string>
   <string name="header_application_sync_settings">Application sync settings</string>
@@ -32,6 +34,7 @@
   <string name="header_manage_accounts">Manage accounts</string>
   <string name="header_manage_default_accounts">Default accounts</string>
   <string name="network_error">Network connection error</string>
+  <string name="nickname_exist">Nickname already exists</string>
   <string name="preference_change_password_title">Change password</string>
   <string name="provider_label">Push subscriptions</string>
   <string name="really_remove_account_message">Do you really want to remove this account? Removing it will also delete all of its messages, contacts, and other data from the phone. \nProceed?</string>
@@ -77,6 +80,10 @@
   <string name="user_mitalk_sync_summary">MiTalk allows you to send messages, pictures and chat with friends</string>
   <string name="user_mitalk_sync_title">MiTalk</string>
   <string name="user_nickname">Nickname</string>
+  <string name="user_nickname_button_verify">Verification</string>
+  <string name="user_nickname_description">Nickname will be used for various Xiaomi services</string>
+  <string name="user_nickname_hint">Input your nickname here</string>
+  <string name="user_nickname_title">Bind nickname</string>
   <string name="user_phone">Phone</string>
   <string name="user_phone_button_verify">verification</string>
   <string name="user_phone_description">Phone number for login and account recovery</string>
