@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Themes</string>
   <string name="apply_lockscreen_paper_tips">The lockscreen currently in use does not support changing lockscreen wallpaper, new lockscreen wallpaper may not be visible.</string>
-  <string name="apply_theme_no_select_message">Please select a theme!</string>
+  <string name="apply_theme_no_select_message">Please select components</string>
   <string name="backup_preference_title">Backup Theme</string>
   <string name="backup_theme_dialog_message">Backup the current theme to SD card:\n\\MIUI\\theme\\backup\\backup.mtz</string>
   <string name="backup_theme_dialog_ok">Backup</string>

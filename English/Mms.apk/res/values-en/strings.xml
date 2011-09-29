@@ -137,7 +137,7 @@
   <string name="has_draft">Draft</string>
   <string name="has_invalid_recipient">Invalid recipient(s): %1$s</string>
   <string name="hidden_sender_address">Hidden sender address</string>
-  <string name="inline_subject">Subject:</string>
+  <string name="inline_subject">Subject: %s</string>
   <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
   <string name="invalid_destination">You have entered an invalid address.</string>
   <string name="invalid_recipient_message">Please correct the recipient(s) or they will not receive the message.</string>

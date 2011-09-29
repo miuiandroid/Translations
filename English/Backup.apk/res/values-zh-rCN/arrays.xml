@@ -22,6 +22,7 @@
         <item>闹钟设置</item>
         <item>便签</item>
         <item>防打扰</item>
+        <item>当前主题</item>
     </string-array>
     <string-array name="app_type_desc">
         <item>数据</item>

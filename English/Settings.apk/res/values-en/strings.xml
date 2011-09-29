@@ -548,7 +548,7 @@
   <string name="device_admin_title">Device administration</string>
   <string name="device_admin_warning">Activating this administrator will allow the application %1$s to perform the following operations:</string>
   <string name="device_cpu">CPU:</string>
-  <string name="device_cpu2_info">dual core</string>
+  <string name="device_cpu2_info">Dual Core\u0020</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_not_available">Not available</string>
   <string name="device_info_settings">Phone Status</string>
@@ -853,6 +853,8 @@
   <string name="move_app_to_internal">Move to phone</string>
   <string name="move_app_to_sdcard">Move to SD card</string>
   <string name="moving">Moving</string>
+  <string name="multi_touch_points_category_title">Multi-touch points</string>
+  <string name="multi_touch_points_preference">Reboot to enable</string>
   <string name="music_volume_summary">Set volume for music, games and other media</string>
   <string name="music_volume_title">Media volume</string>
   <string name="network_category">Network</string>
@@ -919,6 +921,7 @@
   <string name="proxy_action_text">Save</string>
   <string name="proxy_clear_text">Clear</string>
   <string name="proxy_defaultView_text">Restore defaults</string>
+  <string name="proxy_enable_ap_setting">Use specific settings for this network</string>
   <string name="proxy_error">Attention</string>
   <string name="proxy_error_dismiss">OK</string>
   <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
@@ -1090,6 +1093,8 @@
   <string name="sim_lock_settings_title">SIM card lock</string>
   <string name="skip_button_label">Cancel</string>
   <string name="small_font">Small</string>
+  <string name="sms_delivered_sound_settings_title">SMS delivery sound</string>
+  <string name="sms_received_sound_settings_title">SMS notification sound</string>
   <string name="sort_order_alpha">Sort alphabetically</string>
   <string name="sort_order_size">Sort by size</string>
   <string name="sound_effects_enable_summary_off">Play sound when making screen selection</string>
@@ -1099,6 +1104,8 @@
   <string name="sound_settings_title">Sound Settings</string>
   <string name="ssid_label">SSID:</string>
   <string name="status_bar_toggle_arrangement">Customize toggles</string>
+  <string name="status_bar_toggle_divider_list">Toggles placed above bar are active</string>
+  <string name="status_bar_toggle_divider_page">%1$d toggles placed above bar are active</string>
   <string name="status_bar_toggle_settings">Toggle Settings</string>
   <string name="status_bar_toggle_style">Toggle style</string>
   <string name="status_bar_toggle_style_compact">Compact</string>
@@ -1294,7 +1301,7 @@
   <string name="vpn_mistake_button">No</string>
   <string name="vpn_name">VPN name</string>
   <string name="vpn_no_button">No</string>
-  <string name="vpn_openvpn_advanced_titlebar">Advanced Open vpn Settings</string>
+  <string name="vpn_openvpn_advanced_titlebar">Advanced Open VPN Settings</string>
   <string name="vpn_openvpn_comp_lzo">LZO compression</string>
   <string name="vpn_openvpn_comp_lzo_summary">Force LZO compression to be set to on</string>
   <string name="vpn_openvpn_device">Device to use</string>
@@ -1351,6 +1358,7 @@
   <string name="wifi_api_test">Wi-Fi API</string>
   <string name="wifi_cancel">Cancel</string>
   <string name="wifi_cancel_wps">Cancel WPS connection</string>
+  <string name="wifi_clear_proxy">Clear Wi-Fi proxy setting</string>
   <string name="wifi_config_info">Wifi Config</string>
   <string name="wifi_connect">Connect</string>
   <string name="wifi_disabled">Disabled</string>

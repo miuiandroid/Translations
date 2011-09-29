@@ -4,6 +4,8 @@
   <string name="account_banner">Login Xiaomi Account, Enjoy MIUI and MiTalk</string>
   <string name="account_deleted">Account has been deleted</string>
   <string name="account_disabled">Account has been disabled</string>
+  <string name="account_expired_dialog_message">Your Xiaomi account has expired, please log in again!</string>
+  <string name="account_expired_dialog_title">Account expired</string>
   <string name="account_hint_text">Mitalk/Phone/E-mail</string>
   <string name="app_name">Xiaomi Account Manager</string>
   <string name="authenticator_label">Xiaomi</string>

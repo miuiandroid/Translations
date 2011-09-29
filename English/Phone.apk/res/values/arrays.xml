@@ -41,16 +41,24 @@
         <item>@string/voice_quality_ui_values_crisp</item>
         <item>@string/voice_quality_ui_values_bright</item>
     </array>
-    <array name="auto_answer_pref_entries">
-        <item>@string/auto_answer_pref_entries_no</item>
-        <item>@string/auto_answer_pref_entries_immediately</item>
-        <item>@string/auto_answer_pref_entries_delay_5s</item>
+    <array name="auto_answer_delay_entries">
+        <item>@string/auto_answer_delay_entries_immediately</item>
+        <item>@string/auto_answer_delay_entries_delay_3s</item>
+        <item>@string/auto_answer_delay_entries_delay_5s</item>
+        <item>@string/auto_answer_delay_entries_delay_10s</item>
     </array>
-    <string-array name="auto_answer_pref_entry_values">
-        <item>-1</item>
+    <string-array name="auto_answer_delay_entry_values">
         <item>0</item>
+        <item>3</item>
         <item>5</item>
+        <item>10</item>
     </string-array>
+    <array name="auto_answer_scenario_entries">
+        <item>@string/auto_answer_scenario_enteries_always</item>
+        <item>@string/auto_answer_scenario_enteries_headset_only</item>
+        <item>@string/auto_answer_scenario_enteries_bluetooth_only</item>
+        <item>@string/auto_answer_scenario_enteries_headset_bluetooth</item>
+    </array>
     <array name="prefered_network_type_pref_entries">
         <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
         <item>@string/prefered_network_type_pref_entries_only_2g</item>
@@ -60,6 +68,16 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <array name="connect_disconnect_vibrate_entries">
+        <item>@string/connect_disconnect_vibrate_normal</item>
+        <item>@string/connect_disconnect_vibrate_weak</item>
+        <item>@string/connect_disconnect_vibrate_none</item>
+    </array>
+    <string-array name="connect_disconnect_vibrate_entry_values">
+        <item>100</item>
+        <item>50</item>
+        <item>0</item>
     </string-array>
     <string-array name="clir_display_values">
         <item>Network default</item>

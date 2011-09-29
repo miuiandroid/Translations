@@ -593,7 +593,7 @@
   <string name="error_title">注意</string>
   <string name="filter">过滤</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">SD 卡中</string>
+  <string name="filter_apps_onsdcard">USB 存储设备</string>
   <string name="filter_apps_running">正在运行</string>
   <string name="filter_apps_third_party">已下载</string>
   <string name="font_size_save">确定</string>
@@ -656,7 +656,7 @@
   <string name="internal_storage">内部存储空间</string>
   <string name="invalid_location">指定的安装位置无效。</string>
   <string name="invalid_size_value">无法计算包大小</string>
-  <string name="keep_screen_on">保持唤醒状态</string>
+  <string name="keep_screen_on">充电时保持唤醒</string>
   <string name="keep_screen_on_summary">充电时屏幕不会休眠</string>
   <string name="kernel_version">内核版本</string>
   <string name="key_settings">按键设置</string>
@@ -820,8 +820,10 @@
   <string name="move_app_failed_dlg_text">无法移动应用程序。%1$s</string>
   <string name="move_app_failed_dlg_title">移动应用程序</string>
   <string name="move_app_to_internal">移至手机内存</string>
-  <string name="move_app_to_sdcard">移至 SD 卡</string>
+  <string name="move_app_to_sdcard">移至 USB 存储设备</string>
   <string name="moving">正在移动</string>
+  <string name="multi_touch_points_category_title">多点触控</string>
+  <string name="multi_touch_points_preference">多点触控，重启后生效</string>
   <string name="music_volume_summary">音乐、视频、游戏等的音量</string>
   <string name="music_volume_title">媒体音量</string>
   <string name="network_category">网络</string>
@@ -886,6 +888,7 @@
   <string name="proxy_action_text">保存</string>
   <string name="proxy_clear_text">清除</string>
   <string name="proxy_defaultView_text">恢复默认设置</string>
+  <string name="proxy_enable_ap_setting">对此网络单独设置</string>
   <string name="proxy_error">注意</string>
   <string name="proxy_error_dismiss">确定</string>
   <string name="proxy_error_empty_host_set_port">如果主机字段为空，则端口字段必须为空。</string>
@@ -992,7 +995,7 @@
   <string name="runningservices_settings_title">正在运行的服务</string>
   <string name="screen_rotation">旋转屏幕</string>
   <string name="screen_timeout">屏幕超时</string>
-  <string name="sd_card_storage">SD 卡存储设备</string>
+  <string name="sd_card_storage">USB 存储设备</string>
   <string name="sd_eject">卸载 SD 卡</string>
   <string name="sd_eject_summary">必须先卸载 SD 卡，才能将其安全移除</string>
   <string name="sd_ejecting_summary">正在卸载</string>
@@ -1053,6 +1056,8 @@
   <string name="sim_lock_settings_title">SIM 卡锁定</string>
   <string name="skip_button_label">取消</string>
   <string name="small_font">小字体</string>
+  <string name="sms_delivered_sound_settings_title">短信送达铃声</string>
+  <string name="sms_received_sound_settings_title">短信铃声</string>
   <string name="sort_order_alpha">按姓名排序</string>
   <string name="sort_order_size">按大小排序</string>
   <string name="sound_effects_enable_summary_off">进行屏幕选取时播放音效</string>
@@ -1061,6 +1066,8 @@
   <string name="sound_settings">声音和振动设置</string>
   <string name="sound_settings_title">声音和振动</string>
   <string name="status_bar_toggle_arrangement">开关自定义</string>
+  <string name="status_bar_toggle_divider_list">上方开关会出现在通知栏</string>
+  <string name="status_bar_toggle_divider_page">上方%1$d个开关会出现在通知栏</string>
   <string name="status_bar_toggle_settings">通知栏开关</string>
   <string name="status_bar_toggle_style">选择开关样式</string>
   <string name="status_bar_toggle_style_compact">简洁</string>
@@ -1307,6 +1314,7 @@
   <string name="wifi_advanced_titlebar">高级</string>
   <string name="wifi_cancel">取消</string>
   <string name="wifi_cancel_wps">取消 WPS 连接</string>
+  <string name="wifi_clear_proxy">清除代理设置</string>
   <string name="wifi_connect">连接</string>
   <string name="wifi_disabled">已停用</string>
   <string name="wifi_dns1">域名服务器 1</string>
