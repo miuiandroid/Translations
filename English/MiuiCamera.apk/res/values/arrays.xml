@@ -228,13 +228,13 @@
         <item>30</item>
     </string-array>
     <array name="video_quality_entries">
-        <item>@string/pref_video_quality_hd</item>
+        <item>@string/pref_video_quality_720p</item>
         <item>@string/pref_video_quality_high</item>
         <item>@string/pref_video_quality_low</item>
         <item>@string/pref_video_quality_mms</item>
     </array>
     <string-array name="video_quality_values">
-        <item>hd</item>
+        <item>720p</item>
         <item>high</item>
         <item>low</item>
         <item>mms</item>

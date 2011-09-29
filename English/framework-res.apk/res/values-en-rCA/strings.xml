@@ -80,12 +80,10 @@
   <string name="cfTemplateNotForwarded">{0}: Not forwarded</string>
   <string name="cfTemplateRegistered">{0}: Not forwarded</string>
   <string name="cfTemplateRegisteredTime">{0}: Not forwarded</string>
-  <string name="change_default_input_method">Long press in text input to change default input method</string>
   <string name="childrens_day" />
   <string name="chinese_youth_day" />
   <string name="chooseActivity">Select an action</string>
   <string name="chooseUsbActivity">Select an application for the USB device</string>
-  <string name="choose_default_input_method">Choose default input method</string>
   <string name="chooser_wallpaper">Change wallpaper</string>
   <string name="christmas_dad" />
   <string name="clearDefaultHintMsg">Clear default in Home Settings &gt; Applications &gt; Manage applications.</string>
@@ -1233,7 +1231,6 @@
   <string name="status_bar_toggle_gps">GPS</string>
   <string name="status_bar_toggle_lock">Lock</string>
   <string name="status_bar_toggle_mute">Silent</string>
-  <string name="status_bar_toggle_network_type">Network type</string>
   <string name="status_bar_toggle_privacy_mode">Guard</string>
   <string name="status_bar_toggle_reboot">Reboot</string>
   <string name="status_bar_toggle_rotate">Rotation</string>

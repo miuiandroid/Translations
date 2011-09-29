@@ -33,13 +33,12 @@
   <string name="header_general_sync_settings">General sync settings</string>
   <string name="header_manage_accounts">Manage accounts</string>
   <string name="header_manage_default_accounts">Default accounts</string>
-  <string name="logoff_account_label">Log off</string>
   <string name="network_error">Network connection error</string>
   <string name="nickname_exist">Nickname already exists</string>
   <string name="preference_change_password_title">Change password</string>
   <string name="provider_label">Push subscriptions</string>
-  <string name="really_remove_account_message">Do you really want to log off this account? Logging off will also delete all of its messages, contacts, and other data from the phone. \nProceed?</string>
-  <string name="really_remove_account_title">Log off account</string>
+  <string name="really_remove_account_message">Do you really want to remove this account? Removing it will also delete all of its messages, contacts, and other data from the phone. \nProceed?</string>
+  <string name="really_remove_account_title">Remove account</string>
   <string name="registered_account">Username has been registered</string>
   <string name="remove_account_failed">This account is required by some applications. You can only remove it by resetting the phone to factory defaults (which deletes all your personal data). You do that in the Settings application, under Privacy.</string>
   <string name="remove_account_label">Remove account</string>

@@ -22,7 +22,6 @@
         <item>Alarm settings</item>
         <item>Notes</item>
         <item>DND</item>
-        <item>CurrentTheme</item>
     </string-array>
     <string-array name="app_type_desc">
         <item>Data</item>

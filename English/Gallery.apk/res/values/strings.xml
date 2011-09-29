@@ -99,7 +99,7 @@
   <string name="running_face_detection">Entering face identification,please wait...</string>
   <string name="save">Save</string>
   <string name="save_pic_error">Failed to save picture!</string>
-  <string name="save_pic_to_success">Picture is successfully saved to\n%s</string>
+  <string name="save_pic_to_success">Picture successfully saved!</string>
   <string name="save_to_hint">Saved to %s</string>
   <string name="save_to_sdcard">Save to SD card</string>
   <string name="saving_image">Saving picture...</string>

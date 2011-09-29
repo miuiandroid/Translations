@@ -525,7 +525,7 @@
   <string name="date_time_set_date">Set date</string>
   <string name="date_time_set_time">Set time</string>
   <string name="date_time_set_timezone">Select time zone</string>
-  <string name="date_time_sync_when_startup">Sync time when startup</string>
+  <string name="date_time_sync_when_startup">Synchronize time when startup</string>
   <string name="debug_intent_sender_label">Debug intent sender</string>
   <string name="debug_log">Debug log</string>
   <string name="default_application_settings">Default Program</string>
@@ -613,7 +613,7 @@
   <string name="error_title">Attention</string>
   <string name="filter">Filter</string>
   <string name="filter_apps_all">All</string>
-  <string name="filter_apps_onsdcard">USB storage</string>
+  <string name="filter_apps_onsdcard">On SD card</string>
   <string name="filter_apps_running">Running</string>
   <string name="filter_apps_third_party">Downloaded</string>
   <string name="font_size_preview_text">This is a text size preview.</string>
@@ -851,10 +851,8 @@
   <string name="move_app_failed_dlg_text">Failed to move application. %1$s</string>
   <string name="move_app_failed_dlg_title">Move application</string>
   <string name="move_app_to_internal">Move to phone</string>
-  <string name="move_app_to_sdcard">Move to USB storage</string>
+  <string name="move_app_to_sdcard">Move to SD card</string>
   <string name="moving">Moving</string>
-  <string name="multi_touch_points_category_title">Multi-touch points</string>
-  <string name="multi_touch_points_preference">Reboot to enable</string>
   <string name="music_volume_summary">Set volume for music, games and other media</string>
   <string name="music_volume_title">Media volume</string>
   <string name="network_category">Network</string>
@@ -921,7 +919,6 @@
   <string name="proxy_action_text">Save</string>
   <string name="proxy_clear_text">Clear</string>
   <string name="proxy_defaultView_text">Restore defaults</string>
-  <string name="proxy_enable_ap_setting">Use specific settings for this network</string>
   <string name="proxy_error">Attention</string>
   <string name="proxy_error_dismiss">OK</string>
   <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
@@ -1030,7 +1027,7 @@
   <string name="scan_list_label">Scan results :</string>
   <string name="screen_rotation">Screen rotation</string>
   <string name="screen_timeout">Screen timeout</string>
-  <string name="sd_card_storage">USB storage</string>
+  <string name="sd_card_storage">SD card storage</string>
   <string name="sd_eject">Unmount SD card</string>
   <string name="sd_eject_summary">Unmount the SD card for safe removal</string>
   <string name="sd_ejecting_summary">Unmount in progress</string>
@@ -1093,8 +1090,6 @@
   <string name="sim_lock_settings_title">SIM card lock</string>
   <string name="skip_button_label">Cancel</string>
   <string name="small_font">Small</string>
-  <string name="sms_delivered_sound_settings_title">SMS delivery sound</string>
-  <string name="sms_received_sound_settings_title">SMS notification sound</string>
   <string name="sort_order_alpha">Sort alphabetically</string>
   <string name="sort_order_size">Sort by size</string>
   <string name="sound_effects_enable_summary_off">Play sound when making screen selection</string>
@@ -1104,8 +1099,6 @@
   <string name="sound_settings_title">Sound</string>
   <string name="ssid_label">SSID :</string>
   <string name="status_bar_toggle_arrangement">Customize toggles</string>
-  <string name="status_bar_toggle_divider_list">Toggles placed above bar are active</string>
-  <string name="status_bar_toggle_divider_page">%1$d toggles placed above bar are active</string>
   <string name="status_bar_toggle_settings">Toggle</string>
   <string name="status_bar_toggle_style">Toggle style</string>
   <string name="status_bar_toggle_style_compact">Compact</string>
@@ -1358,7 +1351,6 @@
   <string name="wifi_api_test">Wifi API</string>
   <string name="wifi_cancel">Cancel</string>
   <string name="wifi_cancel_wps">Cancel WPS connection</string>
-  <string name="wifi_clear_proxy">Clear proxy setting</string>
   <string name="wifi_config_info">Wifi Config</string>
   <string name="wifi_connect">Connect</string>
   <string name="wifi_disabled">Disabled</string>

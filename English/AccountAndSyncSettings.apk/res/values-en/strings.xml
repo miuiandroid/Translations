@@ -33,7 +33,6 @@
   <string name="header_general_sync_settings">General sync settings</string>
   <string name="header_manage_accounts">Manage accounts</string>
   <string name="header_manage_default_accounts">Default accounts</string>
-  <string name="logoff_account_label">Log off</string>
   <string name="network_error">Network connection error</string>
   <string name="nickname_exist">Nickname already exists</string>
   <string name="preference_change_password_title">Change password</string>
@@ -72,7 +71,7 @@
   <string name="unknown">Unknown error occurred</string>
   <string name="user_detail">My Card</string>
   <string name="user_email">Email</string>
-  <string name="user_email_button_verify">Verify</string>
+  <string name="user_email_button_verify">verification</string>
   <string name="user_email_description">Email address for login and account recovery</string>
   <string name="user_email_format_error">E-mail address contains invalid characters</string>
   <string name="user_email_hint">Input your E-mail address here</string>
@@ -86,7 +85,7 @@
   <string name="user_nickname_hint">Input your nickname here</string>
   <string name="user_nickname_title">Bind nickname</string>
   <string name="user_phone">Phone</string>
-  <string name="user_phone_button_verify">Verify</string>
+  <string name="user_phone_button_verify">verification</string>
   <string name="user_phone_description">Phone number for login and account recovery</string>
   <string name="user_phone_format_error">Phone number contains invalid characters</string>
   <string name="user_phone_hint">input your phone number here</string>

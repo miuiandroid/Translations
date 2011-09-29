@@ -4,8 +4,6 @@
   <string name="account_banner">登录小米帐户，畅享MIUI在线服务和米聊</string>
   <string name="account_deleted">帐号已删除</string>
   <string name="account_disabled">帐号已被禁</string>
-  <string name="account_expired_dialog_message">您的小米账户已过期，请重新登录！</string>
-  <string name="account_expired_dialog_title">账户过期</string>
   <string name="account_hint_text">米聊号/邮箱地址/手机号码</string>
   <string name="app_name">小米帐户管理</string>
   <string name="authenticator_label">小米</string>

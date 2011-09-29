@@ -110,12 +110,11 @@
   <string name="pref_picturesize_fullscreen">Full screen</string>
   <string name="pref_video_continuous_focus">Continuous focus</string>
   <string name="pref_video_quality">Video Quality</string>
-  <string name="pref_video_quality_hd">HD%s (30m)</string>
+  <string name="pref_video_quality_720p">720P (30m)</string>
   <string name="pref_video_quality_high">High (30m)</string>
   <string name="pref_video_quality_low">Low (30m)</string>
   <string name="pref_video_quality_mms">MMS (Low, 30s)</string>
   <string name="preparing_sd">Preparing SD card...</string>
-  <string name="removed">Removed</string>
   <string name="review_cancel">Cancel</string>
   <string name="review_ok">OK</string>
   <string name="review_play">Play</string>

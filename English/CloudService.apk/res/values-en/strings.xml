@@ -4,8 +4,6 @@
   <string name="account_banner">Xiaomi Passport</string>
   <string name="account_deleted">Account deleted</string>
   <string name="account_disabled">Account disabled</string>
-  <string name="account_expired_dialog_message">Your Xiaomi account has expired, please log in again!</string>
-  <string name="account_expired_dialog_title">Account expired</string>
   <string name="account_hint_text">Enter your account details</string>
   <string name="app_name">Xiaomi Account Manager</string>
   <string name="authenticator_label">Xiaomi</string>

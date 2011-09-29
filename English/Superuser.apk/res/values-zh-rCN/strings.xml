@@ -9,7 +9,7 @@
   <string name="app_name_request">授权请求</string>
   <string name="ask">询问</string>
   <string name="ask_for_root_permission_message">%s正在尝试请求系统 ROOT 权限，此操作可能产生危险，是否允许本次操作？</string>
-  <string name="ask_for_root_permission_toast">%s尝试请求系统ROOT权限，为保证系统安全此权限默认关闭，如需启用请在授权管理 &gt; 菜单 &gt; 设置中开启。</string>
+  <string name="ask_for_root_permission_toast">%s尝试请求系统ROOT权限，为保证系统安全此权限默认关闭，如需开启请前往授权管理的【设置】中开启。</string>
   <string name="cancel">取消</string>
   <string name="clear_log_message">将会清除权限管理的所有日志。</string>
   <string name="confirm_disable_authority">关闭权限管理，将无法监测可能存在的第三方恶意软件发送接受短信、拨打电话等行为。是否确认关闭权限管理？</string>
@@ -20,6 +20,7 @@
   <string name="enable_authority_message">已开启权限管理功能。</string>
   <string name="forbidden">禁止</string>
   <string name="forget">忘记</string>
+  <string name="know">知道了</string>
   <string name="malicious_app_found">发现软件包 %s 申请权限响应最高权限访问请求。它可能是试图在不通知你的情况下授予程序最高权限的恶意程序。建议你立即卸载它。</string>
   <string name="malicious_app_notification_text">%s 可能是恶意程序。</string>
   <string name="malicious_app_notification_ticker">发现疑似恶意程序</string>
@@ -31,7 +32,7 @@
   <string name="permission">权限:</string>
   <string name="permission_manage">权限管理</string>
   <string name="permission_message">短信</string>
-  <string name="permission_message_summary">接受、读写和发送短信/彩信的权限</string>
+  <string name="permission_message_summary">接受发送短信，彩信的权限</string>
   <string name="permission_root">ROOT</string>
   <string name="permission_root_summary">ROOT权限</string>
   <string name="permisson_phone">电话</string>
@@ -44,7 +45,6 @@
   <string name="pref_root_permission_title">ROOT权限</string>
   <string name="remember">下次不再询问</string>
   <string name="request">%1$s 作为 %2$s (uid: %3$d)</string>
-  <string name="setting_title">授权管理设置</string>
   <string name="su_original">原始</string>
   <string name="success_clear_log">已成功清除管理权限的所有日志。</string>
   <string name="tab_apps">程序</string>

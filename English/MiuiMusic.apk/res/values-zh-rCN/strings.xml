@@ -79,7 +79,6 @@
   <string name="filter_max">2048K</string>
   <string name="filter_min">0K</string>
   <string name="filter_notification">您选择的文件已经被过滤掉，如果要正常播放，请在“设置”中重新调整！</string>
-  <string name="flow_save_confirm">知道了</string>
   <string name="flow_save_hint">省流提示</string>
   <string name="flow_save_hint_summary">使用运营商网络试听歌曲时，每次都弹出窗口确认操作</string>
   <string name="folder">文件夹</string>

@@ -115,6 +115,51 @@
     return-void
 .end method
 
+.method private setupRecommendationTab()V
+    .locals 4
+
+    .prologue
+    .line 71
+    new-instance v0, Landroid/content/Intent;
+
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+
+    .line 72
+    const-class v1, Lcom/android/mms/ui/FestivalSmsCategoryList;
+
+    invoke-virtual {v0, p0, v1}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
+
+    .line 73
+    iget-object v1, p0, Lcom/android/mms/ui/MmsTabActivity;->mTabHost:Landroid/widget/TabHost;
+
+    iget-object v2, p0, Lcom/android/mms/ui/MmsTabActivity;->mTabHost:Landroid/widget/TabHost;
+
+    const-string v3, "festival"
+
+    invoke-virtual {v2, v3}, Landroid/widget/TabHost;->newTabSpec(Ljava/lang/String;)Landroid/widget/TabHost$TabSpec;
+
+    move-result-object v2
+
+    const v3, 0x7f09010a
+
+    invoke-virtual {p0, v3}, Lcom/android/mms/ui/MmsTabActivity;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Landroid/widget/TabHost$TabSpec;->setIndicator(Ljava/lang/CharSequence;)Landroid/widget/TabHost$TabSpec;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v0}, Landroid/widget/TabHost$TabSpec;->setContent(Landroid/content/Intent;)Landroid/widget/TabHost$TabSpec;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V
+
+    .line 75
+    return-void
+.end method
+
 
 # virtual methods
 .method public onCheckStateChanged(Landroid/widget/EditableListView$EditableListViewCheckable;)V
@@ -170,6 +215,9 @@
 
     .line 33
     invoke-direct {p0}, Lcom/android/mms/ui/MmsTabActivity;->setupBookmarkTab()V
+
+    .line 34
+    invoke-direct {p0}, Lcom/android/mms/ui/MmsTabActivity;->setupRecommendationTab()V
 
     .line 36
     iget-object v0, p0, Lcom/android/mms/ui/MmsTabActivity;->mNewMessage:Landroid/widget/ImageTextButton;
