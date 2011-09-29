@@ -20,7 +20,6 @@
   <string name="enable_authority_message">Permissions management features enabled</string>
   <string name="forbidden">Denied</string>
   <string name="forget">Forget</string>
-  <string name="know">Remember</string>
   <string name="malicious_app_found">Package %s was found to be requesting permission to respond to Superuser requests. It is likely that this app is malicious and attempting to grant superuser access without your knowledge. It is recommended that you uninstall it now.</string>
   <string name="malicious_app_notification_text">%s may be malicious.</string>
   <string name="malicious_app_notification_ticker">Potentially malicious app detected</string>
@@ -45,6 +44,7 @@
   <string name="pref_root_permission_title">ROOT permission</string>
   <string name="remember">Remember</string>
   <string name="request">%1$s as %2$s uid: %3$d</string>
+  <string name="setting_title">Superuser Settings</string>
   <string name="su_original">original</string>
   <string name="success_clear_log">Superuser log file successfully deleted</string>
   <string name="tab_apps">Apps</string>

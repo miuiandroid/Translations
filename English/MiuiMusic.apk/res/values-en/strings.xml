@@ -82,6 +82,7 @@
   <string name="filter_max">2MB</string>
   <string name="filter_min">0K</string>
   <string name="filter_notification">Filter has been filtered, you can change these settings in the filter settings.</string>
+  <string name="flow_save_confirm">OK</string>
   <string name="flow_save_hint">Enable pop-ups</string>
   <string name="flow_save_hint_summary">Enable pop-ups to confirm downloading a song</string>
   <string name="folder">Folders</string>

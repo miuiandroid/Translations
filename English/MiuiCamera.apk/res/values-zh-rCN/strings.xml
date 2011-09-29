@@ -109,11 +109,12 @@
   <string name="pref_picturesize_fullscreen">全屏</string>
   <string name="pref_video_continuous_focus">连续对焦</string>
   <string name="pref_video_quality">视频质量</string>
-  <string name="pref_video_quality_720p">720P（30 分钟）</string>
-  <string name="pref_video_quality_high">高画质（30 分钟）</string>
-  <string name="pref_video_quality_low">低画质（30 分钟）</string>
-  <string name="pref_video_quality_mms">彩信（低画质，30 秒）</string>
+  <string name="pref_video_quality_hd">高清%s (30 分钟)</string>
+  <string name="pref_video_quality_high">高画质 (30 分钟)</string>
+  <string name="pref_video_quality_low">低画质 (30 分钟)</string>
+  <string name="pref_video_quality_mms">彩信 (低画质，30 秒)</string>
   <string name="preparing_sd">正在准备 SD 卡...</string>
+  <string name="removed">已删除</string>
   <string name="review_cancel">取消</string>
   <string name="review_ok">确定</string>
   <string name="review_play">播放</string>

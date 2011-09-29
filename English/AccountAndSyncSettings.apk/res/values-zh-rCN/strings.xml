@@ -33,6 +33,7 @@
   <string name="header_general_sync_settings">常规同步设置</string>
   <string name="header_manage_accounts">管理帐户</string>
   <string name="header_manage_default_accounts">存储新联系人</string>
+  <string name="logoff_account_label">注销登录</string>
   <string name="network_error">网络连接错误</string>
   <string name="nickname_exist">昵称已存在</string>
   <string name="preference_change_password_title">更改密码</string>
@@ -92,6 +93,6 @@
   <string name="user_phone_title">绑定手机</string>
   <string name="user_unbind">未绑定</string>
   <string name="xiaomi_account">小米帐号</string>
-  <string name="xiaomi_remove_account_message">删除此账户会同时删除手机中的小米服务数据，包括应用超市、米聊等(联系人、短信、通话记录等仍然保留)；且不能使用MIUI所有在线服务；确定删除吗？</string>
-  <string name="xiaomi_remove_account_title">删除小米帐号</string>
+  <string name="xiaomi_remove_account_message">注销此账户会同时删除手机中的小米服务数据，包括应用超市、米聊等(联系人、短信、通话记录等仍然保留)；且不能使用MIUI所有在线服务；确定注销吗？</string>
+  <string name="xiaomi_remove_account_title">注销小米帐号</string>
 </resources>
