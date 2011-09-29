@@ -780,11 +780,6 @@
     invoke-virtual {p0, v4}, Lcom/miui/player/ui/MusicBrowserActivity;->setContentView(I)V
 
     .line 107
-    const v4, 0x7f0c006b
-
-    invoke-static {p0, v4}, Lcom/miui/player/MusicUtils;->updateNavigationHeader(Landroid/app/Activity;I)V
-
-    .line 109
     new-instance v2, Lcom/miui/player/ui/MusicBrowserActivity$OnNavigationClickListener;
 
     const/4 v4, 0x0
