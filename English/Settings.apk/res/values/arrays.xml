@@ -25,13 +25,13 @@
         <item>All animations</item>
     </string-array>
     <string-array name="access_control_privacy_mode_entries">
-        <item>无限制</item>
-        <item>密码保护</item>
+        <item>Unprotected</item>
+        <item>Protected</item>
     </string-array>
     <string-array name="access_control_app_entries">
-        <item>无限制</item>
-        <item>隐藏桌面图标</item>
-        <item>密码保护</item>
+        <item>Unprotected</item>
+        <item>Do not show in desktop</item>
+        <item>Password protected</item>
     </string-array>
     <string-array name="animations_summaries">
         <item>No window animations are shown</item>
@@ -44,16 +44,16 @@
         <item>11</item>
     </string-array>
     <string-array name="led_color_entries">
-        <item>白色</item>
-        <item>绿色</item>
-        <item>红色</item>
-        <item>蓝色</item>
-        <item>黄色</item>
-        <item>青色</item>
-        <item>红紫色</item>
-        <item>粉红色</item>
-        <item>橙色</item>
-        <item>天蓝色</item>
+        <item>White</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Sapphire</item>
     </string-array>
     <string-array name="led_color_values">
         <item>white</item>
@@ -280,9 +280,9 @@
         <item>2</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
-        <item>弱</item>
-        <item>中</item>
-        <item>强</item>
+        <item>Weak</item>
+        <item>Medium</item>
+        <item>Strong</item>
     </string-array>
     <string-array name="haptic_feedback_level_values">
         <item>1</item>
@@ -350,9 +350,9 @@
         <item>notsilent</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
-        <item>图形方式</item>
-        <item>数字方式</item>
-        <item>顶部方式</item>
+        <item>Graphical</item>
+        <item>Percentage</item>
+        <item>Top-Bar</item>
     </string-array>
     <string-array name="battery_indicator_style_values">
         <item>0</item>
@@ -374,28 +374,28 @@
         <item>25</item>
     </string-array>
     <string-array name="usage_screen_power_slices">
-        <item>屏幕开启耗费电量</item>
-        <item>屏幕最暗时耗电量</item>
-        <item>屏幕较暗时耗电量</item>
-        <item>屏幕中等亮度耗电量</item>
-        <item>屏幕较亮时耗电量</item>
-        <item>屏幕最亮时耗电量</item>
+        <item>Open Screen power usage</item>
+        <item>Power usage when screen is idle</item>
+        <item>Power usage with a dim lit screen</item>
+        <item>Power usage with a medium lit screen</item>
+        <item>Power usage with a bright lit screen</item>
+        <item>Power usage with a fully lit screen</item>
     </string-array>
     <string-array name="usage_radio_power_slices">
-        <item>1格信号耗电量</item>
-        <item>2格信号耗电量</item>
-        <item>3格信号耗电量</item>
-        <item>4格信号耗电量</item>
-        <item>满格信号耗电量</item>
-        <item>搜索信号耗电量</item>
+        <item>1 Cell signal power</item>
+        <item>2 Cell signal power</item>
+        <item>3 Cell signal power</item>
+        <item>4 Cell signal power</item>
+        <item>Cell signal power over</item>
+        <item>Search for the signal power</item>
     </string-array>
     <string-array name="usage_wifi_power_slices">
-        <item>开启Wifi耗电量</item>
-        <item>Wifi传输耗电量</item>
+        <item>Open WLAN power usage</item>
+        <item>WLAN transfer power usage</item>
     </string-array>
     <string-array name="usage_bluetooth_power_slices">
-        <item>开启蓝牙耗电量</item>
-        <item>蓝牙命令执行耗电量</item>
+        <item>Open Bluetooth power usage</item>
+        <item>Power usage of Bluetooth</item>
     </string-array>
     <string-array name="usage_app_power_slices">
         <item>音频耗电量</item>
@@ -432,13 +432,13 @@
         <item>\#ffa500</item>
     </string-array>
     <string-array name="led_color_entries_for_milestone">
-        <item>绿色</item>
-        <item>红色</item>
-        <item>蓝色</item>
-        <item>黄色</item>
-        <item>青色</item>
-        <item>红紫色</item>
-        <item>橙色</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Orange</item>
     </string-array>
     <string-array name="led_color_values_for_mione">
         <item>blue</item>
@@ -452,15 +452,15 @@
         <item>\#FF0033FF</item>
     </string-array>
     <string-array name="led_color_entries_for_mione">
-        <item>蓝</item>
-        <item>红</item>
-        <item>绿</item>
-        <item>桃红</item>
-        <item>紫罗兰</item>
-        <item>紫红</item>
-        <item>青</item>
-        <item>湖蓝</item>
-        <item>宝石蓝</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Violet</item>
+        <item>Purple</item>
+        <item>Emerald</item>
+        <item>Cyan</item>
+        <item>Sapphire</item>
     </string-array>
     <string-array name="entries_light_filter_window">
         <item>10 s</item>

@@ -9,9 +9,10 @@
   <string name="apply_pic_for">将照片应用为:</string>
   <string name="bookmark">收藏</string>
   <string name="camera_folder_display_name">相机</string>
-  <string name="cancel">取消</string>
   <string name="cancel_bookmark">取消收藏</string>
   <string name="cancel_hidden">取消隐藏</string>
+  <string name="clear_thumbnail_cache">清除缩略图缓存</string>
+  <string name="clear_thumbnail_cache_confirm">您的全部图库缓存将被清空，后续使用中将重新扫描媒体文件并生成缩略图</string>
   <string name="confirm">确定</string>
   <string name="confirm_delete_file">该文件将从SD卡中永久删除</string>
   <string name="confirm_delete_folder">彻底删除该文件夹中所有文件</string>
@@ -72,7 +73,6 @@
   <string name="no">否</string>
   <string name="no_file">没有图片或视频文件</string>
   <string name="no_files">该文件夹没有文件</string>
-  <string name="ok">确定</string>
   <string name="open_map">打开地图</string>
   <string name="open_single_image_failure">打开图片失败！</string>
   <string name="operation_cancel">取消</string>
@@ -114,12 +114,9 @@
   <string name="select_photo_hint">点击选择图片</string>
   <string name="send">发送</string>
   <string name="send_multiple_files_hint_format">发送(总大小%s)</string>
-  <string name="send_single_image_hint_format">发送图片(图片大小%s)</string>
-  <string name="send_single_video_hint_format">发送视频(视频大小%s)</string>
   <string name="sending_image_title">发送图片(图片大小%s)</string>
   <string name="sending_video_title">发送视频(视频大小%s)</string>
   <string name="set_as_folder_cover">设为相册封面</string>
-  <string name="set_contact_photo">设置联系人头像</string>
   <string name="set_lock_or_wallpaper">设置壁纸</string>
   <string name="set_lockscreen">设置锁屏壁纸</string>
   <string name="set_lockscreen_failure">设置锁屏壁纸失败！</string>

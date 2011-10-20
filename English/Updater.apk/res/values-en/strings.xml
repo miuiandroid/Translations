@@ -54,10 +54,10 @@
   <string name="moving_data_to_sdcard_progress_format">Transferred %1$dKb of %2$dKb</string>
   <string name="network_error">Network connection error has occurred, please try again</string>
   <string name="new_update_content_title">New version found: %s</string>
-  <string name="new_updates_found_body">Update available</string>
+  <string name="new_updates_found_body">Updates available</string>
   <string name="new_updates_found_notification_title">System update has been detected!</string>
   <string name="new_updates_found_title">Updates available</string>
-  <string name="no_proper_updates">No updates were found for the currently installed version</string>
+  <string name="no_proper_updates">No updates where found for the currently installed version</string>
   <string name="no_updatecheck_executed">Update check not performed</string>
   <string name="no_updates_found">You already have the latest version installed</string>
   <string name="no_updates_warning">No updates were found for your phone</string>
@@ -73,7 +73,7 @@
   <string name="send_install_log">Send error log</string>
   <string name="send_install_log_error">Failed to send error log</string>
   <string name="sign_in_add_account_helper">Your phone has no active MIUI account, add one to receive user-points</string>
-  <string name="sign_in_info">Your user ranking is %1$s\n%2$s users have signed in for %3$s version</string>
+  <string name="sign_in_info">Your user ranking is %1$s\n%2$s\n%3$s version</string>
   <string name="stable_version">Stable version</string>
   <string name="start_update">Begin update</string>
   <string name="switch_system">Reboot recovery</string>
@@ -84,8 +84,8 @@
   <string name="sytemt_backup_helper">System update will not wipe user data, however it is recommended to make a backup of your user data before updating</string>
   <string name="test_version">Developer version</string>
   <string name="update_success">Congratulations, system update successful</string>
-  <string name="update_success_body">Update successfully applied!</string>
-  <string name="update_success_title">System has been successfully updated to %s</string>
+  <string name="update_success_body">System has been successfully updated to %s</string>
+  <string name="update_success_title">Update successful</string>
   <string name="verify_and_apply_dialog_message">Verifying MD5 checksum...</string>
   <string name="verify_and_apply_dialog_title">Check file integrity</string>
   <string name="view_details">View details</string>

@@ -19,7 +19,7 @@
   <string name="dialog_title_not_available">Download Failed</string>
   <string name="dialog_title_queued_body">File not yet available</string>
   <string name="download_error">Failed</string>
-  <string name="download_filter_all_downloads">Filter downloads</string>
+  <string name="download_filter_all_downloads">All downloads</string>
   <string name="download_info_count_deleted_tasks">%s downloads removed</string>
   <string name="download_info_start_deleted_tasks">Delete downloads</string>
   <string name="download_menu_sort_by_date">Sort by time</string>

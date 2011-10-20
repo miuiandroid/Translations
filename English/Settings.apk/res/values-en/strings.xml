@@ -335,7 +335,7 @@
   <string name="calendar_settings_title">Calendar Settings</string>
   <string name="call_settings_title">Call Settings</string>
   <string name="camera_key_action_app_title">Open application</string>
-  <string name="camera_key_action_category_title">Use if camera application is open</string>
+  <string name="camera_key_action_category_title">Long-press button will open camera always</string>
   <string name="camera_key_action_none_title">No action</string>
   <string name="camera_key_action_setting_title">MI Button Settings</string>
   <string name="camera_key_action_shortcut_call">Call</string>
@@ -839,9 +839,6 @@
   <string name="menu_stats_refresh">Refresh</string>
   <string name="menu_stats_total">Total Usage</string>
   <string name="menu_stats_unplugged">Unplugged Usage</string>
-  <string name="miui_copyright_title">Copyright</string>
-  <string name="miui_privacy_policy_title">Privacy policy</string>
-  <string name="miui_user_agreement_title">User agreement</string>
   <string name="mms_kept_in_memory">Messages kept in memory</string>
   <string name="mms_settings_title">Messaging Settings</string>
   <string name="mms_vibrate_abbreviation">Messages</string>
@@ -909,6 +906,9 @@
   <string name="power_usage_summary">What has been using the battery</string>
   <string name="power_usage_summary_title">Battery use</string>
   <string name="power_wifi">Wi-Fi</string>
+  <string name="pref_volume_category_title">Volume</string>
+  <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the device. Intended for devices with hard to press power key</string>
+  <string name="pref_volume_wake_title">Volume rocker wake</string>
   <string name="preferred_media_app_summary">Choose Music player</string>
   <string name="privacy_settings">Privacy</string>
   <string name="privacy_settings_title">Privacy Settings</string>
@@ -1359,7 +1359,7 @@
   <string name="wifi_cancel">Cancel</string>
   <string name="wifi_cancel_wps">Cancel WPS connection</string>
   <string name="wifi_clear_proxy">Clear Wi-Fi proxy setting</string>
-  <string name="wifi_config_info">Wifi Config</string>
+  <string name="wifi_config_info">Wi-Fi Config</string>
   <string name="wifi_connect">Connect</string>
   <string name="wifi_disabled">Disabled</string>
   <string name="wifi_dns1">DNS 1</string>
@@ -1447,7 +1447,7 @@
   <string name="wifi_wps_method">WPS method</string>
   <string name="wifi_wps_ok">OK</string>
   <string name="wifi_wps_pbc_found">PBC process started</string>
-  <string name="wifi_wps_pin">Pin number</string>
+  <string name="wifi_wps_pin">PIN number</string>
   <string name="wifi_wps_pin_found">PIN process started</string>
   <string name="wifi_wps_processing">WPS processing...</string>
   <string name="wifi_wps_show_pin">Show pin number.</string>

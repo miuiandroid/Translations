@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="alert_message_delete_record">Do you want to delete selected record?</string>
   <string name="app_name">Sound Recorder</string>
   <string name="audio_db_album_name">Audio recordings</string>
   <string name="audio_db_artist_name">Your recordings</string>
@@ -7,6 +8,7 @@
   <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
   <string name="button_ok">OK</string>
   <string name="call_record">Call recording</string>
+  <string name="call_record_or">or</string>
   <string name="default_record_name">untitled recording</string>
   <string name="delete_dialog_title">Do you want to delete current recording?</string>
   <string name="dialog_delete">Delete</string>

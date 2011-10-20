@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="add_button">添加</string>
   <string name="add_fdn_contact">添加固定拨号联系人</string>
   <string name="add_sip_account">添加帐户</string>
   <string name="add_vm_number_str">添加号码</string>
@@ -18,8 +19,6 @@
   <string name="alert_dialog_no">否</string>
   <string name="alert_dialog_ok">确定</string>
   <string name="alert_dialog_yes">是</string>
-  <string name="allow_3rd_app_listen_phone_event_summary">保护你的电话以免被窃听</string>
-  <string name="allow_3rd_app_listen_phone_event_title">防窃听</string>
   <string name="always_enable_mms">始终接收彩信</string>
   <string name="always_enable_mms_summary">在禁用数据时依然接收彩信, 在国内不会发生任何费用</string>
   <string name="answer">接听</string>
@@ -110,8 +109,11 @@
   <string name="change_num">更新</string>
   <string name="change_pin">更改 SIM 卡 PIN</string>
   <string name="change_pin2">更改 PIN2</string>
+  <string name="check_all">全选</string>
+  <string name="check_nothing">全不选</string>
   <string name="close_dialog">确定</string>
   <string name="close_profile">关闭</string>
+  <string name="confirm_delete_message_title">你将删除所选的%d个自定义归属地信息。</string>
   <string name="confirm_pin2_hint">确认新 PIN2</string>
   <string name="confirm_pin_hint">确认新 PIN</string>
   <string name="connect_disconnect_vibrate_none">不振动</string>
@@ -126,6 +128,8 @@
   <string name="crystaltalk_title">丽音设置</string>
   <string name="current_areacode">所在地区号</string>
   <string name="current_areacode_sum">当前所在地区号，若漫游则应为漫游地区号。例如:010</string>
+  <string name="custom_location_location_hint">名称</string>
+  <string name="custom_location_number_hint">区号如010、集团号如68#####</string>
   <string name="data_enable_summary">启用移动网络的数据访问功能</string>
   <string name="data_enabled">已启用数据</string>
   <string name="default_preference_summary">&lt;未设置&gt;</string>
@@ -135,6 +139,7 @@
   <string name="deleteSimContactConfirmTitle">删除联系人</string>
   <string name="deleteSimEntry">删除</string>
   <string name="deleting_fdn_contact">正在删除固定拨号联系人...</string>
+  <string name="deleting_message">正在删除...</string>
   <string name="dial_emergency_empty_error">电话未拨出，请拨打紧急呼救电话！</string>
   <string name="dial_emergency_error">电话未拨出，因为 %s 不是紧急呼救号码！</string>
   <string name="dialerIconLabel">通信服务</string>
@@ -158,6 +163,7 @@
   <string name="ecm_exit_dialog">EcmExitDialog</string>
   <string name="editSimContact">编辑SIM卡联系人</string>
   <string name="editSimEntry">编辑</string>
+  <string name="edit_custom_location_title">自定义地区归属地、号段归属地、支持通配符#</string>
   <string name="edit_fdn_contact">编辑固定拨号联系人</string>
   <string name="emergencyDialerIconLabel">紧急拨号器</string>
   <string name="emergency_broadcast_disable">已停用紧急广播</string>
@@ -344,6 +350,10 @@
   <string name="notification_voicemail_title">新语音邮件</string>
   <string name="notification_voicemail_title_count">新语音邮件 (%d)</string>
   <string name="number">号码</string>
+  <string name="number_type">号码类型</string>
+  <string name="number_type_jituan">集团号</string>
+  <string name="number_type_mob">手机</string>
+  <string name="number_type_tel">座机</string>
   <string name="ok">确定</string>
   <string name="old_pin2_hint">正在使用的 PIN2</string>
   <string name="old_pin_hint">正在使用的 PIN</string>
@@ -415,9 +425,12 @@
   <string name="pin_progress_unlock_icc">正在解锁 SIM 卡...</string>
   <string name="port_title">端口号</string>
   <string name="predefined_hangup_sms_body">我现在不方便接听，稍后和您联系。</string>
-  <string name="predefined_hangup_sms_summary">来电时挂断并发送短信的默认内容。</string>
+  <string name="predefined_hangup_sms_summary">来电时挂断并发送短信的默认内容</string>
   <string name="predefined_hangup_sms_title">预置来电挂断短信</string>
+  <string name="pref_custom_location_summary">自定义地区归属地、号段归属地</string>
+  <string name="pref_custom_location_title">自定义归属地</string>
   <string name="pref_dialer_list_title">拨号列表</string>
+  <string name="pref_edit_custom_location_title">编辑自定义</string>
   <string name="pref_more_settings_title">更多设置</string>
   <string name="pref_outgoing_call_title">手机呼出</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">3G 网络优先</string>
@@ -437,7 +450,7 @@
   <string name="puk_unlocked">您的SIM卡已解锁。正在解锁您的手机...</string>
   <string name="radio_off_error">请先开启无线通信，然后再查看这些设置。</string>
   <string name="reading_settings">正在读取设置...</string>
-  <string name="recordCall_sample_prefix">MIUI录音_</string>
+  <string name="recordCall_sample_prefix">MIUI录音</string>
   <string name="recordCall_sd_error">SD卡访问出错，录音前请插好SD卡</string>
   <string name="regional_disable">已停用地方新闻</string>
   <string name="regional_enable">已启用地方新闻</string>
@@ -456,6 +469,7 @@
   <string name="registration_status_server_unreachable">帐户注册失败：请检查服务器名称</string>
   <string name="registration_status_still_trying">仍在尝试...</string>
   <string name="remember_my_choice">总是用于拨打互联网电话</string>
+  <string name="remove">删除</string>
   <string name="remove_sip_account">删除帐户</string>
   <string name="removing_account">正在删除帐户...</string>
   <string name="requesting_unlock">正在请求网络解锁...</string>

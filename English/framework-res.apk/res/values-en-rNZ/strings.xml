@@ -453,7 +453,7 @@
   <string name="fools_day" />
   <string name="force_close">Force close</string>
   <string name="force_exit_message">Successfully closed \"%1$s\"</string>
-  <string name="format_error">Failed to erase USB storage.</string>
+  <string name="format_error">Failed to erase SD card.</string>
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="gadget_host_error_inflating">Error inflating widget</string>
   <string name="gigabyteShort">GB</string>
@@ -580,7 +580,7 @@
   <string name="lockscreen_instructions_when_pattern_enabled">Press Menu to unlock or place emergency call.</string>
   <string name="lockscreen_low_battery">Connect your charger (%d%%)</string>
   <string name="lockscreen_missing_sim_instructions">Please insert a SIM card.</string>
-  <string name="lockscreen_missing_sim_message">No SIM card in phone.</string>
+  <string name="lockscreen_missing_sim_message">No SIM card.</string>
   <string name="lockscreen_missing_sim_message_short">No SIM card.</string>
   <string name="lockscreen_mms_label">Open SMS</string>
   <string name="lockscreen_network_locked_message">Network locked</string>
@@ -629,11 +629,15 @@
   <string name="lunar_yi" />
   <string name="lunar_yue" />
   <string name="lunar_zheng" />
+  <string name="managed_roaming_dialog_cancel_button">No</string>
+  <string name="managed_roaming_dialog_content">Network with Limited Service found. Do you want to initiate a Network Search?</string>
+  <string name="managed_roaming_dialog_ok_button">Yes</string>
+  <string name="managed_roaming_title">Managed Roaming</string>
   <string name="me">Me</string>
   <string name="media_bad_removal">SD card was removed before being unmounted.</string>
-  <string name="media_checking">USB storage is currently being checked.</string>
+  <string name="media_checking">SD card is currently being checked.</string>
   <string name="media_removed">SD card has been removed.</string>
-  <string name="media_shared">USB storage is currently in use by a computer.</string>
+  <string name="media_shared">SD card is currently in use by a computer.</string>
   <string name="media_unknown_state">External media in unknown state.</string>
   <string name="megabyteShort">MB</string>
   <string name="menu_delete_shortcut_label">Delete</string>
@@ -643,6 +647,9 @@
   <string name="minute">min</string>
   <string name="minutes">mins</string>
   <string name="mismatchPin">The PINs you entered do not match.</string>
+  <string name="miui_copyright_title">Copyright</string>
+  <string name="miui_privacy_policy_title">Privacy policy</string>
+  <string name="miui_user_agreement_title">User agreement</string>
   <string name="mmiComplete">MMI complete.</string>
   <string name="mmiError">Connection problem or invalid MMI code.</string>
   <string name="mmiFdnError">Operation is restricted to fixed dialing numbers only.</string>
@@ -787,7 +794,7 @@
   <string name="permdesc_cache_filesystem">Allows an application to read and write the cache filesystem.</string>
   <string name="permdesc_callPhone">Allows the application to call phone numbers without your intervention. Malicious applications may cause unexpected calls on your phone bill. Note that this does not allow the application to call emergency numbers.</string>
   <string name="permdesc_callPrivileged">Allows the application to call any phone number, including emergency numbers, without your intervention. Malicious applications may place unnecessary and illegal calls to emergency services.</string>
-  <string name="permdesc_camera">Allows application to take pictures with the camera. This allows the application at any time to collect images the camera is seeing.</string>
+  <string name="permdesc_camera">Allows application to take pictures and videos with the camera. This allows the application at any time to collect images the camera is seeing.</string>
   <string name="permdesc_changeBackgroundDataSetting">Allows an application to change the background data usage setting.</string>
   <string name="permdesc_changeComponentState">Allows an application to change whether a component of another application is enabled or not. Malicious applications can use this to disable important phone capabilities. Care must be used with permission, as it is possible to get application components into an unusable, inconsistent, or unstable state.</string>
   <string name="permdesc_changeConfiguration">Allows an application to change the current configuration, such as the locale or overall font size.</string>
@@ -829,6 +836,7 @@
   <string name="permdesc_masterClear">Allows an application to completely reset the system to its factory settings, erasing all data, configuration, and installed applications.</string>
   <string name="permdesc_modifyAudioSettings">Allows application to modify global audio settings such as volume and routing.</string>
   <string name="permdesc_modifyPhoneState">Allows the application to control the phone features of the device. An application with this permission can switch networks, turn the phone radio on and off and the like without ever notifying you.</string>
+  <string name="permdesc_modify_audio_settings_during_call">Allow an application to manipulate audio settings during call.</string>
   <string name="permdesc_mount_format_filesystems">Allows the application to format removable storage.</string>
   <string name="permdesc_mount_unmount_filesystems">Allows the application to mount and unmount filesystems for removable storage.</string>
   <string name="permdesc_movePackage">Allows an application to move application resources from internal to external media and vice versa.</string>
@@ -848,6 +856,7 @@
   <string name="permdesc_readSms">Allows application to read SMS messages stored on your phone or SIM card. Malicious applications may read your confidential messages.</string>
   <string name="permdesc_readSyncSettings">Allows an application to read the sync settings, such as whether sync is enabled for Contacts.</string>
   <string name="permdesc_readSyncStats">Allows an application to read the sync stats; e.g., the history of syncs that have occurred.</string>
+  <string name="permdesc_read_call_state">Allow an application to read call state.</string>
   <string name="permdesc_reboot">Allows the application to force the phone to reboot.</string>
   <string name="permdesc_receiveBootCompleted">Allows an application to have itself started as soon as the system has finished booting. This can make it take longer to start the phone and allow the application to slow down the overall phone by always running.</string>
   <string name="permdesc_receiveEmergencyBroadcast">Allows application to receive and process emergency broadcast messages. This permission is only available to system applications.</string>
@@ -855,6 +864,7 @@
   <string name="permdesc_receiveSms">Allows application to receive and process SMS messages. Malicious applications may monitor your messages or delete them without showing them to you.</string>
   <string name="permdesc_receiveWapPush">Allows application to receive and process WAP messages. Malicious applications may monitor your messages or delete them without showing them to you.</string>
   <string name="permdesc_recordAudio">Allows application to access the audio record path.</string>
+  <string name="permdesc_record_calls">Allow an application to record calls.</string>
   <string name="permdesc_reorderTasks">Allows an application to move tasks to the foreground and background. Malicious applications can force themselves to the front without your control.</string>
   <string name="permdesc_runSetActivityWatcher">Allows an application to monitor and control how the system launches activities. Malicious applications may completely compromise the system. This permission is only needed for development, never for normal phone usage.</string>
   <string name="permdesc_sdcardWrite">Allows an application to write to the SD card.</string>
@@ -991,6 +1001,7 @@
   <string name="permlab_masterClear">reset system to factory defaults</string>
   <string name="permlab_modifyAudioSettings">change your audio settings</string>
   <string name="permlab_modifyPhoneState">modify phone state</string>
+  <string name="permlab_modify_audio_settings_during_call">modify audio settings during call</string>
   <string name="permlab_mount_format_filesystems">format external storage</string>
   <string name="permlab_mount_unmount_filesystems">mount and unmount filesystems</string>
   <string name="permlab_movePackage">Move application resources</string>
@@ -1010,6 +1021,7 @@
   <string name="permlab_readSms">read SMS or MMS</string>
   <string name="permlab_readSyncSettings">read sync settings</string>
   <string name="permlab_readSyncStats">read sync statistics</string>
+  <string name="permlab_read_call_state">read call state</string>
   <string name="permlab_reboot">force phone reboot</string>
   <string name="permlab_receiveBootCompleted">automatically start at boot</string>
   <string name="permlab_receiveEmergencyBroadcast">receive emergency broadcasts</string>
@@ -1017,6 +1029,7 @@
   <string name="permlab_receiveSms">receive SMS</string>
   <string name="permlab_receiveWapPush">receive WAP</string>
   <string name="permlab_recordAudio">record audio</string>
+  <string name="permlab_record_calls">record calls</string>
   <string name="permlab_reorderTasks">reorder running applications</string>
   <string name="permlab_runSetActivityWatcher">monitor and control all application launching</string>
   <string name="permlab_sdcardWrite">modify/delete SD card contents</string>
@@ -1102,8 +1115,8 @@
   <string name="preposition_for_time">at %s</string>
   <string name="preposition_for_year">in %s</string>
   <string name="private_num">Private number</string>
-  <string name="progress_erasing">Erasing USB storage...</string>
-  <string name="progress_unmounting">Unmounting USB storage...</string>
+  <string name="progress_erasing">Erasing SD card...</string>
+  <string name="progress_unmounting">Unmounting SD card...</string>
   <string name="reboot_confirm">Phone will be restarted</string>
   <string name="reboot_progress">Restarting...</string>
   <string name="recent_tasks_title">Recent</string>
@@ -1149,6 +1162,7 @@
   <string name="roamingText9">Roaming - Full Service Functionality</string>
   <string name="roamingTextSearching">Searching for Service</string>
   <string name="safeMode">Safe mode</string>
+  <string name="safetylegal_activity_unreachable">Your phone is not connected to a data service. To view this information now, go to %s from any computer connected to the Internet.</string>
   <string name="same_month_md1_md2">%2$s %3$s – %8$s</string>
   <string name="same_month_md1_time1_md2_time2">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
   <string name="same_month_mdy1_mdy2">%2$s %3$s – %8$s, %9$s</string>
@@ -1295,6 +1309,11 @@
   <string name="usb_storage_stop_notification_title">Turn off USB storage</string>
   <string name="usb_storage_stop_title">USB storage in use</string>
   <string name="usb_storage_title">USB connected</string>
+  <string name="user_agreement1">You will use the system and online services provided by Xiaomi, please read</string>
+  <string name="user_agreement2">\u0020User agreement</string>
+  <string name="user_agreement3">\u0020and\u0020</string>
+  <string name="user_agreement4">Privacy policy</string>
+  <string name="user_agreement5">，Click OK shows that you agree to and are willing to comply with the above content, click Cancel to exit.</string>
   <string name="valentines_day" />
   <string name="vernal_equinox" />
   <string name="volume_alarm">Alarm volume</string>

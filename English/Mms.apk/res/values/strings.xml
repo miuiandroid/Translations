@@ -68,10 +68,10 @@
   <string name="context_menu_copy">Copy</string>
   <string name="context_menu_copy_notice">Selection copied to clipboard</string>
   <string name="context_menu_dial">Call</string>
-  <string name="context_menu_new_contact">New Contact</string>
+  <string name="context_menu_new_contact">New contact</string>
   <string name="context_menu_send_mail">Send E-mail</string>
-  <string name="context_menu_send_sms">Send Message</string>
-  <string name="context_menu_view_contact">View Contact</string>
+  <string name="context_menu_send_sms">Send message</string>
+  <string name="context_menu_view_contact">View contact</string>
   <string name="context_menu_view_mms">View MMS</string>
   <string name="conversation_list_empty_text">no message</string>
   <string name="conversation_style">bubble</string>
@@ -276,7 +276,7 @@
   <string name="rate_limit_surpassed">Confirm</string>
   <string name="received_label">Received:\u0020</string>
   <string name="recent_contact_list_title">Recent</string>
-  <string name="recipient_editor_count_format">%d人</string>
+  <string name="recipient_editor_count_format">%d</string>
   <string name="recipient_label">Recipient:\u0020</string>
   <string name="refreshing">Refreshing…</string>
   <string name="remove">Remove</string>
@@ -346,7 +346,7 @@
   <string name="text_in_popup_saved_to_clipboard">The text edited in the popup was saved to clipboard</string>
   <string name="text_message">Text message</string>
   <string name="to_address_label">To:\u0020</string>
-  <string name="to_count">共%d人</string>
+  <string name="to_count">%d in all</string>
   <string name="to_hint">To</string>
   <string name="to_label">To\u0020</string>
   <string name="too_many_attachments">There is a limit of %1$s attachments. Only the first %2$s will be added.</string>
@@ -365,6 +365,7 @@
   <string name="unsupported_media_format">Unsupported %1$s format</string>
   <string name="update_failed">Update failed</string>
   <string name="view">View</string>
+  <string name="view_bookmark">View original message</string>
   <string name="view_delivery_report">View report</string>
   <string name="view_message_details">View message details</string>
   <string name="view_slideshow">View slideshow</string>

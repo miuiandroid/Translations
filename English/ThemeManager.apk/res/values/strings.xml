@@ -19,11 +19,12 @@
   <string name="desktop_wallpaper">Desktop wallpaper</string>
   <string name="live_wallpaper">Live wallpaper</string>
   <string name="lockscreen_wallpaper">Lockscreen wallpaper</string>
-  <string name="new_format_convert">Converting %s to new format, please wait...</string>
+  <string name="new_format_convert">Converting %1$s to new format, please wait...</string>
   <string name="old_format_convert_tip1">Theme is not in the new format, converting may take some time to complete. Convert now?</string>
   <string name="old_format_convert_tip2">Or delete it and download its new version.</string>
   <string name="old_format_fail">Failed to convert, press apply to retry.</string>
   <string name="old_format_title">Old format</string>
+  <string name="play_all_audio_effect">play audio effect (total: %1$s)</string>
   <string name="resource_fail_to_show">Theme did not contain the required resources.</string>
   <string name="theme_activity_lable">Themes</string>
   <string name="theme_changed_failed_message">Failed to apply theme.</string>
@@ -31,6 +32,7 @@
   <string name="theme_changing_dialog_title">Applying new theme, please wait...</string>
   <string name="theme_component_title_alarm">Alarm</string>
   <string name="theme_component_title_all">Theme</string>
+  <string name="theme_component_title_audio_effect">AudioEffect</string>
   <string name="theme_component_title_boot_animation">Boot Animation</string>
   <string name="theme_component_title_boot_audio">Boot Audio</string>
   <string name="theme_component_title_contact">Dialer</string>

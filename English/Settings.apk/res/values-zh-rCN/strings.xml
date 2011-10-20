@@ -593,7 +593,7 @@
   <string name="error_title">注意</string>
   <string name="filter">过滤</string>
   <string name="filter_apps_all">全部</string>
-  <string name="filter_apps_onsdcard">USB 存储设备</string>
+  <string name="filter_apps_onsdcard">SD 卡中</string>
   <string name="filter_apps_running">正在运行</string>
   <string name="filter_apps_third_party">已下载</string>
   <string name="font_size_save">确定</string>
@@ -605,7 +605,7 @@
   <string name="gadget_title">电量控制</string>
   <string name="gmail_settings_title">Gmail</string>
   <string name="gps_config_ntp_server">NTP 服务器地址:</string>
-  <string name="gps_config_summary">在无法定位的时候，可在此处修改 GPS 配置。</string>
+  <string name="gps_config_summary">在无法定位的时候，可在此处修改 GPS 配置</string>
   <string name="gps_config_supl_host">SUPL 服务器地址:</string>
   <string name="gps_config_supl_port">SUPL 服务器端口:</string>
   <string name="gps_config_title">GPS 配置</string>
@@ -681,14 +681,14 @@
   <string name="light_decrease_enabled_title">允许降低亮度</string>
   <string name="light_decrease_hysteresis_summary">传感器数据降低一定水平后再降低屏幕亮度。</string>
   <string name="light_decrease_hysteresis_title">降低亮度迟滞</string>
-  <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算，以减少频繁调节亮度引起的屏幕闪烁。</string>
+  <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算，以减少频繁调节亮度引起的屏幕闪烁</string>
   <string name="light_filter_enabled_title">启用</string>
-  <string name="light_filter_interval_summary">间隔越短准确度越高，但会消耗更多的电量。</string>
+  <string name="light_filter_interval_summary">间隔越短准确度越高，但会消耗更多的电量</string>
   <string name="light_filter_interval_title">传感器采样间隔</string>
-  <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该阈值，则重置移动平均值的运算，以便光线剧烈变化的情况下可迅速反应。</string>
+  <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该阈值，则重置移动平均值的运算，以便光线剧烈变化的情况下可迅速反应</string>
   <string name="light_filter_reset_title">重置阈值</string>
   <string name="light_filter_title">光线传感器运算</string>
-  <string name="light_filter_window_summary">对该时间段内的光线传感器数据取平均值。</string>
+  <string name="light_filter_window_summary">对该时间段内的光线传感器数据取平均值</string>
   <string name="light_filter_window_title">移动平均取值长度</string>
   <string name="light_levels_dim_summary">当使屏幕变暗时所使用的亮度水平值</string>
   <string name="light_levels_dim_title">屏幕变暗值</string>
@@ -808,9 +808,6 @@
   <string name="menu_stats_refresh">刷新</string>
   <string name="menu_stats_total">总使用量</string>
   <string name="menu_stats_unplugged">上次拔下电源后</string>
-  <string name="miui_copyright_title">版权保护投诉指引</string>
-  <string name="miui_privacy_policy_title">隐私政策</string>
-  <string name="miui_user_agreement_title">用户协议</string>
   <string name="mms_kept_in_memory">信息</string>
   <string name="mms_settings_title">短信</string>
   <string name="mms_vibrate_abbreviation">短信</string>
@@ -820,7 +817,7 @@
   <string name="move_app_failed_dlg_text">无法移动应用程序。%1$s</string>
   <string name="move_app_failed_dlg_title">移动应用程序</string>
   <string name="move_app_to_internal">移至手机内存</string>
-  <string name="move_app_to_sdcard">移至 USB 存储设备</string>
+  <string name="move_app_to_sdcard">移至 SD 卡</string>
   <string name="moving">正在移动</string>
   <string name="multi_touch_points_category_title">多点触控</string>
   <string name="multi_touch_points_preference">多点触控，重启后生效</string>
@@ -876,6 +873,9 @@
   <string name="power_usage_summary">耗电情况</string>
   <string name="power_usage_summary_title">电量使用情况</string>
   <string name="power_wifi">WLAN</string>
+  <string name="pref_volume_category_title">音量键</string>
+  <string name="pref_volume_wake_summary">按一下增加／减小音量键来唤醒设备。用于不方便按电源键的设备</string>
+  <string name="pref_volume_wake_title">音量键唤醒</string>
   <string name="preferred_media_app_summary">优先响应线控、锁屏媒体键</string>
   <string name="privacy_settings">隐私权</string>
   <string name="privacy_settings_title">隐私权设置</string>
@@ -995,7 +995,7 @@
   <string name="runningservices_settings_title">正在运行的服务</string>
   <string name="screen_rotation">旋转屏幕</string>
   <string name="screen_timeout">屏幕超时</string>
-  <string name="sd_card_storage">USB 存储设备</string>
+  <string name="sd_card_storage">SD 卡存储设备</string>
   <string name="sd_eject">卸载 SD 卡</string>
   <string name="sd_eject_summary">必须先卸载 SD 卡，才能将其安全移除</string>
   <string name="sd_ejecting_summary">正在卸载</string>
@@ -1041,7 +1041,6 @@
   <string name="settings_license_activity_unavailable">载入许可时出现问题。</string>
   <string name="settings_safetylegal_activity_loading">正在载入...</string>
   <string name="settings_safetylegal_activity_title">安全信息</string>
-  <string name="settings_safetylegal_activity_unreachable">您的手机未连接到数据服务。要立即查看此信息，请通过连接到互联网的任意计算机访问 %s。</string>
   <string name="settings_safetylegal_title">安全信息</string>
   <string name="settings_shortcut">设置</string>
   <string name="show_background_processes">显示缓存进程</string>
@@ -1163,7 +1162,7 @@
   <string name="unlock_set_unlock_pin_title">数字</string>
   <string name="unmount_inform_text">系统将要卸载 SD 卡。请在通知区域查看状态。</string>
   <string name="untitled_apn">未命名</string>
-  <string name="upload_debug_log_summary">仅在WLAN连接可用情况下，上传调试日志以帮助MIUI开发更加稳定好用的ROM。谢谢!</string>
+  <string name="upload_debug_log_summary">仅在WLAN连接可用情况下，上传调试日志以帮助MIUI开发更加稳定好用的ROM，谢谢!</string>
   <string name="upload_debug_log_title">允许上传调试日志</string>
   <string name="usage_stats_label">使用情况统计数据</string>
   <string name="usage_time_label">使用时间</string>

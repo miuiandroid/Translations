@@ -6,11 +6,13 @@
   <string name="battery_low_subtitle">The battery is getting low:</string>
   <string name="battery_low_title">Please connect charger</string>
   <string name="battery_low_why">Battery use</string>
+  <string name="call_status_dialing">Dialing</string>
   <string name="dismount_storage">Charge only</string>
   <string name="label_view">View</string>
   <string name="mount_storage">Mount storage</string>
   <string name="move_data_to_sdcard_message">Screenshots and photos will be migrated to the SD card to free up more internal memory.</string>
   <string name="move_data_to_sdcard_title">Move data to SD card</string>
+  <string name="return_to_incall_screen">Click to return to call</string>
   <string name="status_bar_clear_all_button">Clear</string>
   <string name="status_bar_date_format">MMM d</string>
   <string name="status_bar_date_format_lock">E, MMM d</string>
@@ -27,7 +29,7 @@
   <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this device at %1$s</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
   <string name="usb_mode_dont_ask">Don\'t prompt again</string>
-  <string name="usb_mode_mount_storage_title">Mount SD card media</string>
+  <string name="usb_mode_mount_storage_title">Mount SD card</string>
   <string name="usb_mode_notification">Mount SD card</string>
   <string name="user_guide_for_call">To back to the phone UI, you can drag down the status bar and click the calling notification</string>
   <string name="user_guide_for_notification">A new notification received，you can drag down the status bar to check detail</string>

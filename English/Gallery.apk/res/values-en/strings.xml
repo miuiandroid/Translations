@@ -9,9 +9,10 @@
   <string name="apply_pic_for">Set as:</string>
   <string name="bookmark">Favorites</string>
   <string name="camera_folder_display_name">Camera Photos</string>
-  <string name="cancel">Cancel</string>
   <string name="cancel_bookmark">Remove from Favorites</string>
   <string name="cancel_hidden">Unhide</string>
+  <string name="clear_thumbnail_cache">Clear thumbnail cache</string>
+  <string name="clear_thumbnail_cache_confirm">Thumbnail cache will be cleared. Gallery will rescan media files and recreate thumbnails in later usage</string>
   <string name="confirm">OK</string>
   <string name="confirm_delete_file">File will be permanently deleted from the SD card</string>
   <string name="confirm_delete_folder">All the files in the selected folder will be permanently deleted from the SD card</string>
@@ -30,7 +31,7 @@
   <string name="failure_external_storage_not_writable">External storage is not writable!</string>
   <string name="file">File</string>
   <string name="file_info_create_time">Created:</string>
-  <string name="file_info_dimension">Res:</string>
+  <string name="file_info_dimension">Resolution:</string>
   <string name="file_info_duration">Duration:</string>
   <string name="file_info_geo_location">Location:</string>
   <string name="file_info_path">Path:</string>
@@ -72,7 +73,6 @@
   <string name="no">None</string>
   <string name="no_file">No files found</string>
   <string name="no_files">Folder is empty</string>
-  <string name="ok">OK</string>
   <string name="open_map">Open map</string>
   <string name="open_single_image_failure">Failed to load image</string>
   <string name="operation_cancel">Cancel</string>
@@ -99,7 +99,7 @@
   <string name="running_face_detection">Please wait...</string>
   <string name="save">Save</string>
   <string name="save_pic_error">Failed to save picture!</string>
-  <string name="save_pic_to_success">Picture successfully saved to\n%s</string>
+  <string name="save_pic_to_success">Picture successfully saved to \n%s</string>
   <string name="save_to_hint">Saved to %s</string>
   <string name="save_to_sdcard">Save to SD card</string>
   <string name="saving_image">Saving picture...</string>
@@ -114,12 +114,9 @@
   <string name="select_photo_hint">Select a photo</string>
   <string name="send">Send</string>
   <string name="send_multiple_files_hint_format">Send multiple files (%s)</string>
-  <string name="send_single_image_hint_format">Send photo (%s)</string>
-  <string name="send_single_video_hint_format">Send video (%s)</string>
   <string name="sending_image_title">Send photo (%s)</string>
   <string name="sending_video_title">Send video (%s)</string>
   <string name="set_as_folder_cover">Set as album cover</string>
-  <string name="set_contact_photo">Set as contact photo</string>
   <string name="set_lock_or_wallpaper">Set as wallpaper</string>
   <string name="set_lockscreen">Set as lockscreen wallpaper</string>
   <string name="set_lockscreen_failure">Failed to set lockscreen wallpaper!</string>
@@ -132,7 +129,7 @@
   <string name="slideshow_category">Slideshow</string>
   <string name="slideshow_interval">Time interval</string>
   <string name="slideshow_interval_dialog_title">Time interval must be greater than 0 seconds</string>
-  <string name="slideshow_interval_invalid">Invalid playback interval set</string>
+  <string name="slideshow_interval_invalid">Invalid playback interval setting</string>
   <string name="slideshow_repeat_mode">Repeat</string>
   <string name="sort">Sort by</string>
   <string name="sort_by_freq">Frequency ascending</string>

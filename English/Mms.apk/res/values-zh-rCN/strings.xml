@@ -274,6 +274,7 @@
   <string name="rate_limit_surpassed">确认</string>
   <string name="received_label">接收时间：\u0020</string>
   <string name="recent_contact_list_title">最近联系人</string>
+  <string name="recipient_editor_count_format">%d人</string>
   <string name="recipient_label">收信人:\u0020</string>
   <string name="refreshing">正在刷新...</string>
   <string name="remove">删除</string>
@@ -343,6 +344,7 @@
   <string name="text_in_popup_saved_to_clipboard">弹窗中输入的文字已存入剪贴板</string>
   <string name="text_message">短信</string>
   <string name="to_address_label">收信人：\u0020</string>
+  <string name="to_count">共%d人</string>
   <string name="to_hint">收信人</string>
   <string name="to_label">收信人\u0020</string>
   <string name="too_many_attachments">附件数量上限为 %1$s 个。只会添加前 %2$s 个。</string>
@@ -361,6 +363,7 @@
   <string name="unsupported_media_format">不支持%1$s格式</string>
   <string name="update_failed">更新失败</string>
   <string name="view">查看</string>
+  <string name="view_bookmark">查看原信息</string>
   <string name="view_delivery_report">查看报告</string>
   <string name="view_message_details">详情</string>
   <string name="view_slideshow">观看幻灯片演示</string>

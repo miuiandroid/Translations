@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Themes</string>
   <string name="apply_lockscreen_paper_tips">The lockscreen currently in use does not support changing lockscreen wallpaper, new lockscreen wallpaper may not be visible.</string>
-  <string name="apply_theme_no_select_message">Please select components</string>
+  <string name="apply_theme_no_select_message">Please select components.</string>
   <string name="backup_preference_title">Backup Theme</string>
   <string name="backup_theme_dialog_message">Backup the current theme to SD card:\n\\MIUI\\theme\\backup\\backup.mtz</string>
   <string name="backup_theme_dialog_ok">Backup</string>
@@ -19,11 +19,12 @@
   <string name="desktop_wallpaper">Home screen wallpaper</string>
   <string name="live_wallpaper">Live wallpaper</string>
   <string name="lockscreen_wallpaper">Lockscreen wallpaper</string>
-  <string name="new_format_convert">Converting %s to new format</string>
+  <string name="new_format_convert">Converting %1$s to new format</string>
   <string name="old_format_convert_tip1">Theme package is not in the new theme format, converting can take some time to complete</string>
   <string name="old_format_convert_tip2">Resources can be deleted and updated to new versions via download</string>
   <string name="old_format_fail">Conversion of mtz to new format failed, press apply to retry conversion</string>
   <string name="old_format_title">Old mtz theme format</string>
+  <string name="play_all_audio_effect">play audio effect (total: %1$s)</string>
   <string name="resource_fail_to_show">Theme mtz did not contain the required resources</string>
   <string name="theme_activity_lable">Themes</string>
   <string name="theme_changed_failed_message">Failed to apply theme!</string>
@@ -31,6 +32,7 @@
   <string name="theme_changing_dialog_title">Applying new theme, please wait...</string>
   <string name="theme_component_title_alarm">Alarm</string>
   <string name="theme_component_title_all">Theme</string>
+  <string name="theme_component_title_audio_effect">Audio Effect</string>
   <string name="theme_component_title_boot_animation">Boot Animation</string>
   <string name="theme_component_title_boot_audio">Boot Audio</string>
   <string name="theme_component_title_contact">Dialer Style</string>

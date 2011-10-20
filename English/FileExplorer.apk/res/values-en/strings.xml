@@ -27,7 +27,7 @@
   <string name="fail_to_rename">Failed to rename the file or folder as it already exists</string>
   <string name="favorite_photo">Photo</string>
   <string name="favorite_ringtone">Ringtone</string>
-  <string name="favorite_screen_cap">MIUI Screenshot</string>
+  <string name="favorite_screen_cap">MIUI Screen Shot</string>
   <string name="favorite_sdcard">SD Card</string>
   <string name="file_info_canread">Readable:</string>
   <string name="file_info_canwrite">Writable:</string>

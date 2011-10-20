@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="absent_num">ABSENT NUMBER</string>
+  <string name="add_button">Add</string>
   <string name="add_fdn_contact">Add fixed dialing number</string>
   <string name="add_sip_account">Add account</string>
   <string name="add_vm_number_str">Add number</string>
@@ -20,8 +21,6 @@
   <string name="alert_dialog_no">No</string>
   <string name="alert_dialog_ok">OK</string>
   <string name="alert_dialog_yes">Yes</string>
-  <string name="allow_3rd_app_listen_phone_event_summary">Protect your phone from being wiretapped</string>
-  <string name="allow_3rd_app_listen_phone_event_title">Anti wiretapping</string>
   <string name="always_enable_mms">Always receive MMS</string>
   <string name="always_enable_mms_summary">Always receive MMS even when data is disabled</string>
   <string name="answer">Answer</string>
@@ -114,8 +113,11 @@
   <string name="change_num">Update</string>
   <string name="change_pin">Change SIM PIN</string>
   <string name="change_pin2">Change PIN2</string>
+  <string name="check_all">Select all</string>
+  <string name="check_nothing">Disselect all</string>
   <string name="close_dialog">OK</string>
   <string name="close_profile">Close</string>
+  <string name="confirm_delete_message_title">You will delete the selected %d custom attribution messages.</string>
   <string name="confirm_pin2_hint">Confirm new PIN2</string>
   <string name="confirm_pin_hint">Confirm new PIN</string>
   <string name="connect_disconnect_vibrate_none">No vibrate</string>
@@ -130,6 +132,8 @@
   <string name="crystaltalk_title">NICAM setting</string>
   <string name="current_areacode">Current area code</string>
   <string name="current_areacode_sum">Area code of current location, or roaming area code if you are roaming. For example: 010</string>
+  <string name="custom_location_location_hint">Name</string>
+  <string name="custom_location_number_hint">Area code such as 010, group number such as 68#####</string>
   <string name="data_enable_summary">Enable data access over Mobile network</string>
   <string name="data_enabled">Data enabled</string>
   <string name="default_port">5060</string>
@@ -141,6 +145,7 @@
   <string name="deleteSimContactConfirmTitle">Delete SIM contacts</string>
   <string name="deleteSimEntry">Delete</string>
   <string name="deleting_fdn_contact">Deleting fixed dialing number…</string>
+  <string name="deleting_message">deleting...</string>
   <string name="dial_emergency_empty_error">Call not sent, please dial an emergency number!</string>
   <string name="dial_emergency_error">Call not sent, %s is not an emergency number!</string>
   <string name="dialerIconLabel">Telephony Service</string>
@@ -166,6 +171,7 @@
   <string name="ecm_exit_dialog">EcmExitDialog</string>
   <string name="editSimContact">Edit SIM card contact</string>
   <string name="editSimEntry">Editor</string>
+  <string name="edit_custom_location_title">Customize regional attribution, number attribution, wildcards # supported</string>
   <string name="edit_fdn_contact">Edit fixed dialing number</string>
   <string name="emergencyDialerIconLabel">Emergency Dialer</string>
   <string name="emergency_broadcast_disable">Emergency Broadcast disabled</string>
@@ -355,6 +361,10 @@
   <string name="notification_voicemail_title">New voicemail</string>
   <string name="notification_voicemail_title_count">New voicemail (%d)</string>
   <string name="number">Number</string>
+  <string name="number_type">Number type</string>
+  <string name="number_type_jituan">Group number</string>
+  <string name="number_type_mob">Mobile phone</string>
+  <string name="number_type_tel">Landline</string>
   <string name="ok">OK</string>
   <string name="old_pin2_hint">Current PIN2</string>
   <string name="old_pin_hint">Current PIN</string>
@@ -430,7 +440,10 @@
   <string name="predefined_hangup_sms_body">Not available at the moment but will call you later</string>
   <string name="predefined_hangup_sms_summary">Ignore call and send message</string>
   <string name="predefined_hangup_sms_title">Hangup message</string>
+  <string name="pref_custom_location_summary">Customize regional attribution and number attribution</string>
+  <string name="pref_custom_location_title">Customize attribution</string>
   <string name="pref_dialer_list_title">Dialer list</string>
+  <string name="pref_edit_custom_location_title">Edit</string>
   <string name="pref_more_settings_title">Settings</string>
   <string name="pref_outgoing_call_title">Outgoing calls</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">3G prefered</string>
@@ -470,6 +483,7 @@
   <string name="registration_status_server_unreachable">Account registration failed: please check the server name</string>
   <string name="registration_status_still_trying">Still trying…</string>
   <string name="remember_my_choice">Always use to place Internet calls</string>
+  <string name="remove">Delete</string>
   <string name="remove_sip_account">Remove account</string>
   <string name="removing_account">Removing the account…</string>
   <string name="requesting_unlock">Requesting network unlock…</string>

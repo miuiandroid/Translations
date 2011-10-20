@@ -2,7 +2,6 @@
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@id/play_video" android:visible="false" android:title="@string/play_video" />
-    <item android:id="@id/set_contact_photo" android:visible="false" android:title="@string/set_contact_photo" />
     <item android:id="@id/set_lock_or_wallpaper" android:title="@string/set_lock_or_wallpaper">
         <menu>
             <item android:id="@id/set_wallpaper" android:title="@string/set_wallpaper" />

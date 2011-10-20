@@ -23,6 +23,7 @@
         <item>Notes</item>
         <item>DND settings</item>
         <item>Current Theme</item>
+        <item>Superuser</item>
     </string-array>
     <string-array name="app_type_desc">
         <item>(data)</item>

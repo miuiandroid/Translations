@@ -7,14 +7,12 @@
   <string name="app_name">Notes</string>
   <string name="app_widget2x2">Notes 2x2</string>
   <string name="app_widget4x4">Notes 4x4</string>
-  <string name="button_cancel">Cancel</string>
   <string name="button_check">Check all</string>
   <string name="button_check_none">Check nothing</string>
-  <string name="button_clear">Cancel</string>
   <string name="button_delete">Delete</string>
   <string name="button_move">Move</string>
-  <string name="button_set">Set</string>
   <string name="call_record_folder_name">Call notes</string>
+  <string name="delete_remind_time_message">Delete reminder successfully</string>
   <string name="error_note_empty_for_clock">Sorry, can not set clock on empty note</string>
   <string name="error_note_empty_for_send_to_desktop">Sorry, can not send and empty note to home</string>
   <string name="error_note_not_exist">The note is not exist</string>
@@ -50,6 +48,7 @@
   <string name="menu_list_mode">Enter check list</string>
   <string name="menu_move_parent_folder">Parent folder</string>
   <string name="menu_normal_mode">Leave check list</string>
+  <string name="menu_remove_remind">Delete reminder</string>
   <string name="menu_search">Search</string>
   <string name="menu_send_to_desktop">Send to home</string>
   <string name="menu_setting">Settings</string>
@@ -65,6 +64,7 @@
   <string name="notealert_enter">Take a look</string>
   <string name="notealert_ok">Got it</string>
   <string name="noteedit_use_alert_time_error">Failed to set time</string>
+  <string name="noteedit_use_alert_time_success">Set remind time successfully</string>
   <string name="notelist_menu_new">Add note</string>
   <string name="notelist_string_info">...</string>
   <string name="preferences_account_summary">Sync notes with google task</string>

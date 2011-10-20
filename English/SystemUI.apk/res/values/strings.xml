@@ -6,11 +6,13 @@
   <string name="battery_low_subtitle">The battery is getting low:</string>
   <string name="battery_low_title">Please connect charger</string>
   <string name="battery_low_why">Battery use</string>
+  <string name="call_status_dialing">Dialing</string>
   <string name="dismount_storage">No</string>
   <string name="label_view">View</string>
   <string name="mount_storage">Yes</string>
   <string name="move_data_to_sdcard_message">It will move data such as screenshots, pictures and so on from internal storage to SD card. To make sure smooth and stable use experience, it\'s better to keep SD card in phone for daily use.</string>
   <string name="move_data_to_sdcard_title">Export internal data to SD card</string>
+  <string name="return_to_incall_screen">Click to return to call</string>
   <string name="status_bar_clear_all_button">Clear</string>
   <string name="status_bar_date_format">MMM d</string>
   <string name="status_bar_date_format_lock">MMM d, E</string>

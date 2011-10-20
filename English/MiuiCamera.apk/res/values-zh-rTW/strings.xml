@@ -2,7 +2,6 @@
 <resources>
   <string name="access_sd_fail">無法存取SD卡。</string>
   <string name="anti_shake">防抖</string>
-  <string name="anti_shake_time_expired">超時，立即拍攝。</string>
   <string name="burst">連拍</string>
   <string name="burst_reach_count_limit">已達到連拍上限。</string>
   <string name="camera_error_title">相機發生錯誤</string>
@@ -109,12 +108,11 @@
   <string name="pref_picturesize_fullscreen">全屏</string>
   <string name="pref_video_continuous_focus">連續對焦</string>
   <string name="pref_video_quality">視頻質量</string>
-  <string name="pref_video_quality_720p">高清%s (30 分鐘)</string>
+  <string name="pref_video_quality_720p">720P (30 分鐘)</string>
   <string name="pref_video_quality_high">高 (30 分鐘)</string>
   <string name="pref_video_quality_low">低 (30 分鐘)</string>
   <string name="pref_video_quality_mms">MMS (低，30 秒)</string>
   <string name="preparing_sd">正在準備 SD 卡...</string>
-  <string name="removed">已删除</string>
   <string name="review_cancel">取消</string>
   <string name="review_ok">確定</string>
   <string name="review_play">播放</string>

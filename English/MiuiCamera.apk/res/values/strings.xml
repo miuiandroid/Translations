@@ -10,6 +10,7 @@
   <string name="camera_settings">Camera Settings</string>
   <string name="cannot_connect_camera">Can\'t connect to camera.</string>
   <string name="color_effect">Color effect</string>
+  <string name="confirm_restore_message">Camera settings will be restored to defaults.</string>
   <string name="delay_snap">Delay</string>
   <string name="details_ok">OK</string>
   <string name="disable_silence">Sounds</string>
@@ -20,6 +21,11 @@
   <string name="gallery_camera_videos_bucket_name">Camera videos</string>
   <string name="image_file_name_format">\'IMG\'_yyyyMMdd_HHmmss</string>
   <string name="not_enough_space">Your SD card is full.</string>
+  <string name="pref_camera_afzone">Selectable zone AF</string>
+  <string name="pref_camera_afzone_auto">Auto</string>
+  <string name="pref_camera_afzone_average">Frame average</string>
+  <string name="pref_camera_afzone_center">Center weighted</string>
+  <string name="pref_camera_afzone_spot">Spot metering</string>
   <string name="pref_camera_antibanding">Anti-banding</string>
   <string name="pref_camera_antibanding_50hz">50 Hz</string>
   <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -45,7 +51,6 @@
   <string name="pref_camera_contrast">Contrast</string>
   <string name="pref_camera_focusmode">Focus mode</string>
   <string name="pref_camera_focusmode_auto">Auto</string>
-  <string name="pref_camera_focusmode_continuous_video">Continuous video</string>
   <string name="pref_camera_focusmode_edof">EDOF</string>
   <string name="pref_camera_focusmode_fixed">Fixed</string>
   <string name="pref_camera_focusmode_infinity">Infinity</string>
@@ -110,12 +115,13 @@
   <string name="pref_picturesize_fullscreen">Full screen</string>
   <string name="pref_video_continuous_focus">Continuous focus</string>
   <string name="pref_video_quality">Video Quality</string>
-  <string name="pref_video_quality_hd">HD%s (30m)</string>
-  <string name="pref_video_quality_high">High (30m)</string>
-  <string name="pref_video_quality_low">Low (30m)</string>
+  <string name="pref_video_quality_hd">HD%s (2h)</string>
+  <string name="pref_video_quality_high">High (2h)</string>
+  <string name="pref_video_quality_low">Low (2h)</string>
   <string name="pref_video_quality_mms">MMS (Low, 30s)</string>
   <string name="preparing_sd">Preparing SD card...</string>
   <string name="removed">Removed</string>
+  <string name="restore_title">Restore defaults</string>
   <string name="review_cancel">Cancel</string>
   <string name="review_ok">OK</string>
   <string name="review_play">Play</string>

@@ -220,6 +220,7 @@
   <string name="insertContactDescription">创建联系人</string>
   <string name="invalidContactMessage">该联系人不存在。</string>
   <string name="label_notes">备注</string>
+  <string name="label_sip_address">网络电话</string>
   <string name="last_contacted">(最近)</string>
   <string name="launcherDialer">拨号</string>
   <string name="listFoundAllContactsZero">未找到联系人</string>
@@ -257,7 +258,7 @@
   <string name="menu_done">完成</string>
   <string name="menu_editContact">编辑联系人</string>
   <string name="menu_editGroupName">编辑群组名称</string>
-  <string name="menu_group_ringtone">群设铃声</string>
+  <string name="menu_group_ringtone">批量设铃声</string>
   <string name="menu_group_sms">群发短信</string>
   <string name="menu_joinAggregate">合并</string>
   <string name="menu_makeDefaultEmail">设置为默认电子邮件</string>

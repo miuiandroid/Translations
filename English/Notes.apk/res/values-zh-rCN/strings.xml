@@ -7,14 +7,12 @@
   <string name="app_name">便签</string>
   <string name="app_widget2x2">便签2x2</string>
   <string name="app_widget4x4">便签4x4</string>
-  <string name="button_cancel">取消</string>
   <string name="button_check">全选</string>
   <string name="button_check_none">全不选</string>
-  <string name="button_clear">清除</string>
   <string name="button_delete">删除</string>
   <string name="button_move">移动</string>
-  <string name="button_set">设定</string>
   <string name="call_record_folder_name">通话便签</string>
+  <string name="delete_remind_time_message">成功删除提醒</string>
   <string name="error_note_empty_for_clock">不能为空便签设置闹钟提醒</string>
   <string name="error_note_empty_for_send_to_desktop">不能将空便签发送到桌面</string>
   <string name="error_note_not_exist">要查看的便签不存在</string>
@@ -47,6 +45,7 @@
   <string name="menu_list_mode">进入清单模式</string>
   <string name="menu_move_parent_folder">上一级文件夹</string>
   <string name="menu_normal_mode">退出清单模式</string>
+  <string name="menu_remove_remind">删除提醒</string>
   <string name="menu_search">搜索</string>
   <string name="menu_send_to_desktop">发送到桌面</string>
   <string name="menu_setting">设置</string>
@@ -62,6 +61,7 @@
   <string name="notealert_enter">查看</string>
   <string name="notealert_ok">知道了</string>
   <string name="noteedit_use_alert_time_error">当前时间不可设定</string>
+  <string name="noteedit_use_alert_time_success">提醒时间设定成功</string>
   <string name="notelist_menu_new">新建便签</string>
   <string name="notelist_string_info">...</string>
   <string name="preferences_account_summary">与google task同步便签记录</string>

@@ -137,7 +137,7 @@
   <string name="has_draft">Draft</string>
   <string name="has_invalid_recipient">Invalid recipient(s): %1$s</string>
   <string name="hidden_sender_address">Hidden sender address</string>
-  <string name="inline_subject">Subject: %s</string>
+  <string name="inline_subject">Subject:</string>
   <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
   <string name="invalid_destination">You have entered an invalid address.</string>
   <string name="invalid_recipient_message">Please correct the recipient(s) or they will not receive the message.</string>
@@ -365,6 +365,7 @@
   <string name="unsupported_media_format">Unsupported %1$s format</string>
   <string name="update_failed">Update failed</string>
   <string name="view">View</string>
+  <string name="view_bookmark">View original message</string>
   <string name="view_delivery_report">View report</string>
   <string name="view_message_details">View message details</string>
   <string name="view_slideshow">View slideshow</string>

@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="alert_message_delete_record">确认要删除所选的录音吗?</string>
   <string name="app_name">录音机</string>
   <string name="audio_db_album_name">录音</string>
   <string name="audio_db_artist_name">您的录音</string>
   <string name="audio_db_playlist_name">我的录音</string>
   <string name="button_ok">确定</string>
   <string name="call_record">通话录音</string>
+  <string name="call_record_or">或</string>
   <string name="default_record_name">未命名录音</string>
   <string name="delete_dialog_title">您确定要删除这段录音吗？</string>
   <string name="dialog_delete">删除</string>
