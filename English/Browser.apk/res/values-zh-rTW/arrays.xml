@@ -23,6 +23,10 @@
         <item>總是應用音量鍵設置</item>
         <item>僅當沒有音樂播放時應用</item>
     </string-array>
+    <string-array name="barcon_operation_items">
+        <item>編輯</item>
+        <item>刪除</item>
+    </string-array>
     <string-array name="pref_reading_mode_choices">
         <item>自動進入閱讀模式</item>
         <item>手動進入閱讀模式</item>

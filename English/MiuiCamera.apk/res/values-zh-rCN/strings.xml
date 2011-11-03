@@ -20,11 +20,6 @@
   <string name="gallery_camera_bucket_name">用相机拍摄的照片</string>
   <string name="gallery_camera_videos_bucket_name">用相机拍摄的视频</string>
   <string name="not_enough_space">SD 卡已满。</string>
-  <string name="pref_camera_afzone">对焦区域</string>
-  <string name="pref_camera_afzone_auto">自动</string>
-  <string name="pref_camera_afzone_average">平均</string>
-  <string name="pref_camera_afzone_center">中心</string>
-  <string name="pref_camera_afzone_spot">焦点</string>
   <string name="pref_camera_antibanding">减少闪烁</string>
   <string name="pref_camera_antibanding_50hz">50 Hz</string>
   <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -50,6 +45,7 @@
   <string name="pref_camera_contrast">对比度</string>
   <string name="pref_camera_focusmode">对焦方式</string>
   <string name="pref_camera_focusmode_auto">自动</string>
+  <string name="pref_camera_focusmode_continuous_video">连续</string>
   <string name="pref_camera_focusmode_edof">EDOF</string>
   <string name="pref_camera_focusmode_fixed">固定</string>
   <string name="pref_camera_focusmode_infinity">无限远</string>

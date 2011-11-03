@@ -61,7 +61,7 @@
   <string name="no_updatecheck_executed">Update check not performed</string>
   <string name="no_updates_found">You already have the latest version installed</string>
   <string name="no_updates_warning">No updates were found for your phone</string>
-  <string name="no_updates_warning2">Updater will notify you of any future OTA updates</string>
+  <string name="no_updates_warning2">The application will notify you of any future OTA updates</string>
   <string name="page_error">Cannot connect to MIUI update server, please check network connections and try again, if the problem persists please contact us</string>
   <string name="page_error_title">Page access error</string>
   <string name="page_reload">Reload</string>
@@ -73,7 +73,8 @@
   <string name="send_install_log">Send error log</string>
   <string name="send_install_log_error">Failed to send error log</string>
   <string name="sign_in_add_account_helper">Your phone has no active MIUI account, add one to receive user-points</string>
-  <string name="sign_in_info">Your user ranking is %1$s\n%2$s\n%3$s version</string>
+  <string name="sign_in_info">Your update ranking is %1$s\n%2$s users have signed in for MIUI %3$s</string>
+  <string name="sign_in_info_more">Your update ranking is after %1$s\nOver %2$s users have signed in for MIUI %3$s</string>
   <string name="stable_version">Stable version</string>
   <string name="start_update">Begin update</string>
   <string name="switch_system">Reboot recovery</string>

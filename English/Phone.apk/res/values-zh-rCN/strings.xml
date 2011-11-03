@@ -84,7 +84,10 @@
   <string name="call_forwarding_settings">来电转接设置</string>
   <string name="call_lost">通话已中断。</string>
   <string name="call_record_notification_message">点击查看文件“%s”。</string>
+  <string name="call_record_notification_message_low_space">存储空间不足，录音停止，点击查看文件“%s”。</string>
+  <string name="call_record_notification_message_sd_unmounted">SD卡被卸载，录音停止。</string>
   <string name="call_record_notification_title">通话录音成功</string>
+  <string name="call_record_notification_title_error">通话录音失败</string>
   <string name="call_recording_prompt">录音请打开免提</string>
   <string name="call_settings">电话设置</string>
   <string name="call_title_redialing_with_times">正在第%d次重拨</string>
@@ -205,6 +208,7 @@
   <string name="enable_sim_pin">启用 SIM 卡 PIN</string>
   <string name="enforce_proximity_summary">防止手机在裤兜里拿出来时误接误挂</string>
   <string name="enforce_proximity_title">来电防误操作</string>
+  <string name="enter_edit_mode">批量删除</string>
   <string name="enter_pin2_text">PIN2</string>
   <string name="enter_pin_text">SIM 卡 PIN：</string>
   <string name="entertainment_news_settings">娱乐新闻</string>
@@ -275,6 +279,7 @@
   <string name="ip_prefix">IP号码前缀</string>
   <string name="ip_prefix_required">智能IP启用时需要输入IP号码前缀</string>
   <string name="ip_prefix_sum">运营商的IP拨号前缀:%s</string>
+  <string name="jituan_number_format_error_message">%s仅支持数字和通配符</string>
   <string name="labelCDMAMore">CDMA 通话设置</string>
   <string name="labelCF">来电转接</string>
   <string name="labelCFB">占线时转接</string>
@@ -312,6 +317,7 @@
   <string name="mmiCancelled">MMI 码已取消</string>
   <string name="mmiStarted">MMI 码已启动</string>
   <string name="mobile_networks">移动网络设置</string>
+  <string name="more_call_settings">更多电话设置</string>
   <string name="multi_category_disable">已停用多类别</string>
   <string name="multi_category_enable">已启用多类别</string>
   <string name="name">名称</string>
@@ -350,6 +356,7 @@
   <string name="notification_voicemail_title">新语音邮件</string>
   <string name="notification_voicemail_title_count">新语音邮件 (%d)</string>
   <string name="number">号码</string>
+  <string name="number_format_error_message">%s仅支持数字</string>
   <string name="number_type">号码类型</string>
   <string name="number_type_jituan">集团号</string>
   <string name="number_type_mob">手机</string>
@@ -452,6 +459,7 @@
   <string name="reading_settings">正在读取设置...</string>
   <string name="recordCall_sample_prefix">MIUI录音</string>
   <string name="recordCall_sd_error">SD卡访问出错，录音前请插好SD卡</string>
+  <string name="recordCall_sd_space_low">SD卡空间不足，请清理SD卡后再尝试录音</string>
   <string name="regional_disable">已停用地方新闻</string>
   <string name="regional_enable">已启用地方新闻</string>
   <string name="register_automatically">自动注册...</string>

@@ -26,7 +26,7 @@
   <string name="attach_sound">Audio</string>
   <string name="attach_take_photo">Capture picture</string>
   <string name="attach_video">Videos</string>
-  <string name="batch_delete_confirm_dialog_message">Are you sure you wish to delete the selected %1$s smessage(s)?</string>
+  <string name="batch_delete_confirm_dialog_message">Are you sure you wish to delete the selected %1$s message(s)?</string>
   <string name="batch_delete_thread_confirm_dialog_message">Are you sure you wish to delete the selected thread(s)?</string>
   <string name="batch_deleting_message_progress_message">Deleting selected message(s)</string>
   <string name="batch_deleting_progress_message">Deleting selected message thread(s)</string>

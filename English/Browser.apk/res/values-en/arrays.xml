@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string-array name="bookmark_control_items">
         <item>Create new directory</item>
@@ -36,6 +36,10 @@
     <string-array name="pref_volume_setting_enable_choice_value">
         <item>ALWAYS</item>
         <item>ONLY_NO_MUSIC</item>
+    </string-array>
+    <string-array name="barcon_operation_items">
+        <item>Edit</item>
+        <item>Delete</item>
     </string-array>
     <string-array name="pref_reading_mode_choices">
         <item>Enter Automatically</item>

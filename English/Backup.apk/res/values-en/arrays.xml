@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string-array name="backup_dialog_content_type">
         <item>Wi-Fi data</item>
@@ -16,6 +16,7 @@
         <item>Contacts</item>
         <item>Call log</item>
         <item>Messages</item>
+        <item>Multimedia Messages</item>
         <item>System settings</item>
         <item>Wi-Fi settings</item>
         <item>Desktop layout</item>

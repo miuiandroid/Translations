@@ -346,7 +346,7 @@
   <string name="text_in_popup_saved_to_clipboard">Selected text from pop-up window was saved to the clipboard</string>
   <string name="text_message">Text message</string>
   <string name="to_address_label">To:\u0020</string>
-  <string name="to_count">%d People</string>
+  <string name="to_count">%d in total</string>
   <string name="to_hint">To</string>
   <string name="to_label">To\u0020</string>
   <string name="too_many_attachments">There is a limit of %1$s attachments. Only the first %2$s will be added.</string>

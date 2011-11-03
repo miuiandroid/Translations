@@ -48,7 +48,7 @@
   <string name="aerr_application">The application %1$s (process %2$s) has stopped unexpectedly. Please try again.</string>
   <string name="aerr_process">The process %1$s has stopped unexpectedly. Please try again.</string>
   <string name="aerr_title">Sorry!</string>
-  <string name="all_resources">All %1$s</string>
+  <string name="all_resources">All</string>
   <string name="allow">Allow</string>
   <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="alwaysUse">Use by default for this action.</string>
@@ -749,6 +749,7 @@
   <string name="online_latest">Latest</string>
   <string name="online_latest_short">latest</string>
   <string name="online_no_network">Unable to connect to network</string>
+  <string name="online_search_hint">Search themes</string>
   <string name="open_data_for_agps">Automatically open AGPS, will switch off after 60 seconds of inactivity</string>
   <string name="open_permission_deny">You do not have permission to open this page.</string>
   <string name="openvpn_vpn_description">OpenVPN SSL VPN</string>
@@ -837,6 +838,7 @@
   <string name="permdesc_modifyAudioSettings">Allows application to modify global audio settings such as volume and routing.</string>
   <string name="permdesc_modifyPhoneState">Allows the application to control the phone features of the device. An application with this permission can switch networks, turn the phone radio on and off and the like without ever notifying you.</string>
   <string name="permdesc_modify_audio_settings_during_call">Allow an application to manipulate audio settings during call.</string>
+  <string name="permdesc_modify_phone_related_audio_settings">Allow application to modify phone related audio settings.</string>
   <string name="permdesc_mount_format_filesystems">Allows the application to format removable storage.</string>
   <string name="permdesc_mount_unmount_filesystems">Allows the application to mount and unmount filesystems for removable storage.</string>
   <string name="permdesc_movePackage">Allows an application to move application resources from internal to external media and vice versa.</string>
@@ -1002,6 +1004,7 @@
   <string name="permlab_modifyAudioSettings">change your audio settings</string>
   <string name="permlab_modifyPhoneState">modify phone state</string>
   <string name="permlab_modify_audio_settings_during_call">modify audio settings during call</string>
+  <string name="permlab_modify_phone_related_audio_settings">modify phone related audio settings</string>
   <string name="permlab_mount_format_filesystems">format external storage</string>
   <string name="permlab_mount_unmount_filesystems">mount and unmount filesystems</string>
   <string name="permlab_movePackage">Move application resources</string>

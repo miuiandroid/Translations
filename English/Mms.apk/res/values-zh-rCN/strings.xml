@@ -311,7 +311,7 @@
   <string name="send_signature_confirm_dialog_title">确认发送</string>
   <string name="send_to">发给：%1$s</string>
   <string name="send_to_count">成功发出%1$s条</string>
-  <string name="send_to_index_contact">正在发给第%1$s位%2$s...</string>
+  <string name="send_to_index_contact">发送给第%1$s人...(共%2$s人)</string>
   <string name="sent_label">发送时间：\u0020</string>
   <string name="set">设置</string>
   <string name="sim_copy_to_phone_memory">复制到手机内存</string>

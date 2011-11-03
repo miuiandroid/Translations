@@ -7,13 +7,10 @@
   <string name="app_name">Notes</string>
   <string name="app_widget2x2">Notes 2x2</string>
   <string name="app_widget4x4">Notes 4x4</string>
-  <string name="button_cancel">Cancel</string>
   <string name="button_check">Select all</string>
   <string name="button_check_none">Deselect all</string>
-  <string name="button_clear">Cancel</string>
   <string name="button_delete">Delete</string>
   <string name="button_move">Move</string>
-  <string name="button_set">Settings</string>
   <string name="call_record_folder_name">Call notes</string>
   <string name="delete_remind_time_message">Delete reminder successfully</string>
   <string name="error_note_empty_for_clock">Sorry, can\'t set reminder on an empty note</string>

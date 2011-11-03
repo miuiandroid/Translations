@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <favorites
   xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
     <folder launcher:screen="2" launcher:x="2" launcher:y="3" launcher:title="Tools" />

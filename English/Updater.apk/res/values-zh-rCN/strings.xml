@@ -73,7 +73,8 @@
   <string name="send_install_log">发送错误日志</string>
   <string name="send_install_log_error">发送失败</string>
   <string name="sign_in_add_account_helper">您的手机还未添加MIUI账户,添加后可签到获取积分</string>
-  <string name="sign_in_info">本次更新您的升级签到排名是%1$s\n%2$s人已经签到%3$s版</string>
+  <string name="sign_in_info">本次更新您的升级签到排名是%1$s\n已经有%2$s人签到%3$s版</string>
+  <string name="sign_in_info_more">本次更新您的升级签到排名是%1$s以后\n已经有超过%2$s人签到%3$s版</string>
   <string name="stable_version">稳定版</string>
   <string name="start_update">开始升级</string>
   <string name="switch_system">切换系统</string>

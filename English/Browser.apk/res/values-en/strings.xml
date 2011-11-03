@@ -114,12 +114,7 @@
   <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location. Change this in Settings &gt; Advanced &gt; Privacy and Security</string>
   <string name="go">GO</string>
   <string name="google_search_suggest_label">Google search:</string>
-  <string name="goto_bookmark_favorite">Go to favorite</string>
-  <string name="goto_history">Go to history</string>
-  <string name="home_bookmark_favorite">Bookmark favorite</string>
-  <string name="home_history">History</string>
   <string name="home_page_title">Home</string>
-  <string name="home_top_sites">Top sites</string>
   <string name="homepage_title">Home</string>
   <string name="http">http://</string>
   <string name="import_bookmark_failure">Bookmarks FAILED To Import!</string>
@@ -199,10 +194,6 @@
   <string name="pref_homepage_use_current">Current page</string>
   <string name="pref_homepage_use_default">Restore defaults</string>
   <string name="pref_long_click">Long click action</string>
-  <string name="pref_max_navigate_page_topsites_message_failed">Invalid setting, favourites and history pages cannot exceed %d pages</string>
-  <string name="pref_max_navigate_page_topsites_message_succeed">Set up a maximum of %d of favorites and history pages</string>
-  <string name="pref_max_navigate_page_topsites_summary">Set the number of pages for favorites and history</string>
-  <string name="pref_max_navigate_page_topsites_title">Number of pages for favorites and history</string>
   <string name="pref_operation_title">Gesture and operation</string>
   <string name="pref_overview_mode">Panorama Mode</string>
   <string name="pref_overview_mode_summary">Display web pages in panoramic mode</string>

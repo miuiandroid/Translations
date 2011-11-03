@@ -297,22 +297,22 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 387
+    .line 390
     if-nez p0, :cond_0
 
     move-object v4, v6
 
-    .line 405
+    .line 408
     :goto_0
     return-object v4
 
-    .line 389
+    .line 392
     :cond_0
     invoke-virtual {p0}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 390
+    .line 393
     .local v3, updateRomName:Ljava/lang/String;
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -322,10 +322,10 @@
 
     move-object v4, v6
 
-    .line 391
+    .line 394
     goto :goto_0
 
-    .line 394
+    .line 397
     :cond_1
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -351,13 +351,13 @@
 
     move-result-object v2
 
-    .line 395
+    .line 398
     .local v2, romPath:Ljava/lang/String;
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 396
+    .line 399
     .local v1, romFile:Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -367,10 +367,10 @@
 
     move-object v4, v1
 
-    .line 397
+    .line 400
     goto :goto_0
 
-    .line 401
+    .line 404
     :cond_2
     new-instance v0, Ljava/io/File;
 
@@ -400,7 +400,7 @@
 
     invoke-direct {v0, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 402
+    .line 405
     .local v0, downloadedFile:Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -416,13 +416,13 @@
 
     move-object v4, v1
 
-    .line 403
+    .line 406
     goto :goto_0
 
     :cond_3
     move-object v4, v6
 
-    .line 405
+    .line 408
     goto :goto_0
 .end method
 
@@ -546,7 +546,7 @@
     .line 342
     const/4 p0, 0x0
 
-    .line 377
+    .line 380
     .end local p0
     .end local p2
     :goto_0
@@ -568,17 +568,11 @@
 
     .line 348
     .local v0, bodyRes:I
-    const-string v2, "mounted"
-
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
     move-result v2
 
-    if-eqz v2, :cond_6
+    if-eqz v2, :cond_7
 
     .line 350
     :try_start_0
@@ -588,11 +582,24 @@
 
     .line 351
     .local v2, filesize:Ljava/lang/String;
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1
+
+    .line 352
+    const/4 p0, 0x0
+
+    goto :goto_0
+
+    .line 354
+    :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v4
 
-    .line 352
+    .line 355
     .local v4, length:I
     const/4 v3, 0x1
 
@@ -604,11 +611,11 @@
 
     const/16 v5, 0x4d
 
-    if-ne v3, v5, :cond_3
+    if-ne v3, v5, :cond_4
 
     const/4 v3, 0x1
 
-    .line 354
+    .line 357
     .local v3, isM:Z
     :goto_1
     const/4 v5, 0x0
@@ -622,21 +629,21 @@
     .end local v4           #length:I
     move-result-object v2
 
-    .line 355
+    .line 358
     invoke-static {v2}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v4
 
-    .line 356
+    .line 359
     .local v4, needInKB:J
-    if-eqz v3, :cond_5
+    if-eqz v3, :cond_6
 
-    .line 357
+    .line 360
     const-wide/16 v2, 0x400
 
     mul-long/2addr v2, v4
 
-    .line 359
+    .line 362
     .end local v3           #isM:Z
     .end local v4           #needInKB:J
     .local v2, needInKB:J
@@ -660,10 +667,10 @@
     .end local v2           #needInKB:J
     move-result v1
 
-    .line 360
-    if-eqz v1, :cond_4
+    .line 363
+    if-eqz v1, :cond_5
 
-    .line 361
+    .line 364
     :try_start_1
     new-instance v2, Ljava/io/File;
 
@@ -698,26 +705,26 @@
 
     invoke-direct {v2, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 362
+    .line 365
     .local v2, foo:Ljava/io/File;
     invoke-virtual {v2}, Ljava/io/File;->isFile()Z
 
     move-result p2
 
-    if-eqz p2, :cond_1
+    if-eqz p2, :cond_2
 
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p2
 
-    if-eqz p2, :cond_1
+    if-eqz p2, :cond_2
 
-    .line 363
+    .line 366
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
 
-    :cond_1
+    :cond_2
     move p2, v0
 
     .end local v0           #bodyRes:I
@@ -738,42 +745,42 @@
     .local v0, canDownload:Z
     move v1, v8
 
-    .line 374
+    .line 377
     .end local v8           #titleRes:I
     .local v1, titleRes:I
     :goto_4
-    if-nez v0, :cond_2
+    if-nez v0, :cond_3
 
-    if-nez p1, :cond_2
+    if-nez p1, :cond_3
 
-    .line 375
+    .line 378
     invoke-static {p0, v1, p2}, Lcom/android/updater/utils/SysUtils;->showDialog(Landroid/content/Context;II)V
 
-    :cond_2
+    :cond_3
     move p0, v0
 
-    .line 377
+    .line 380
     goto/16 :goto_0
 
-    .line 352
+    .line 355
     .local v0, bodyRes:I
     .local v1, canDownload:Z
     .local v2, filesize:Ljava/lang/String;
     .local v4, length:I
     .restart local v6       #titleRes:I
     .local p2, updateInfo:Lcom/android/updater/customTypes/UpdateInfo;
-    :cond_3
+    :cond_4
     const/4 v3, 0x0
 
     goto :goto_1
 
-    .line 366
+    .line 369
     .end local v2           #filesize:Ljava/lang/String;
     .end local v4           #length:I
-    :cond_4
+    :cond_5
     const v0, 0x7f06001d
 
-    .line 367
+    .line 370
     .end local v6           #titleRes:I
     .local v0, titleRes:I
     const p2, 0x7f06001c
@@ -781,7 +788,7 @@
     .local p2, bodyRes:I
     goto :goto_3
 
-    .line 369
+    .line 372
     .local v0, bodyRes:I
     .restart local v6       #titleRes:I
     .local p2, updateInfo:Lcom/android/updater/customTypes/UpdateInfo;
@@ -829,7 +836,7 @@
     .restart local v3       #isM:Z
     .local v4, needInKB:J
     .local p2, updateInfo:Lcom/android/updater/customTypes/UpdateInfo;
-    :cond_5
+    :cond_6
     move-wide v2, v4
 
     .end local v3           #isM:Z
@@ -838,7 +845,7 @@
     goto :goto_2
 
     .end local v2           #needInKB:J
-    :cond_6
+    :cond_7
     move p2, v0
 
     .end local v0           #bodyRes:I
@@ -1103,22 +1110,22 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 409
+    .line 412
     if-nez p0, :cond_0
 
     move-object v2, v3
 
-    .line 416
+    .line 419
     :goto_0
     return-object v2
 
-    .line 411
+    .line 414
     :cond_0
     invoke-virtual {p0}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 412
+    .line 415
     .local v1, updateRomName:Ljava/lang/String;
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1128,10 +1135,10 @@
 
     move-object v2, v3
 
-    .line 413
+    .line 416
     goto :goto_0
 
-    .line 415
+    .line 418
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1160,7 +1167,7 @@
     .local v0, romPath:Ljava/lang/String;
     move-object v2, v0
 
-    .line 416
+    .line 419
     goto :goto_0
 .end method
 

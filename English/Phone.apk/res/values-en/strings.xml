@@ -11,8 +11,8 @@
   <string name="administrative_enable">Administrative enabled</string>
   <string name="advanced_settings">Optional settings</string>
   <string name="advanced_settings_container">advanced settings container</string>
-  <string name="advanced_settings_hide">▽ Touch to hide all</string>
-  <string name="advanced_settings_show">▷ Touch to show all</string>
+  <string name="advanced_settings_hide">Touch to hide all</string>
+  <string name="advanced_settings_show">Touch to show all</string>
   <string name="advertisements_disable">Advertisements disabled</string>
   <string name="advertisements_enable">Advertisements enabled</string>
   <string name="alert_dialog_close">Close the profile</string>
@@ -88,7 +88,10 @@
   <string name="call_forwarding_settings">Call forwarding settings</string>
   <string name="call_lost">Call has been lost.</string>
   <string name="call_record_notification_message">Click to view %s</string>
-  <string name="call_record_notification_title">Recording...</string>
+  <string name="call_record_notification_message_low_space">Recording is stopped due to low space, click to view %s.</string>
+  <string name="call_record_notification_message_sd_unmounted">Recording is stopped because SD card is unmounted.</string>
+  <string name="call_record_notification_title">Recording call..</string>
+  <string name="call_record_notification_title_error">Call recording failed</string>
   <string name="call_recording_prompt">Open call recording</string>
   <string name="call_settings">Phone Settings</string>
   <string name="call_title_redialing_with_times">Redialling %d times</string>
@@ -212,7 +215,8 @@
   <string name="enable_proximity_title">Enable proximity sensor</string>
   <string name="enable_sim_pin">Enable SIM PIN</string>
   <string name="enforce_proximity_summary">Prevent misuse of phone when not being used</string>
-  <string name="enforce_proximity_title">Enforce proximity sensor</string>
+  <string name="enforce_proximity_title">Enforce Proximity sensor</string>
+  <string name="enter_edit_mode">Delete</string>
   <string name="enter_pin2_text">PIN2</string>
   <string name="enter_pin_text">SIM PIN:</string>
   <string name="entertainment_news_settings">Entertainment News</string>
@@ -286,6 +290,7 @@
   <string name="ip_prefix">IP prefix</string>
   <string name="ip_prefix_required">IP Prefix is required</string>
   <string name="ip_prefix_sum">Carrier\'s IP prefix: %s</string>
+  <string name="jituan_number_format_error_message">%s only supports numbers and wildcards</string>
   <string name="labelCDMAMore">CDMA call settings</string>
   <string name="labelCF">Call forwarding</string>
   <string name="labelCFB">Forward when busy</string>
@@ -323,6 +328,7 @@
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_networks">Mobile Network Settings</string>
+  <string name="more_call_settings">More call settings</string>
   <string name="multi_category_disable">Multi-category disabled</string>
   <string name="multi_category_enable">Multi-category enabled</string>
   <string name="name">Name</string>
@@ -361,6 +367,7 @@
   <string name="notification_voicemail_title">New voicemail</string>
   <string name="notification_voicemail_title_count">New voicemail (%d)</string>
   <string name="number">Number</string>
+  <string name="number_format_error_message">%s only supports numbers</string>
   <string name="number_type">Number type</string>
   <string name="number_type_jituan">Group number</string>
   <string name="number_type_mob">Mobile phone</string>
@@ -466,6 +473,7 @@
   <string name="reading_settings">Reading settings...</string>
   <string name="recordCall_sample_prefix">MIUI_Recording</string>
   <string name="recordCall_sd_error">SD card access error!</string>
+  <string name="recordCall_sd_space_low">SD card is low on space, please try again after removing some files.</string>
   <string name="regional_disable">Regional news disabled</string>
   <string name="regional_enable">Regional news enabled</string>
   <string name="register_automatically">Automatic registration...</string>
@@ -514,9 +522,9 @@
   <string name="set_primary">SetPrimary</string>
   <string name="set_primary_summary">Used for outbound calls</string>
   <string name="set_primary_title">Set as primary account</string>
-  <string name="set_smsc_address_error">Failed to set the SMS center number</string>
+  <string name="set_smsc_address_error">Failed to set the SMS centre number</string>
   <string name="set_smsc_address_timeout">Timed out when set SMS center number, please try again later.</string>
-  <string name="set_smsc_address_title">Set SMS center number</string>
+  <string name="set_smsc_address_title">Set SMS centre number</string>
   <string name="settings_label">Network settings</string>
   <string name="show_quick_contact_badge_title">Display contact photo</string>
   <string name="simContactName">Name</string>

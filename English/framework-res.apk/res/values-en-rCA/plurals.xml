@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <plurals name="num_seconds_ago">
         <item quantity="other">%d seconds ago</item>

@@ -398,29 +398,11 @@
         <item>Power usage of Bluetooth</item>
     </string-array>
     <string-array name="usage_app_power_slices">
-        <item>音频耗电量</item>
-        <item>视频耗电量</item>
-        <item>CPU耗电量</item>
-        <item>数据传输耗电量</item>
-        <item>传感器耗电量</item>
-    </string-array>
-    <string-array name="overscroll_mode_entries">
-        <item>总是有弹性</item>
-        <item>内容满的时候有弹性</item>
-        <item>没有弹性</item>
-    </string-array>
-    <string-array name="overscroll_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="menu_style_entries">
-        <item>原生网格</item>
-        <item>新式列表</item>
-    </string-array>
-    <string-array name="menu_style_values">
-        <item>0</item>
-        <item>3</item>
+        <item>Audio power usage</item>
+        <item>Video power usage</item>
+        <item>CPU power usage</item>
+        <item>Data transfer power usage</item>
+        <item>Sensor power usage</item>
     </string-array>
     <string-array name="led_color_values_for_milestone">
         <item>green</item>

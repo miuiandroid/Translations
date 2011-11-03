@@ -64,6 +64,7 @@
   <string name="pref_camera_iso_200">ISO 200</string>
   <string name="pref_camera_iso_400">ISO 400</string>
   <string name="pref_camera_iso_800">ISO 800</string>
+  <string name="pref_camera_iso_HJR">Quality</string>
   <string name="pref_camera_iso_auto">Auto</string>
   <string name="pref_camera_iso_deblur">Deblur</string>
   <string name="pref_camera_jpegquality">Picture quality</string>
@@ -116,7 +117,6 @@
   <string name="pref_picturesize_fullscreen">Full screen</string>
   <string name="pref_video_continuous_focus">Continuous focus</string>
   <string name="pref_video_quality">Video Quality</string>
-  <string name="pref_video_quality_720p">720P (2h)</string>
   <string name="pref_video_quality_hd">HD%s (2h)</string>
   <string name="pref_video_quality_high">High (2h)</string>
   <string name="pref_video_quality_low">Low (2h)</string>

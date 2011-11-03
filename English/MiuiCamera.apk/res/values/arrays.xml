@@ -121,6 +121,7 @@
         <item>@string/pref_camera_focusmode_macro</item>
         <item>@string/pref_camera_focusmode_fixed</item>
         <item>@string/pref_camera_focusmode_edof</item>
+        <item>@string/pref_camera_focusmode_continuous_video</item>
     </array>
     <string-array name="focusmode_values">
         <item>auto</item>
@@ -129,6 +130,7 @@
         <item>macro</item>
         <item>fixed</item>
         <item>edof</item>
+        <item>continuous-video</item>
     </string-array>
     <array name="jpegquality_entries">
         <item>@string/pref_camera_jpegquality_superfine</item>
@@ -198,18 +200,6 @@
         <item>@string/pref_camera_autoexposure_spot</item>
     </array>
     <string-array name="autoexposure_values_mi">
-        <item>frame-average</item>
-        <item>center-weighted</item>
-        <item>spot-metering</item>
-    </string-array>
-    <array name="afzone_entries_mi">
-        <item>@string/pref_camera_afzone_auto</item>
-        <item>@string/pref_camera_afzone_average</item>
-        <item>@string/pref_camera_afzone_center</item>
-        <item>@string/pref_camera_afzone_spot</item>
-    </array>
-    <string-array name="afzone_values_mi">
-        <item>auto</item>
         <item>frame-average</item>
         <item>center-weighted</item>
         <item>spot-metering</item>

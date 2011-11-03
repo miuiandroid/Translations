@@ -51,7 +51,7 @@
   <string name="apn_mms_proxy">彩信代理</string>
   <string name="apn_mmsc">MMSC</string>
   <string name="apn_mnc">MNC</string>
-  <string name="apn_name">姓名</string>
+  <string name="apn_name">名称</string>
   <string name="apn_not_set">&lt;未设置&gt;</string>
   <string name="apn_password">密码</string>
   <string name="apn_server">服务器</string>
@@ -1057,7 +1057,7 @@
   <string name="small_font">小字体</string>
   <string name="sms_delivered_sound_settings_title">短信送达铃声</string>
   <string name="sms_received_sound_settings_title">短信铃声</string>
-  <string name="sort_order_alpha">按姓名排序</string>
+  <string name="sort_order_alpha">按名称排序</string>
   <string name="sort_order_size">按大小排序</string>
   <string name="sound_effects_enable_summary_off">进行屏幕选取时播放音效</string>
   <string name="sound_effects_enable_summary_on">进行屏幕选取时播放音效</string>
